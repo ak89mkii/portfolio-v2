@@ -14,17 +14,17 @@ class App extends Component {
       return (
         <div>
        
-            <Menu tabular>
-              <Menu.Item
-                name='Mission Statement'
-                // active={activeItem === 'bio'}
-                // onClick={this.handleItemClick}
-              />
-              <Menu.Item
-                name='Projects'
-                // active={activeItem === 'photos'}
-                // onClick={this.handleItemClick}
-              />
+          <Menu tabular>
+            <Menu.Item
+              name='Mission Statement'
+              // active={activeItem === 'bio'}
+              // onClick={this.handleItemClick}
+            />
+            <Menu.Item
+              name='Projects'
+              // active={activeItem === 'photos'}
+              // onClick={this.handleItemClick}
+            />
             </Menu>
             <Header as='h2' icon textAlign='center'>
               <Icon name='users' circular />
@@ -34,7 +34,7 @@ class App extends Component {
               centered
               size='large'
               src='https://specials-images.forbesimg.com/imageserve/5f183f59c3566d0006297445/960x0.jpg?fit=scale'
-              />
+            />
           
           <main>
             <Statement 
@@ -46,13 +46,11 @@ class App extends Component {
             <Contact
             />
           </main>
-            <Message>
-              <footer className='footer'>
-                <Message.Header>Copyright &#169; Alexander I. Kasem 2020
-                </Message.Header>
-              </footer>
-            </Message>
-          </div>
+          <br></br>
+            <div>Copyright &#169; Alexander I. Kasem 2020</div>
+          <br></br>
+             
+        </div>
       )
     }
   }
