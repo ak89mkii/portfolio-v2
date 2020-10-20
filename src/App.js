@@ -3,9 +3,9 @@ import './App.css'
 import 'semantic-ui-css/semantic.min.css'
 import { Header, Icon, Image, Menu, Message, Divider } from 'semantic-ui-react'
 import Statement from './components/Statement/Statement'
-// import Project from './components/Project/Project'
-// import Interest from './components/Interest/Interest'
-// import Contact from './components/Contact/Contact'
+import Project from './components/Project/Project'
+import Interest from './components/Interest/Interest'
+import Contact from './components/Contact/Contact'
 
 class App extends Component {
   state ={
@@ -38,23 +38,13 @@ class App extends Component {
           
           <main>
             <Statement 
-           
             />
-            {/* <Project
-            ballNo={ballNo}
-            ballIdx={this.state.ballIdx}
-            handleSummon={this.handleSummon} 
+            <Project
             />
             <Interest 
-            ballNo={ballNo}
-            ballIdx={this.state.ballIdx}
-            handleSummon={this.handleSummon}
             />
             <Contact
-            ballNo={ballNo}
-            ballIdx={this.state.ballIdx}
-            handleSummon={this.handleSummon} 
-            /> */}
+            />
           </main>
             <Message>
               <footer className='footer'>
