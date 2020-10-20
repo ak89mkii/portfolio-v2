@@ -27,7 +27,7 @@ const Project = () => {
                 </Card.Description>
                     <h3>
                    
-                    <Button size='large'><Icon size='large' name='github square'/>Github Repo</Button> 
+                    <Button link='https://github.com/ak89mkii/war-project-01' size='large'><Icon size='large' name='github square'/>Github Repo</Button> 
                        
                     
                     </h3>
