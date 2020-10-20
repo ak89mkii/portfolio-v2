@@ -1,18 +1,14 @@
 import React, { Component } from 'react'
-import './App.css';
+import './App.css'
 import 'semantic-ui-css/semantic.min.css'
 import { Header, Icon, Image, Menu, Message, Divider } from 'semantic-ui-react'
-// import Circle from './components/Circle/Circle'
-// import Button from './components/Button/Button'
-
-const ballNo = ['0', '1', '2', '3']
+import Statement from './components/Statement/Statement'
+// import Project from './components/Project/Project'
+// import Interest from './components/Interest/Interest'
+// import Contact from './components/Contact/Contact'
 
 class App extends Component {
   state ={
-    ballIdx: 0
-  }
-  handleSummon = (idx) => {
-    this.setState({ ballIdx: idx })
   }
     render() {
       return (
@@ -41,18 +37,20 @@ class App extends Component {
               />
           
           <main>
-            <Divider horizontal>
-              <Header as='h4'>
-                <Icon name='bar chart' />
-                Specifications
-              </Header>
-            </Divider>
-            {/* <Button 
+            <Statement 
+           
+            />
+            {/* <Project
+            ballNo={ballNo}
+            ballIdx={this.state.ballIdx}
+            handleSummon={this.handleSummon} 
+            />
+            <Interest 
             ballNo={ballNo}
             ballIdx={this.state.ballIdx}
             handleSummon={this.handleSummon}
             />
-            <Circle
+            <Contact
             ballNo={ballNo}
             ballIdx={this.state.ballIdx}
             handleSummon={this.handleSummon} 
