@@ -1,19 +1,41 @@
 import React from 'react'
-import { Header, Icon, Image, Menu, Message, Divider } from 'semantic-ui-react'
-
+import { Header, Icon, Image, Card, Button, Divider } from 'semantic-ui-react'
 
 const Project = () => {
     return (
         <div className='CircleSelector'>
             <Divider horizontal>
-              <Header as='h4'>
+              <Header as='h2'>
                 <Icon name='file code' />
                 Projects
               </Header>
             </Divider>
-            <Message floating content='As a software engineer, I endeavor to work on projects that require a synergy of logic, analytical methodologies, and creativity. I have experience in entrepreneurial development, product development / design, as well as tabletop game design. I have honed my leadership skills through the military and research acumen while earning a bachelors of science degree in applied psychology.
+
+            <Card>
+                <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+                <Card.Content>
+                <Card.Header>War Card Game</Card.Header>
+                
+                <Card.Description>
+                    Technologies Used:
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </Card.Description>
+                    <h3>
+                   
+                    <Button size='large'><Icon size='large' name='github square'/>Github Repo</Button> 
+                       
+                    
+                    </h3>
+                    
+                </Card.Content>
+            </Card>
+
             
-            I endeavor to become a seasoned software engineer by continuing to learn new concepts as well as iterating upon what I already know. ' /> 
         </div>
     )
 }
