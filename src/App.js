@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import { Header, Icon, Image, Menu, Item } from 'semantic-ui-react'
+import { Header, Icon, Image, Menu, Message, Divider } from 'semantic-ui-react'
 // import Circle from './components/Circle/Circle'
 // import Button from './components/Button/Button'
 
@@ -16,8 +16,8 @@ class App extends Component {
   }
     render() {
       return (
-        <div className='App'>
-          <div>
+        <div>
+       
             <Menu tabular>
               <Menu.Item
                 name='Mission Statement'
@@ -39,10 +39,14 @@ class App extends Component {
               size='large'
               src='https://specials-images.forbesimg.com/imageserve/5f183f59c3566d0006297445/960x0.jpg?fit=scale'
               />
-          </div>
-          
           
           <main>
+            <Divider horizontal>
+              <Header as='h4'>
+                <Icon name='bar chart' />
+                Specifications
+              </Header>
+            </Divider>
             {/* <Button 
             ballNo={ballNo}
             ballIdx={this.state.ballIdx}
@@ -54,7 +58,13 @@ class App extends Component {
             handleSummon={this.handleSummon} 
             /> */}
           </main>
-        </div>
+            <Message>
+              <footer className='footer'>
+                <Message.Header>Copyright &#169; Alexander I. Kasem 2020
+                </Message.Header>
+              </footer>
+            </Message>
+          </div>
       )
     }
   }
