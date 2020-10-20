@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
+import { Header, Icon, Image } from 'semantic-ui-react'
 // import Circle from './components/Circle/Circle'
 // import Button from './components/Button/Button'
 
@@ -15,16 +17,19 @@ class App extends Component {
     render() {
       return (
         <div className='App'>
-          <header className="App-header">
-          Dragon Ball Z!!
-          <br></br>
-          <br></br>
-          <img 
-            height='400'
-            src='https://i.pinimg.com/originals/25/ca/a1/25caa13756952660b740f4ad8660e21f.gif'
-            alt="none" 
-          />
-          </header>
+          <div>
+            <Header as='h2' icon textAlign='center'>
+              <Icon name='users' circular />
+              <Header.Content>Alexander I. Kasem</Header.Content>
+            </Header>
+            <Image
+              centered
+              size='large'
+              src='https://specials-images.forbesimg.com/imageserve/5f183f59c3566d0006297445/960x0.jpg?fit=scale'
+              />
+          </div>
+          
+          
           <main>
             {/* <Button 
             ballNo={ballNo}
