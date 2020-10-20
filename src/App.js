@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import { Header, Icon, Image } from 'semantic-ui-react'
+import { Header, Icon, Image, Menu, Item } from 'semantic-ui-react'
 // import Circle from './components/Circle/Circle'
 // import Button from './components/Button/Button'
 
@@ -18,6 +18,18 @@ class App extends Component {
       return (
         <div className='App'>
           <div>
+            <Menu tabular>
+              <Menu.Item
+                name='Mission Statement'
+                // active={activeItem === 'bio'}
+                // onClick={this.handleItemClick}
+              />
+              <Menu.Item
+                name='Projects'
+                // active={activeItem === 'photos'}
+                // onClick={this.handleItemClick}
+              />
+            </Menu>
             <Header as='h2' icon textAlign='center'>
               <Icon name='users' circular />
               <Header.Content>Alexander I. Kasem</Header.Content>
