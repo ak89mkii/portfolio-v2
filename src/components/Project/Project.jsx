@@ -46,18 +46,21 @@ const Project = () => {
             <Card>
                 <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
                 <Card.Content>
-                <Card.Header>War Card Game</Card.Header>
+                <Card.Header>DiceDex: Tabletop Game Tracker</Card.Header>
                 <Card.Description>
                     Technologies Used:
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>JavaScript</li>
+                        <li>Express.js</li>
+                        <li>Node.js</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose JS</li>
                         <li>Bootstrap</li>
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://github.com/ak89mkii/war-project-01'>
+                        <a href='https://github.com/ak89mkii/tabletop-tracker-project-01'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 
@@ -72,14 +75,15 @@ const Project = () => {
             <Card>
                 <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
                 <Card.Content>
-                <Card.Header>War Card Game</Card.Header>
+                <Card.Header>PAJ: The Project Assistance Journal</Card.Header>
                 <Card.Description>
                     Technologies Used:
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
+                        <li>React.js</li>
+                        <li>MongoDB</li>
+                        <li>Semantic UI</li>
                     </ul>
                 </Card.Description>
                     <h3>
@@ -98,13 +102,15 @@ const Project = () => {
             <Card>
                 <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
                 <Card.Content>
-                <Card.Header>War Card Game</Card.Header>
+                <Card.Header>RepBucket: Skills and Objectives Tracker</Card.Header>
                 <Card.Description>
                     Technologies Used:
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>JavaScript</li>
+                        <li>Python 3</li>
+                        <li>Django</li>
+                        <li>PostgreSQL</li>
                         <li>Bootstrap</li>
                     </ul>
                 </Card.Description>
