@@ -15,7 +15,7 @@ class App extends Component {
       return (
         <div>
         <br></br>
-          <Menu tabular>
+          <Menu tabular size='huge'>
             <Menu.Item
               name='Mission Statement'
               // active={activeItem === 'bio'}
