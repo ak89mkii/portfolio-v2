@@ -89,7 +89,7 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://github.com/ak89mkii/war-project-01'>
+                        <a href='https://github.com/ak89mkii/PAJ'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 
@@ -117,7 +117,7 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://github.com/ak89mkii/war-project-01'>
+                        <a href='https://github.com/ak89mkii/Repbucket-project-04'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 

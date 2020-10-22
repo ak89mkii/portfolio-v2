@@ -58,6 +58,7 @@ class App extends Component {
             />
           </main>
           <br></br>
+          <Divider />
             <div>Copyright &#169; Alexander I. Kasem 2020</div>
           <br></br>
              
