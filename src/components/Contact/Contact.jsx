@@ -19,8 +19,8 @@ const Contact = () => {
                     <List.Content>
                     <List.Header>Email Address:</List.Header>
                     <a href='mailto:aikasem@gmail.com'>
-                    <Button floated='right' icon>
-                        <Icon name='mail' />
+                    <Button floated='right' icon color='red'>
+                        <Icon name='mail' color='white' />
                     </Button>
                     </a>
                     aikasem@gmail.com
