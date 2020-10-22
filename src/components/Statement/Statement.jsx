@@ -7,7 +7,7 @@ const Statment = () => {
         <div className='CircleSelector'>
             <Divider horizontal>
               <Header as='h2'>
-                <Icon name='left quote' />
+                {/* <Icon name='left quote' /> */}
                 Mission Statement
               </Header>
             </Divider>
