@@ -49,6 +49,8 @@ const Contact = () => {
                 </List>
             </Segment>
             </Card>
+            <br></br>
+            <br></br>
         </div>
     )
 }
