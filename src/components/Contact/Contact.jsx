@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className='CircleSelector'>
             <Divider horizontal>
-              <Header as='h4'>
+              <Header as='h2'>
                 <Icon name='id card' />
                 Contact Information
               </Header>

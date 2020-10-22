@@ -14,7 +14,7 @@ class App extends Component {
     render() {
       return (
         <div>
-       
+        <br></br>
           <Menu tabular>
             <Menu.Item
               name='Mission Statement'

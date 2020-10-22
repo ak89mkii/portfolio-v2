@@ -33,6 +33,9 @@ const Project = () => {
                         <li>CSS3</li>
                         <li>JavaScript</li>
                         <li>Bootstrap</li>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                     </ul>
                 </Card.Description>
                     <h3>
@@ -51,7 +54,7 @@ const Project = () => {
             <Card>
                 <Image src={dicedex} wrapped ui={false} />
                 <Card.Content>
-                <Card.Header>DiceDex: Tabletop Game Tracker</Card.Header>
+                <Card.Header>DiceDex: Tabletop Tracker</Card.Header>
                 <Card.Description>
                     Technologies Used:
                     <ul>
@@ -80,7 +83,7 @@ const Project = () => {
             <Card>
                 <Image src={paj} wrapped ui={false} />
                 <Card.Content>
-                <Card.Header>PAJ: The Project Assistance Journal</Card.Header>
+                <Card.Header>PAJ: Project Manager</Card.Header>
                 <Card.Description>
                     Technologies Used:
                     <ul>
@@ -89,6 +92,8 @@ const Project = () => {
                         <li>React.js</li>
                         <li>MongoDB</li>
                         <li>Semantic UI</li>
+                        <br></br>
+                        <br></br>
                     </ul>
                 </Card.Description>
                     <h3>
@@ -107,7 +112,7 @@ const Project = () => {
             <Card>
                 <Image src={repbucket} wrapped ui={false} />
                 <Card.Content>
-                <Card.Header>RepBucket: Skills and Objectives Tracker</Card.Header>
+                <Card.Header>RepBucket: Goals Tracker</Card.Header>
                 <Card.Description>
                     Technologies Used:
                     <ul>
@@ -117,6 +122,7 @@ const Project = () => {
                         <li>Django</li>
                         <li>PostgreSQL</li>
                         <li>Bootstrap</li>
+                        <br></br>
                     </ul>
                 </Card.Description>
                     <h3>
