@@ -13,30 +13,35 @@ const Contact = () => {
             </Divider>
            
             <Card centered>
-            <Segment inverted>
-                <List divided inverted relaxed>
+            <Segment>
+                <List divided relaxed>
                 <List.Item>
                     <List.Content>
                     <List.Header>Email Address:</List.Header>
+                    <a href='mailto:aikasem@gmail.com'>
+                    <Button floated='right' icon>
+                        <Icon name='mail' />
+                    </Button>
+                    </a>
                     aikasem@gmail.com
                     </List.Content>
                 </List.Item>
                 <List.Item>
                     <List.Content>
-                    <List.Header></List.Header>
+                    <List.Header>LinkedIn:</List.Header>
                     <a href='https://www.linkedin.com/in/alexander-kasem-950479105/'>
-                    <Button color='linkedin'>
-                        <Icon name='linkedin' /> LinkedIn
+                    <Button floated='right' color='linkedin' icon>
+                        <Icon name='linkedin' />
                     </Button>
                     </a>
                     </List.Content>
                 </List.Item>
                 <List.Item>
                     <List.Content>
-                    <List.Header></List.Header>
+                    <List.Header>Github:</List.Header>
                     <a href='https://www.linkedin.com/in/alexander-kasem-950479105/'>
-                    <Button color='github'>
-                        <Icon name='github' /> GitHub
+                    <Button floated='right' color='black' icon>
+                        <Icon name='github' />
                     </Button>
                     </a>
                     </List.Content>
