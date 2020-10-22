@@ -2,6 +2,7 @@ import React from 'react'
 import { Header, Icon, Image, Card, Button, Divider, Grid } from 'semantic-ui-react'
 import './Project.css'
 import war from '../../Img/war.png'
+import dicedex from '../../Img/dicedex.png'
 
 const Project = () => {
     return (
@@ -19,7 +20,7 @@ const Project = () => {
             <Grid.Column>
 
             <Card>
-                <Image src={war} wrapped ui={false} />
+                <Image src={war} size='small' wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>War Card Game</Card.Header>
                 <Card.Description>
@@ -45,7 +46,7 @@ const Project = () => {
             <Grid.Column>
 
             <Card>
-                <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+                <Image src={dicedex} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>DiceDex: Tabletop Game Tracker</Card.Header>
                 <Card.Description>
@@ -129,6 +130,8 @@ const Project = () => {
             </Grid.Row>
             </Grid>
             </div>
+            <br></br>
+            <br></br>
         </div>
     )
 }
