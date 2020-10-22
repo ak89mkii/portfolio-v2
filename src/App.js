@@ -10,21 +10,26 @@ import Profile from './Img/profile.jpeg'
 
 class App extends Component {
   state ={
+    activeItem: 'Mission Statement' 
   }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
     render() {
+      const { activeItem } = this.state
       return (
         <div>
         <br></br>
           <Menu tabular size='huge'>
             <Menu.Item
               name='Mission Statement'
-              // active={activeItem === 'bio'}
-              // onClick={this.handleItemClick}
+              active={activeItem === 'Mission Statement'}
+              onClick={this.handleItemClick}
             />
             <Menu.Item
               name='Projects'
-              // active={activeItem === 'photos'}
-              // onClick={this.handleItemClick}
+              active={activeItem === 'Projects'}
+              onClick={this.handleItemClick}
             />
              <Menu.Item
               name='Interests'
