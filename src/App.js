@@ -44,6 +44,7 @@ class App extends Component {
               src={Profile}
             />
              <h1>Alexander I. Kasem</h1>
+             <h3>Full Stack Software Engineer</h3>
              <br></br>
              <br></br>
              
