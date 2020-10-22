@@ -33,13 +33,13 @@ class App extends Component {
             />
              <Menu.Item
               name='Interests'
-              // active={activeItem === 'photos'}
-              // onClick={this.handleItemClick}
+              active={activeItem === 'Interests'}
+              onClick={this.handleItemClick}
             />
              <Menu.Item
               name='Contact Information'
-              // active={activeItem === 'photos'}
-              // onClick={this.handleItemClick}
+              active={activeItem === 'Contact Information'}
+              onClick={this.handleItemClick}
             />
             </Menu>
             <Image
