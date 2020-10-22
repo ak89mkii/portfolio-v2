@@ -12,6 +12,7 @@ html, body {
 .footer {
   height: 50px;
   margin-top: -50px;
+  text-align: center;
 }
 
 h1 {
@@ -20,4 +21,8 @@ h1 {
 
 h3 {
   text-align: center;
+}
+
+.copyright {
+text-align: center;
 }
