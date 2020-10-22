@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header, Icon, List, Segment, Grid, Divider } from 'semantic-ui-react'
+import './Interest.css'
 
 
 const Interest = () => {
@@ -11,6 +12,7 @@ const Interest = () => {
                 Interests
               </Header>
             </Divider>
+            <h2>Programming and...</h2>
 
             <Segment placeholder>
                 <Grid columns={2} stackable textAlign='center'>
@@ -43,7 +45,10 @@ const Interest = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
+            <br></br>
+            <br></br>
         </div>
+        
     )
 }
 
