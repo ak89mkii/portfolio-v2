@@ -21,26 +21,34 @@ class App extends Component {
         <div>
         <br></br>
           <Menu tabular size='huge'>
+          <a href='#mission'>
             <Menu.Item
               name='Mission Statement'
               active={activeItem === 'Mission Statement'}
               onClick={this.handleItemClick}
             />
+            </a>
+            <a href='#projects'>
             <Menu.Item
               name='Projects'
               active={activeItem === 'Projects'}
               onClick={this.handleItemClick}
             />
+            </a>
+            <a href='#interests'>
              <Menu.Item
               name='Interests'
               active={activeItem === 'Interests'}
               onClick={this.handleItemClick}
             />
+            </a>
+            <a href='#contact'>
              <Menu.Item
               name='Contact Information'
               active={activeItem === 'Contact Information'}
               onClick={this.handleItemClick}
             />
+            </a>
             </Menu>
             <Image
               bordered
@@ -54,14 +62,22 @@ class App extends Component {
              <br></br>
              
           <main>
-            <Statement 
+            <div id='mission'>
+            <Statement className='Statement'
             />
-            <Project
+            </div>
+            <div id='projects'>
+            <Project className='Project'
             />
-            <Interest 
+            </div>
+            <div id='interests'>
+            <Interest className='Interest'
             />
-            <Contact
+            </div>
+            <div id='contact'>
+            <Contact 
             />
+            </div>
           </main>
           <br></br>
           <Divider />
