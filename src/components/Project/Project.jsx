@@ -3,6 +3,9 @@ import { Header, Icon, Image, Card, Button, Divider, Grid } from 'semantic-ui-re
 import './Project.css'
 import war from '../../Img/war.png'
 import dicedex from '../../Img/dicedex.png'
+import paj from '../../Img/paj.png'
+import repbucket from '../../Img/repbucket.png'
+
 
 const Project = () => {
     return (
@@ -75,7 +78,7 @@ const Project = () => {
             <Grid.Column>
 
             <Card>
-                <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+                <Image src={paj} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>PAJ: The Project Assistance Journal</Card.Header>
                 <Card.Description>
@@ -102,7 +105,7 @@ const Project = () => {
             <Grid.Column>
 
             <Card>
-                <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+                <Image src={repbucket} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>RepBucket: Skills and Objectives Tracker</Card.Header>
                 <Card.Description>
