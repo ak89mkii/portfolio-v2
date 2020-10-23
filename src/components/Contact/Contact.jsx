@@ -18,12 +18,12 @@ const Contact = () => {
                 <List.Item>
                     <List.Content>
                     <List.Header>Email Address:</List.Header>
-                    <a href='mailto:aikasem@gmail.com'>
+                    <a href='mailto:code@pondermint.com'>
                     <Button floated='right' icon color='red'>
                         <Icon name='mail' color='white' />
                     </Button>
                     </a>
-                    aikasem@gmail.com
+                    code@pondermint.com
                     </List.Content>
                 </List.Item>
                 <List.Item>
