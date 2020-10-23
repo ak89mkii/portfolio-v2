@@ -39,7 +39,7 @@ const Contact = () => {
                 <List.Item>
                     <List.Content>
                     <List.Header>Github:</List.Header>
-                    <a href='https://www.linkedin.com/in/alexander-kasem-950479105/'>
+                    <a href='https://github.com/ak89mkii'>
                     <Button floated='right' color='black' icon>
                         <Icon name='github' />
                     </Button>
