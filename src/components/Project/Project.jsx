@@ -9,7 +9,7 @@ import repbucket from '../../Img/repbucket.png'
 
 const Project = () => {
     return (
-        <div className='CircleSelector'>
+        <div>
             <Divider horizontal>
               <Header as='h2'>
                 <Icon name='file code' />
@@ -18,11 +18,11 @@ const Project = () => {
             </Divider>
 
             <div className='grid'>
-            <Grid centered>
+            <Grid centered stackable columns={1}>
             <Grid.Row centered columns={4}>
             <Grid.Column>
 
-            <Card>
+            <Card centered>
                 <Image src={war} size='small' wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>War Card Game</Card.Header>
@@ -60,7 +60,7 @@ const Project = () => {
             </Grid.Column>
             <Grid.Column>
 
-            <Card>
+            <Card centered>
                 <Image src={dicedex} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>DiceDex: Tabletop Tracker</Card.Header>
@@ -96,7 +96,7 @@ const Project = () => {
             </Grid.Column>
             <Grid.Column>
 
-            <Card>
+            <Card centered>
                 <Image src={paj} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>PAJ: Project Manager</Card.Header>
@@ -132,7 +132,7 @@ const Project = () => {
             </Grid.Column>
             <Grid.Column>
 
-            <Card>
+            <Card centered>
                 <Image src={repbucket} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>RepBucket: Goals Tracker</Card.Header>

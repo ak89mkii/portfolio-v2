@@ -4,7 +4,7 @@ import { Header, Icon, Segment, List, Card, Divider, Button } from 'semantic-ui-
 
 const Contact = () => {
     return (
-        <div className='CircleSelector'>
+        <div>
             <Divider horizontal>
               <Header as='h2'>
                 <Icon name='id card' />

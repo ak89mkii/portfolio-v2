@@ -5,7 +5,7 @@ import './Interest.css'
 
 const Interest = () => {
     return (
-        <div className='CircleSelector'>
+        <div>
             <Divider horizontal>
               <Header as='h2'>
                 <Icon name='info' />
