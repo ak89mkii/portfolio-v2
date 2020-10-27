@@ -6,7 +6,8 @@ import Statement from './components/Statement/Statement'
 import Project from './components/Project/Project'
 import Interest from './components/Interest/Interest'
 import Contact from './components/Contact/Contact'
-import Profile from './Img/profile.jpeg'
+import Intro from './components/Intro/Intro'
+// import Select from './components/Select/Select'
 
 class App extends Component {
   state ={
@@ -50,14 +51,9 @@ class App extends Component {
             />
             </a>
             </Menu>
-            <Image
-              bordered
-              centered
-              size='medium'
-              src={Profile}
-            />
-             <h1>Alexander I. Kasem</h1>
-             <h3>Full Stack Software Engineer</h3>
+            <div id='mission'>
+            <Intro />
+            </div>
              <br></br>
              <br></br>
              
