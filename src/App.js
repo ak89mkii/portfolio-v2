@@ -44,7 +44,7 @@ class App extends Component {
             </a>
             <a href='#contact'>
              <Menu.Item
-              name='Contact Information'
+              name='Contact Info'
               active={activeItem === 'Contact Information'}
               onClick={this.handleItemClick}
             />
