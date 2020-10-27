@@ -65,6 +65,7 @@ class App extends Component {
             <div>
               <Intro/>
               {this.state.on && (<Select />)}
+              </div>
             <br></br>
             <br></br>
             <Grid centered>
@@ -72,12 +73,11 @@ class App extends Component {
                   color='yellow' 
                   size='huge'
                   onClick={this.handleToggle}
-                >Push to View Skills
+                >Push to Toggle Skills View
                 </Button>
             </Grid>
              <br></br>
              <br></br>
-             </div>
              
           <main>
             <div id='mission'>
