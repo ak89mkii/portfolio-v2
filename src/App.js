@@ -20,7 +20,7 @@ class App extends Component {
       return (
         <div>
         <br></br>
-          <Menu tabular size='huge'>
+          <Menu size='huge'>
           <a href='#mission'>
             <Menu.Item
               name='Mission Statement'

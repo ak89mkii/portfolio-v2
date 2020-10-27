@@ -17,11 +17,12 @@ const Project = () => {
               </Header>
             </Divider>
 
-            <div className='grid'>
+            <div className='UserList-grid'>
             <Grid centered stackable columns={1}>
             <Grid.Row centered columns={4}>
-            <Grid.Column>
+            <div className="column">
 
+            
             <Card centered>
                 <Image src={war} size='small' wrapped ui={false} />
                 <Card.Content>
@@ -56,10 +57,10 @@ const Project = () => {
                     </h3>
                 </Card.Content>
             </Card>
+            </div>
+            <div className="column">
 
-            </Grid.Column>
-            <Grid.Column>
-
+           
             <Card centered>
                 <Image src={dicedex} wrapped ui={false} />
                 <Card.Content>
@@ -93,8 +94,8 @@ const Project = () => {
                 </Card.Content>
             </Card>
 
-            </Grid.Column>
-            <Grid.Column>
+            </div>
+            <div className="column">
 
             <Card centered>
                 <Image src={paj} wrapped ui={false} />
@@ -129,8 +130,8 @@ const Project = () => {
                 </Card.Content>
             </Card>
             
-            </Grid.Column>
-            <Grid.Column>
+            </div>
+            <div className="column">
 
             <Card centered>
                 <Image src={repbucket} wrapped ui={false} />
@@ -148,6 +149,7 @@ const Project = () => {
                         <li>PostgreSQL</li>
                         <li>Bootstrap</li>
                         <br></br>
+                        <br></br>
                     </ul>
                 </Card.Description>
                     <h3>
@@ -159,8 +161,9 @@ const Project = () => {
                     </h3>
                 </Card.Content>
             </Card>
+           
 
-            </Grid.Column>
+            </div>
             </Grid.Row>
             </Grid>
             </div>
