@@ -1,20 +1,27 @@
 import React, { Component } from 'react'
 import './App.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Header, Icon, Image, Menu, Message, Divider } from 'semantic-ui-react'
+import { Button, Grid, Image, Menu, Message, Divider } from 'semantic-ui-react'
 import Statement from './components/Statement/Statement'
 import Project from './components/Project/Project'
 import Interest from './components/Interest/Interest'
 import Contact from './components/Contact/Contact'
 import Intro from './components/Intro/Intro'
-// import Select from './components/Select/Select'
+import Select from './components/Select/Select'
+import Fight from './Img/fight.png'
+import Profile from './Img/profile.jpeg'
 
 class App extends Component {
   state ={
-    activeItem: 'Mission Statement' 
+    activeItem: 'Mission Statement',
+    images: [
+      <Intro />, <Select />
+    ]
   }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+
 
     render() {
       const { activeItem } = this.state
@@ -51,9 +58,15 @@ class App extends Component {
             />
             </a>
             </Menu>
-            <div id='mission'>
-            <Intro />
+
+            <div>
+              {this.state.images[1]}
             </div>
+            <br></br>
+            <br></br>
+            <Grid centered>
+                <Button color='yellow' size='huge'>Push to Toggle View</Button>
+            </Grid>
              <br></br>
              <br></br>
              
