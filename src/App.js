@@ -12,16 +12,19 @@ import Fight from './Img/fight.png'
 import Profile from './Img/profile.jpeg'
 
 class App extends Component {
-  state ={
-    activeItem: 'Mission Statement',
-    images: [
-      <Intro />, <Select />
-    ]
-  }
+    state = {
+      activeItem: 'Mission Statement',
+      on: false,
+    }
+
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-
+  handleToggle = () => {
+    this.setState({
+      on: !this.state.on
+    })
+  }
 
     render() {
       const { activeItem } = this.state
@@ -60,15 +63,21 @@ class App extends Component {
             </Menu>
 
             <div>
-              {this.state.images[1]}
-            </div>
+              <Intro/>
+              {this.state.on && (<Select />)}
             <br></br>
             <br></br>
             <Grid centered>
-                <Button color='yellow' size='huge'>Push to Toggle View</Button>
+                <Button 
+                  color='yellow' 
+                  size='huge'
+                  onClick={this.handleToggle}
+                >Push to View Skills
+                </Button>
             </Grid>
              <br></br>
              <br></br>
+             </div>
              
           <main>
             <div id='mission'>
@@ -97,8 +106,6 @@ class App extends Component {
       )
     }
   }
-
-
 
 export default App;
 
