@@ -8,8 +8,12 @@ import Interest from './components/Interest/Interest'
 import Contact from './components/Contact/Contact'
 import Intro from './components/Intro/Intro'
 import Select from './components/Select/Select'
-import Fight from './Img/fight.png'
-import Profile from './Img/profile.jpeg'
+import Audio from './components/sounds/select.mp3'
+import ReactHowler from 'react-howler'
+
+const audioClips = [
+  {sounds: Audio}
+]
 
 class App extends Component {
     state = {
@@ -17,6 +21,12 @@ class App extends Component {
       on: false,
     }
 
+  // SoundPlay = (src) => {
+  //   const sound = new ReactHowler({
+  //     src
+  //   })
+  //   sound.play();
+  // }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -65,16 +75,20 @@ class App extends Component {
             <div>
               <Intro/>
               {this.state.on && (<Select />)}
+              {this.state.on && (<ReactHowler
+                src={Audio}
+                playing={true}
+                />)}
               </div>
             <br></br>
             <br></br>
             <Grid centered>
-                <Button 
-                  color='yellow' 
-                  size='huge'
-                  onClick={this.handleToggle}
-                >Push to Toggle Skills View
-                </Button>
+              <Button 
+                color='yellow' 
+                size='huge'
+                onClick={this.handleToggle}
+              >Push to Toggle Skills View
+              </Button>
             </Grid>
              <br></br>
              <br></br>
