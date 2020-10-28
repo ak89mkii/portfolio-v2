@@ -38,7 +38,16 @@ const Skill = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
-            <Icon name='certificate' />
+            <br></br>
+            <Grid centered>
+              <Icon name='html5' size='huge'/>
+              <Icon name='css3 alternate' size='huge'/>
+              <Icon name='js' size='huge'/>
+              <Icon name='react' size='huge'/>
+              <Icon name='python' size='huge'/>
+              <Icon name='github' size='huge'/>
+              <Icon name='node' size='huge'/>
+            </Grid>
         <br></br>
         <br></br>
       </div>

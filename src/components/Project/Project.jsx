@@ -124,7 +124,7 @@ const Project = () => {
                         <li>CSS3</li>
                         <li>React.js</li>
                         <li>MongoDB</li>
-                        <li>Semantic UI</li>
+                        <li>Semantic UI React</li>
                         <br></br>
                         <br></br>
                         <br></br>
