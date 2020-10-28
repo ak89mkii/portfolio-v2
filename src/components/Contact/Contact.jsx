@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header, Icon, Segment, List, Card, Divider, Button } from 'semantic-ui-react'
+import Resume from '../../Img/resume.PDF'
 
 
 const Contact = () => {
@@ -48,8 +49,8 @@ const Contact = () => {
                 </List.Item>
                 <List.Item>
                     <List.Content>
-                    <List.Header>Resume:</List.Header>
-                    <a href='https://github.com/ak89mkii'>
+                    <List.Header>Download Resume:</List.Header>
+                    <a href={Resume} download>
                     <Button floated='right' color='grey' icon>
                         <Icon name='file pdf outline' />
                     </Button>

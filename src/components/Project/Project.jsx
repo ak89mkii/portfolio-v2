@@ -92,7 +92,7 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://tabletop-tracker-project-117.herokuapp.com/'>
+                        <a href='https://tabletop-tracker-project-117.herokuapp.com/users'>
                         <Button size='large' color='yellow'>
                             <Icon size='large' name='power off'/>Deployed App
                         </Button> 
