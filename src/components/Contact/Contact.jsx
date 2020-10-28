@@ -46,6 +46,16 @@ const Contact = () => {
                     </a>
                     </List.Content>
                 </List.Item>
+                <List.Item>
+                    <List.Content>
+                    <List.Header>Resume:</List.Header>
+                    <a href='https://github.com/ak89mkii'>
+                    <Button floated='right' color='grey' icon>
+                        <Icon name='file pdf outline' />
+                    </Button>
+                    </a>
+                    </List.Content>
+                </List.Item>
                 </List>
             </Segment>
             </Card>

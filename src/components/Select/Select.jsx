@@ -1,16 +1,16 @@
 import React from 'react'
-import { Image, Button, Grid } from 'semantic-ui-react'
+import { Image, Icon, Grid } from 'semantic-ui-react'
 import Fight from '../../Img/fight.png'
-import Profile from '../../Img/profile.jpeg'
+import './Select.css'
 
 const Select = (props) => {
     return (
         <div>
-        <Image
-          bordered
-          centered
-          src={Fight}
-        />
+          <Image
+            bordered
+            centered
+            src={Fight}
+          />
          <br></br>
          <br></br>
     </div>

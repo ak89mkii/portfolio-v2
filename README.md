@@ -13,3 +13,5 @@
 // https://stackoverflow.com/questions/47686345/playing-sound-in-reactjs
 // https://www.youtube.com/watch?v=x5oiX93DeHA
 // https://freesound.org/people/pumodi/sounds/150222/
+// https://www.npmjs.com/package/react-howler
+// https://fonts.google.com/specimen/Nanum+Brush+Script?category=Handwriting&query=brush+&preview.text=Technology%20Proficiency&preview.text_type=custom

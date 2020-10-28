@@ -49,6 +49,13 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
+                        <a href='http://war-were-declared-4.surge.sh/'>
+                        <Button size='large' color='yellow'>
+                            <Icon size='large' name='power off'/>Deployed App
+                        </Button> 
+                        </a>
+                        <br></br>
+                        <br></br>
                         <a href='https://github.com/ak89mkii/war-project-01'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
@@ -85,6 +92,13 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
+                        <a href='https://tabletop-tracker-project-117.herokuapp.com/'>
+                        <Button size='large' color='yellow'>
+                            <Icon size='large' name='power off'/>Deployed App
+                        </Button> 
+                        </a>
+                        <br></br>
+                        <br></br>
                         <a href='https://github.com/ak89mkii/tabletop-tracker-project-01'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
@@ -121,6 +135,13 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
+                        <a href='https://paj-03-project-hi-nu.herokuapp.com/'>
+                        <Button size='large' color='yellow'>
+                            <Icon size='large' name='power off'/>Deployed App
+                        </Button> 
+                        </a>
+                        <br></br>
+                        <br></br>
                         <a href='https://github.com/ak89mkii/PAJ'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
@@ -153,6 +174,13 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
+                        <a href='https://repbucket-04.herokuapp.com/'>
+                        <Button size='large' color='yellow'>
+                            <Icon size='large' name='power off'/>Deployed App
+                        </Button> 
+                        </a>
+                        <br></br>
+                        <br></br>
                         <a href='https://github.com/ak89mkii/Repbucket-project-04'>
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
