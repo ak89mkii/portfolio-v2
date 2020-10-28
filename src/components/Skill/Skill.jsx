@@ -38,6 +38,7 @@ const Skill = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
+            <Icon name='certificate' />
         <br></br>
         <br></br>
       </div>
