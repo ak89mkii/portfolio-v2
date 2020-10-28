@@ -10,3 +10,6 @@
 // https://forum.filezilla-project.org/viewtopic.php?t=45359
 // https://teamtreehouse.com/community/i-cant-connect-to-my-host-account-through-filezilla-typing-in-my-domain-username-and-password-and-it-wont-work
 // https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6
+// https://stackoverflow.com/questions/47686345/playing-sound-in-reactjs
+// https://www.youtube.com/watch?v=x5oiX93DeHA
+// https://freesound.org/people/pumodi/sounds/150222/
