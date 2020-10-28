@@ -14,7 +14,7 @@ const Interest = () => {
             </Divider>
             <h2>Programming and...</h2>
 
-            <Segment placeholder>
+            <Segment placeholder >
                 <Grid columns={2} stackable textAlign='center'>
                     <Divider vertical></Divider>
                     <Grid.Row verticalAlign='middle'>

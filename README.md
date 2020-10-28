@@ -2,6 +2,14 @@
 
 > Four major projects and info.
 
+# Technologies:
+- React.js
+- Semantic UI React
+- Howler JS
+- HTML5
+- CSS3
+
+
 # References:
 // https://medium.com/@cgroom/a-software-engineers-one-page-portfolio-4f85ab8a20d1
 // https://www.springboard.com/blog/programmer-portfolio/https://www.springboard.com/blog/programmer-portfolio/
@@ -15,3 +23,6 @@
 // https://freesound.org/people/pumodi/sounds/150222/
 // https://www.npmjs.com/package/react-howler
 // https://fonts.google.com/specimen/Nanum+Brush+Script?category=Handwriting&query=brush+&preview.text=Technology%20Proficiency&preview.text_type=custom
+// https://stackoverflow.com/questions/56553576/react-clicking-on-resume-header-doesnt-download-resume-pdf-file
+// capcom
+// https://thenounproject.com/term/coffee/4112/
