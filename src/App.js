@@ -11,22 +11,11 @@ import Select from './components/Select/Select'
 import Audio from './components/sounds/select.mp3'
 import ReactHowler from 'react-howler'
 
-const audioClips = [
-  {sounds: Audio}
-]
-
 class App extends Component {
     state = {
       activeItem: 'Mission Statement',
       on: false,
     }
-
-  // SoundPlay = (src) => {
-  //   const sound = new ReactHowler({
-  //     src
-  //   })
-  //   sound.play();
-  // }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -45,28 +34,24 @@ class App extends Component {
           <a href='#mission'>
             <Menu.Item
               name='Mission Statement'
-              active={activeItem === 'Mission Statement'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#projects'>
             <Menu.Item
               name='Projects'
-              active={activeItem === 'Projects'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#interests'>
              <Menu.Item
               name='Interests'
-              active={activeItem === 'Interests'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#contact'>
              <Menu.Item
               name='Contact Info'
-              active={activeItem === 'Contact Information'}
               onClick={this.handleItemClick}
             />
             </a>
