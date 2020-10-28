@@ -3,17 +3,19 @@ import { Image, Icon, Grid } from 'semantic-ui-react'
 import Fight from '../../Img/fight.png'
 import './Select.css'
 
-const Select = (props) => {
+const Select = () => {
     return (
-        <div>
-          <Image
-            bordered
-            centered
-            src={Fight}
-          />
-         <br></br>
-         <br></br>
-    </div>
+      <div>
+        <Image
+          bordered
+          centered
+          src={Fight}
+        />
+        <div>// Capcom Images</div>
+        
+        <br></br>
+        <br></br>
+      </div>
     )
 }
 

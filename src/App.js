@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Button, Grid, Image, Menu, Message, Divider } from 'semantic-ui-react'
+import { Button, Grid, Icon, Menu, Label, Divider } from 'semantic-ui-react'
 import Statement from './components/Statement/Statement'
 import Project from './components/Project/Project'
 import Interest from './components/Interest/Interest'
@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact'
 import Intro from './components/Intro/Intro'
 import Select from './components/Select/Select'
 import Audio from './components/sounds/select.mp3'
+import Music from './components/sounds/music.wav'
 import ReactHowler from 'react-howler'
 
 class App extends Component {
@@ -63,7 +64,11 @@ class App extends Component {
               {this.state.on && (<ReactHowler
                 src={Audio}
                 playing={true}
-                />)}
+              />)}
+              {this.state.on && (<ReactHowler
+                src={Music}
+                playing={true}
+              />)}
               </div>
             <br></br>
             <br></br>
@@ -72,7 +77,10 @@ class App extends Component {
                 color='yellow' 
                 size='huge'
                 onClick={this.handleToggle}
-              >Push to Toggle Skills View
+              >Toggle Skills__ 
+              
+              <Icon name='volume up'/>
+             
               </Button>
             </Grid>
              <br></br>
