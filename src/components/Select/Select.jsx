@@ -28,7 +28,6 @@ class Select extends Component {
           centered
           src={Fight}
         />
-        <div>// Capcom Images</div>
         <Grid centered>
           <Button 
             color='blue' 
