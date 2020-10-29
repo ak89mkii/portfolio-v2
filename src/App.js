@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component, createRef } from 'react'
 import './App.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Button, Grid, Icon, Menu, Label, Divider } from 'semantic-ui-react'
+import { Button, Grid, Sticky, Menu, Segment, Divider } from 'semantic-ui-react'
 import Statement from './components/Statement/Statement'
 import Project from './components/Project/Project'
 import Interest from './components/Interest/Interest'
@@ -18,6 +18,8 @@ class App extends Component {
       on: false,
       onMusic: false
     }
+
+  contextRef = createRef()
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -37,7 +39,11 @@ class App extends Component {
       return (
         <div>
         <br></br>
-          <Menu size='huge'>
+        <div ref={this.contextRef}>
+        <Sticky context={this.contextRef}>
+          <Menu size='huge'
+          attached='top'
+          >
           <a href='#mission'>
             <Menu.Item
               name='Mission'
@@ -69,13 +75,13 @@ class App extends Component {
             />
             </a>
             </Menu>
-
+          </Sticky>
+          <Segment attached='bottom'>
             <div>
               <Intro/>
             </div>
              <br></br>
              <br></br>
-             
           <main>
             <div id='mission'>
             <Statement className='Statement'
@@ -89,7 +95,6 @@ class App extends Component {
             <Skill className='Project'
             />
             </div>
-
             <div>
               {this.state.on && (<Select />)}
               {this.state.on && (<ReactHowler
@@ -123,7 +128,8 @@ class App extends Component {
           <Divider />
             <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020</div>
           <br></br>
-             
+        </Segment>
+        </div>
         </div>
       )
     }
