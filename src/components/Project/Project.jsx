@@ -49,14 +49,14 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='http://war-were-declared-4.surge.sh/'>
+                        <a href='http://war-were-declared-4.surge.sh/' target="_blank">
                         <Button size='large' color='yellow'>
                             <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
                         <br></br>
-                        <a href='https://github.com/ak89mkii/war-project-01'>
+                        <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 
@@ -92,14 +92,14 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://tabletop-tracker-project-117.herokuapp.com/users'>
+                        <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
                         <Button size='large' color='yellow'>
                             <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
                         <br></br>
-                        <a href='https://github.com/ak89mkii/tabletop-tracker-project-01'>
+                        <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank">
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 
@@ -135,14 +135,14 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://paj-03-project-hi-nu.herokuapp.com/'>
+                        <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">
                         <Button size='large' color='yellow'>
                             <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
                         <br></br>
-                        <a href='https://github.com/ak89mkii/PAJ'>
+                        <a href='https://github.com/ak89mkii/PAJ' target="_blank">
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 
@@ -174,14 +174,14 @@ const Project = () => {
                     </ul>
                 </Card.Description>
                     <h3>
-                        <a href='https://repbucket-04.herokuapp.com/'>
+                        <a href='https://repbucket-04.herokuapp.com/' target="_blank">
                         <Button size='large' color='yellow'>
                             <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
                         <br></br>
-                        <a href='https://github.com/ak89mkii/Repbucket-project-04'>
+                        <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank">
                         <Button size='large'>
                             <Icon size='large' name='github square'/>Github Repo
                         </Button> 
