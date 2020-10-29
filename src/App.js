@@ -40,13 +40,19 @@ class App extends Component {
           <Menu size='huge'>
           <a href='#mission'>
             <Menu.Item
-              name='Mission Statement'
+              name='Mission'
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#projects'>
             <Menu.Item
               name='Projects'
+              onClick={this.handleItemClick}
+            />
+            </a>
+            <a href='#skills'>
+            <Menu.Item
+              name='Skills'
               onClick={this.handleItemClick}
             />
             </a>
