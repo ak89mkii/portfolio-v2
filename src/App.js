@@ -10,7 +10,6 @@ import Intro from './components/Intro/Intro'
 import Select from './components/Select/Select'
 import Skill from './components/Skill/Skill'
 import Audio from './components/sounds/select.mp3'
-import Music from './components/sounds/music.wav'
 import ReactHowler from 'react-howler'
 
 class App extends Component {
@@ -35,7 +34,6 @@ class App extends Component {
   }
 
     render() {
-      const { activeItem } = this.state
       return (
         <div>
         <br></br>
@@ -92,11 +90,7 @@ class App extends Component {
                 src={Audio}
                 playing={true}
               />)}
-              {this.state.onMusic && (<ReactHowler
-                src={Music}
-                playing={true}
-              />)}
-          </div>
+            </div>
             <br></br>
             <br></br>
             <Grid centered>
@@ -104,21 +98,7 @@ class App extends Component {
                 color='yellow' 
                 size='huge'
                 onClick={this.handleToggle}
-                
               >Toggle Skills View 
-              </Button>
-          
-            <br></br>
-            <br></br>
-            
-              <Button 
-                color='blue' 
-                size='huge'
-                icon
-                onClick={this.handleToggle02}
-              > 
-              <Icon centered name='volume up'/>
-              <Icon centered name='volume off'/>
               </Button>
             </Grid>
              <br></br>
