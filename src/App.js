@@ -41,7 +41,7 @@ class App extends Component {
         <br></br>
         <div ref={this.contextRef}>
         <Sticky context={this.contextRef}>
-          <Menu size='huge'
+          <Menu size='large'
           attached='top'
           >
           <a href='#mission'>
