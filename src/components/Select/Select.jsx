@@ -64,7 +64,7 @@ class Select extends Component {
           >
             <Header>Technology List:</Header>
             <p>Row 01: HTML5, CSS3, JavaScript, Python 3</p>
-            <p>Row 02: React.ja, Node.js, Express.js, Django, MongoDB, PostreSQL</p>
+            <p>Row 02: React.js, Node.js, Express.js, Django, MongoDB, PostreSQL</p>
             <p>Row 03: Materialize, Bootstrap, Semantic UI React, GitHub, Heroku, Coffee (the drink)</p>
           </Segment>
         </TransitionablePortal>
