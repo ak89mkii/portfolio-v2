@@ -17,6 +17,7 @@ class App extends Component {
     state = {
       activeItem: 'Mission Statement',
       on: false,
+      onMusic: false
     }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -24,6 +25,12 @@ class App extends Component {
   handleToggle = () => {
     this.setState({
       on: !this.state.on
+    })
+  }
+
+  handleToggle02 = () => {
+    this.setState({
+      onMusic: !this.state.onMusic
     })
   }
 
@@ -85,7 +92,7 @@ class App extends Component {
                 src={Audio}
                 playing={true}
               />)}
-              {this.state.on && (<ReactHowler
+              {this.state.onMusic && (<ReactHowler
                 src={Music}
                 playing={true}
               />)}
@@ -97,8 +104,20 @@ class App extends Component {
                 color='yellow' 
                 size='huge'
                 onClick={this.handleToggle}
-              >Toggle Skills__ 
-              <Icon name='volume up'/>
+                
+              >Toggle Skills View 
+              </Button>
+          
+            <br></br>
+            <br></br>
+            
+              <Button 
+                color='blue' 
+                size='huge'
+                icon
+                onClick={this.handleToggle02}
+              > 
+              <Icon centered name='volume up'/>
               </Button>
             </Grid>
              <br></br>

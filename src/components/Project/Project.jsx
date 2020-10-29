@@ -51,7 +51,7 @@ const Project = () => {
                     <h3>
                         <a href='http://war-were-declared-4.surge.sh/'>
                         <Button size='large' color='yellow'>
-                            <Icon size='large' name='power off'/>Deployed App
+                            <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
@@ -94,7 +94,7 @@ const Project = () => {
                     <h3>
                         <a href='https://tabletop-tracker-project-117.herokuapp.com/users'>
                         <Button size='large' color='yellow'>
-                            <Icon size='large' name='power off'/>Deployed App
+                            <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
@@ -137,7 +137,7 @@ const Project = () => {
                     <h3>
                         <a href='https://paj-03-project-hi-nu.herokuapp.com/'>
                         <Button size='large' color='yellow'>
-                            <Icon size='large' name='power off'/>Deployed App
+                            <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
@@ -176,7 +176,7 @@ const Project = () => {
                     <h3>
                         <a href='https://repbucket-04.herokuapp.com/'>
                         <Button size='large' color='yellow'>
-                            <Icon size='large' name='power off'/>Deployed App
+                            <Icon size='large' name='power off'/>View Project
                         </Button> 
                         </a>
                         <br></br>
