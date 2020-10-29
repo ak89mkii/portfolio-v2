@@ -30,7 +30,7 @@ const Contact = () => {
                 <List.Item>
                     <List.Content>
                     <List.Header>LinkedIn:</List.Header>
-                    <a href='https://www.linkedin.com/in/alexander-kasem-950479105/'>
+                    <a href='https://www.linkedin.com/in/alexander-kasem-950479105/' target="_blank">
                     <Button floated='right' color='linkedin' icon>
                         <Icon name='linkedin' />
                     </Button>
@@ -40,7 +40,7 @@ const Contact = () => {
                 <List.Item>
                     <List.Content>
                     <List.Header>Github:</List.Header>
-                    <a href='https://github.com/ak89mkii'>
+                    <a href='https://github.com/ak89mkii' target="_blank">
                     <Button floated='right' color='black' icon>
                         <Icon name='github' />
                     </Button>
