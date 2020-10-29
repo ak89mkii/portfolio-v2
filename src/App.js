@@ -118,6 +118,7 @@ class App extends Component {
                 onClick={this.handleToggle02}
               > 
               <Icon centered name='volume up'/>
+              <Icon centered name='volume off'/>
               </Button>
             </Grid>
              <br></br>
