@@ -56,10 +56,9 @@ const Project = () => {
                                         </Button> 
                                         </a>
                                     </h3>
-                                </Card.Content>
-                                </Card>
-               
-                </Grid.Column>
+                            </Card.Content>
+                        </Card>
+                    </Grid.Column>
                
             {/* <Card centered>
                 <Image src={dicedex} wrapped ui={false} />
