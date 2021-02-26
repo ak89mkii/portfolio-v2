@@ -18,20 +18,14 @@ const Project = () => {
             </Divider>
 
             <Item.Group>
-            <Grid columns={2} divided>
+            <Grid columns={2} divided stackable>
                 <Grid.Row verticalAlign='middle'>
                     
                     <Grid.Column>   
-                        <Card centered size='large' stackable>
+                        <Card fluid centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={war} size='large' wrapped ui={false} />
-                            </Card.Content>
-                        </Card>
-                    {/* </Grid.Column>
-
-                    <Grid.Column> */}
-                        <Card centered size='large'>
-                            <Card.Content>
+                                <Divider/>
                                 <Item.Header>War Card Game (Front-End)</Item.Header>
                                 <Item.Description>
                                     <p>A War playing card variant with a retro game theme.</p>
@@ -60,16 +54,10 @@ const Project = () => {
                     </Grid.Column>
                     
                     <Grid.Column> 
-                    <Card centered size='large' stackable>
+                    <Card fluid centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={dicedex} size='large' wrapped ui={false} />
-                            </Card.Content>
-                        </Card>
-                    {/* </Grid.Column>
-
-                    <Grid.Column> */}
-                        <Card centered size='large'>
-                            <Card.Content>
+                                <Divider/>
                                 <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
                                 </Item.Header>
                                 <Item.Description>
@@ -97,6 +85,10 @@ const Project = () => {
                             </Card.Content>
                         </Card>
                     </Grid.Column>
+
+                </Grid.Row>
+            </Grid>
+            </Item.Group>
                
             {/* <Card centered>
                 <Image src={dicedex} wrapped ui={false} />
@@ -221,9 +213,7 @@ const Project = () => {
             </Card> */}
             
             
-            </Grid.Row>
-            </Grid>
-            </Item.Group>
+            
             
             <br></br>
             <br></br>
