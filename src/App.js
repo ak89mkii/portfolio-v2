@@ -43,6 +43,7 @@ class App extends Component {
         <Sticky context={this.contextRef}>
           <Menu 
           attached='top'
+          stackable
           >
           <a href='#mission'>
             <Menu.Item

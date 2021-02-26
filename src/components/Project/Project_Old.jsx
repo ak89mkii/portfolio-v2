@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Icon, Image, Card, Button, Divider, Grid, Item, Message, Segment } from 'semantic-ui-react'
+import { Header, Icon, Image, Card, Button, Divider, Grid } from 'semantic-ui-react'
 import './Project.css'
 import war from '../../Img/war.png'
 import dicedex from '../../Img/dicedex.png'
@@ -17,51 +17,58 @@ const Project = () => {
               </Header>
             </Divider>
 
-            
-            <Item.Group>
-            <Grid columns={2} divided>
-                <Grid.Row verticalAlign='middle'>
-                    <Grid.Column>    
-                        
-                        <Card centered size='large' stackable>
-                            <Card.Content>
-                                <Item.Image src={war} size='large' wrapped ui={false} />
-                            </Card.Content>
-                        </Card>
-                    </Grid.Column>
+            <div className='UserList-grid'>
+            <Grid centered stackable columns={1}>
+            <Grid.Row centered columns={4}>
+            <div className="column">
 
-                    <Grid.Column>
-                        <Card centered size='large'>
-                            <Card.Content>
-                                <Item.Header>War Card Game (Front-End)</Item.Header>
-                                <Item.Description>
-                                    <p>A War playing card variant with a retro game theme.</p>
-                                    <h4>Technologies Used:</h4>
-                                        <p>- HTML5</p>
-                                        <p>- CSS3</p>
-                                        <p>- JavaScript</p>
-                                        <p>- Bootstrap</p>
-                                </Item.Description>
-                                    <h3>
-                                        <a href='http://war-were-declared-4.surge.sh/' target="_blank">
-                                        <Button size='large' color='yellow'>
-                                            <Icon size='large' name='power off'/>View Project
-                                        </Button> 
-                                        </a>
-                                        <br></br>
-                                        <br></br>
-                                        <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
-                                        <Button size='large'>
-                                            <Icon size='large' name='github square'/>Github Repo
-                                        </Button> 
-                                        </a>
-                                    </h3>
-                                </Card.Content>
-                                </Card>
-               
-                </Grid.Column>
-               
-            {/* <Card centered>
+            
+            <Card centered>
+                <Image src={war} size='small' wrapped ui={false} />
+                <Card.Content>
+                <Card.Header>War Card Game</Card.Header>
+                (Front-End) 
+                <p>A War playing card variant with a retro game theme.</p>
+                <Card.Description>
+                    Technologies Used:
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                    </ul>
+                </Card.Description>
+                    <h3>
+                        <a href='http://war-were-declared-4.surge.sh/' target="_blank">
+                        <Button size='large' color='yellow'>
+                            <Icon size='large' name='power off'/>View Project
+                        </Button> 
+                        </a>
+                        <br></br>
+                        <br></br>
+                        <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
+                        <Button size='large'>
+                            <Icon size='large' name='github square'/>Github Repo
+                        </Button> 
+                        </a>
+                    </h3>
+                </Card.Content>
+            </Card>
+            </div>
+            <div className="column">
+
+           
+            <Card centered>
                 <Image src={dicedex} wrapped ui={false} />
                 <Card.Content>
                 <Card.Header>DiceDex: Tabletop Tracker</Card.Header>
@@ -181,13 +188,13 @@ const Project = () => {
                         </a>
                     </h3>
                 </Card.Content>
-            </Card> */}
-            
-            
+            </Card>
+           
+
+            </div>
             </Grid.Row>
             </Grid>
-            </Item.Group>
-            
+            </div>
             <br></br>
             <br></br>
         </div>
