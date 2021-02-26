@@ -42,6 +42,7 @@ class App extends Component {
         <div ref={this.contextRef}>
         <Sticky context={this.contextRef}>
           <Menu 
+          size='massive'
           attached='top'
           stackable
           >

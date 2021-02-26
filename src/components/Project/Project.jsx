@@ -17,23 +17,61 @@ const Project = () => {
               </Header>
             </Divider>
 
-            
             <Item.Group>
             <Grid columns={2} divided>
                 <Grid.Row verticalAlign='middle'>
-                    <Grid.Column>    
-                        
+                    
+                    <Grid.Column>   
                         <Card centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={war} size='large' wrapped ui={false} />
                             </Card.Content>
                         </Card>
-                    </Grid.Column>
+                    {/* </Grid.Column>
 
-                    <Grid.Column>
+                    <Grid.Column> */}
                         <Card centered size='large'>
                             <Card.Content>
                                 <Item.Header>War Card Game (Front-End)</Item.Header>
+                                <Item.Description>
+                                    <p>A War playing card variant with a retro game theme.</p>
+                                    <h4>Technologies Used:</h4>
+                                        <p>- HTML5</p>
+                                        <p>- CSS3</p>
+                                        <p>- JavaScript</p>
+                                        <p>- Bootstrap</p>
+                                </Item.Description>
+                                    <h3>
+                                        <a href='http://war-were-declared-4.surge.sh/' target="_blank">
+                                        <Button size='large' color='yellow'>
+                                            <Icon size='large' name='power off'/>View Project
+                                        </Button> 
+                                        </a>
+                                        <br></br>
+                                        <br></br>
+                                        <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
+                                        <Button size='large'>
+                                            <Icon size='large' name='github square'/>Github Repo
+                                        </Button> 
+                                        </a>
+                                    </h3>
+                            </Card.Content>
+                        </Card>
+                    </Grid.Column>
+                    
+                    <Grid.Column> 
+                    <Card centered size='large' stackable>
+                            <Card.Content>
+                                <Item.Image src={dicedex} size='large' wrapped ui={false} />
+                            </Card.Content>
+                        </Card>
+                    {/* </Grid.Column>
+
+                    <Grid.Column> */}
+                        <Card centered size='large'>
+                            <Card.Content>
+                                <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
+                                </Item.Header>
                                 <Item.Description>
                                     <p>A War playing card variant with a retro game theme.</p>
                                     <h4>Technologies Used:</h4>
