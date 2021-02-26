@@ -128,7 +128,7 @@ class App extends Component {
           </main>
           <br></br>
           <Divider />
-            <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020</div>
+            <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2021</div>
           <br></br>
         </Segment>
         </div>
