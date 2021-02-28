@@ -35,6 +35,12 @@ const Project = () => {
                                         <p>- CSS3</p>
                                         <p>- JavaScript</p>
                                         <p>- Bootstrap</p>
+                                        <br></br>
+                                        <br></br>
+                                        <br></br>
+                                        <br></br>
+                                        <br></br>
+                                        <br></br>
                                 </Item.Description>
                                     <h3>
                                         <a href='http://war-were-declared-4.surge.sh/' target="_blank">
@@ -141,7 +147,7 @@ const Project = () => {
                                 <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
                                 </Item.Header>
                                 <Item.Description>
-                                    <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". Level them up as you see fit.</p>
+                                    <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". </p>
                                     <h4>Technologies Used:</h4>
                                         <p>- HTML5</p>
                                         <p>- CSS3</p>
@@ -149,6 +155,7 @@ const Project = () => {
                                         <p>- Django</p>
                                         <p>- PostgreSQL</p>
                                         <p>- Bootstrap</p>
+                                        <br></br>
                                 </Item.Description>
                                     <h3>
                                         <a href='https://repbucket-04.herokuapp.com/' target="_blank">
