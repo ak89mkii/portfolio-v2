@@ -10,6 +10,7 @@ import repbucket from '../../Img/repbucket.png'
 const Project = () => {
     return (
         <div>
+            <Card.Group centered items/>
             <Divider horizontal>
               <Header as='h2'>
                 <Icon name='file code' />
@@ -18,7 +19,7 @@ const Project = () => {
             </Divider>
 
             {/* Row 01*/}
-            <Item.Group>
+            <Item.Group centered>
             <Grid columns={2} divided stackable>
                 <Grid.Row verticalAlign='middle'>
                     
@@ -100,12 +101,13 @@ const Project = () => {
             </Item.Group>
 
             {/* Row 02 */}
-            <Item.Group>
-            <Grid columns={2} divided stackable>
+            <Card.Group itemsPerRow={2}>
+            {/* <Item.Group> */}
+            {/* <Grid columns={2} divided stackable>
                 <Grid.Row verticalAlign='middle'>
                     
-                    <Grid.Column>   
-                        <Card fluid centered size='large' stackable>
+                    <Grid.Column>    */}
+                        <Card centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={paj} size='large' wrapped ui={false} />
                                 <Divider/>
@@ -137,10 +139,10 @@ const Project = () => {
                                     </h3>
                             </Card.Content>
                         </Card>
-                    </Grid.Column>
+                    {/* </Grid.Column>
                     
-                    <Grid.Column> 
-                    <Card fluid centered size='large' stackable>
+                    <Grid.Column>  */}
+                    <Card centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={repbucket} size='large' wrapped ui={false} />
                                 <Divider/>
@@ -173,10 +175,11 @@ const Project = () => {
                                     </h3>
                             </Card.Content>
                         </Card>
-                    </Grid.Column>
+                    {/* </Grid.Column>
                 </Grid.Row>
-            </Grid>
-            </Item.Group>
+            </Grid> */}
+            {/* </Item.Group> */}
+            </Card.Group>
             
             <br></br>
             <br></br>
