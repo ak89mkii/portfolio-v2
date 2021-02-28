@@ -19,11 +19,8 @@ const Project = () => {
             </Divider>
 
             {/* Row 01*/}
-            <Item.Group centered>
-            <Grid columns={2} divided stackable>
-                <Grid.Row verticalAlign='middle'>
-                    
-                    <Grid.Column>   
+            <Card.Group itemsPerRow={2}>
+
                         <Card fluid centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={war} size='large' wrapped ui={false} />
@@ -59,9 +56,7 @@ const Project = () => {
                                     </h3>
                             </Card.Content>
                         </Card>
-                    </Grid.Column>
                     
-                    <Grid.Column> 
                     <Card fluid centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={dicedex} size='large' wrapped ui={false} />
@@ -95,13 +90,9 @@ const Project = () => {
                                     </h3>
                             </Card.Content>
                         </Card>
-                    </Grid.Column>
-                </Grid.Row>
-            </Grid>
-            </Item.Group>
+                    
 
             {/* Row 02 */}
-            <Card.Group itemsPerRow={2}>
             {/* <Item.Group> */}
             {/* <Grid columns={2} divided stackable>
                 <Grid.Row verticalAlign='middle'>
