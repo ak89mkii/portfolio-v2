@@ -170,52 +170,6 @@ const Project = () => {
                 </Grid.Row>
             </Grid>
             </Item.Group>
-               
-            {/* 
-
-            
-            
-            </div>
-            <div className="column">
-
-            <Card centered>
-                <Image src={repbucket} wrapped ui={false} />
-                <Card.Content>
-                <Card.Header>RepBucket: Goals Tracker</Card.Header>
-                (CRUD) 
-                <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". Level them up as you see fit.</p>
-                <Card.Description>
-                    Technologies Used:
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Python 3</li>
-                        <li>Django</li>
-                        <li>PostgreSQL</li>
-                        <li>Bootstrap</li>
-                        <br></br>
-                        <br></br>
-                    </ul>
-                </Card.Description>
-                    <h3>
-                        <a href='https://repbucket-04.herokuapp.com/' target="_blank">
-                        <Button size='large' color='yellow'>
-                            <Icon size='large' name='power off'/>View Project
-                        </Button> 
-                        </a>
-                        <br></br>
-                        <br></br>
-                        <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank">
-                        <Button size='large'>
-                            <Icon size='large' name='github square'/>Github Repo
-                        </Button> 
-                        </a>
-                    </h3>
-                </Card.Content>
-            </Card> */}
-            
-            
-            
             
             <br></br>
             <br></br>
