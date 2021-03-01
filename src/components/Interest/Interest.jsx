@@ -14,6 +14,8 @@ const Interest = () => {
             </Divider>
             <h2>Programming and...</h2>
 
+            <Grid>
+            <Grid.Column mobile={16} tablet={20} computer={10}>
             <Segment placeholder >
                 <Grid columns={2} stackable textAlign='center'>
                     <Divider vertical></Divider>
@@ -45,6 +47,9 @@ const Interest = () => {
                     </Grid.Row>
                 </Grid>
             </Segment>
+
+            </Grid.Column>
+            </Grid>
             <br></br>
             <br></br>
         </div>

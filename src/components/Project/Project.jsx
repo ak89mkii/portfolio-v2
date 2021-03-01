@@ -18,6 +18,8 @@ const Project = () => {
               </Header>
             </Divider>
 
+            <Grid>
+            <Grid.Column mobile={16} tablet={20} computer={10}>
             <Card.Group itemsPerRow={2} stackable>
 
                 {/* Card 01 */}
@@ -223,6 +225,8 @@ const Project = () => {
                     </Card.Content>
                 </Card>
             </Card.Group>
+            </Grid.Column>
+            </Grid>
             
             <br></br>
             <br></br>

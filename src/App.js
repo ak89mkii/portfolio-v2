@@ -47,7 +47,7 @@ class App extends Component {
           attached='top'
           stackable
           >
-          <a href='#mission'>
+            <a href='#mission'>
             <Menu.Item
               name='Mission'
               onClick={this.handleItemClick}

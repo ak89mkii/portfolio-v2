@@ -11,7 +11,9 @@ const Skill = () => {
         </Header>
       </Divider>
 
-      <Segment placeholder >
+      <Grid>
+      <Grid.Column mobile={16} tablet={20} computer={10}>
+      <Segment placeholder>
                 <Grid columns={2} stackable textAlign='center'>
                     <Divider vertical></Divider>
                     <Grid.Row verticalAlign='middle'>
@@ -31,7 +33,7 @@ const Skill = () => {
                             <List.Item as='li'>Researcher:</List.Item>
                             <p>Having majored in applied psychology during college, I have much research experience. I am particulary fond of investigating emerging technologies.  </p>
                             <List.Item as='li'>Continuous Learner:</List.Item>
-                            <p>An Army platoon Sergeant once told me that "you don't stop learning until the day you die", and that concept resonated with me. I am drawn by situations that allow me to learn and improve.  </p>
+                            <p>An Army platoon sergeant once told me that "you don't stop learning until the day you die", and that concept resonated with me. I am drawn by situations that allow me to learn and improve.  </p>
                         </List> 
 
                         </Grid.Column>
@@ -48,6 +50,9 @@ const Skill = () => {
               <Icon name='github' size='huge'/>
               <Icon name='node' size='huge'/>
             </Grid>
+
+      </Grid.Column>
+      </Grid>
         <br></br>
         <br></br>
       </div>
