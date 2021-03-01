@@ -84,41 +84,43 @@ const Project = () => {
                             </h3>
                     </Card.Content>
                 </Card>
-                    
-                        <Card centered size='large' stackable>
-                            <Card.Content>
-                                <Item.Image src={paj} size='large' wrapped ui={false} />
-                                <Divider/>
-                                <Item.Header>PAJ: Project Manager (Team Project, MERN)</Item.Header>
-                                <Item.Description>
-                                    <p>PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
-                                    <h4>Technologies Used:</h4>
-                                        <p>- HTML5</p>
-                                        <p>- CSS3</p>
-                                        <p>- React.js</p>
-                                        <p>- Express.js</p>
-                                        <p>- Node.js</p>
-                                        <p>- MongoDB</p>
-                                        <p>- Semantic UI React</p>
-                                </Item.Description>
-                                    <h3>
-                                        <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">
-                                        <Button size='large' color='yellow'>
-                                            <Icon size='large' name='power off'/>View Project
-                                        </Button> 
-                                        </a>
-                                        <br></br>
-                                        <br></br>
-                                        <a href='https://github.com/ak89mkii/PAJ' target="_blank">
-                                        <Button size='large'>
-                                            <Icon size='large' name='github square'/>Github Repo
-                                        </Button> 
-                                        </a>
-                                    </h3>
-                            </Card.Content>
-                        </Card>
+                                
+                {/* Card 03 */}
+                <Card centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Image src={paj} size='large' wrapped ui={false} />
+                        <Divider/>
+                        <Item.Header>PAJ: Project Manager (Team Project, MERN)</Item.Header>
+                        <Item.Description>
+                            <p>PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
+                            <h4>Technologies Used:</h4>
+                                <p>- HTML5</p>
+                                <p>- CSS3</p>
+                                <p>- React.js</p>
+                                <p>- Express.js</p>
+                                <p>- Node.js</p>
+                                <p>- MongoDB</p>
+                                <p>- Semantic UI React</p>
+                        </Item.Description>
+                            <h3>
+                                <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/PAJ' target="_blank">
+                                <Button size='large'>
+                                    <Icon size='large' name='github square'/>Github Repo
+                                </Button> 
+                                </a>
+                            </h3>
+                    </Card.Content>
+                </Card>
                  
-                    <Card centered size='large' stackable>
+                {/* Card 04 */}  
+                <Card centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={repbucket} size='large' wrapped ui={false} />
                                 <Divider/>
