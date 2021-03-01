@@ -5,6 +5,7 @@ import war from '../../Img/war.png'
 import dicedex from '../../Img/dicedex.png'
 import paj from '../../Img/paj.png'
 import repbucket from '../../Img/repbucket.png'
+import codecstory from '../../Img/codec_story.png'
 
 
 const Project = () => {
@@ -124,7 +125,7 @@ const Project = () => {
                     <Card.Content>
                         <Item.Image src={repbucket} size='large' wrapped ui={false} />
                         <Divider/>
-                        <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
+                        <Item.Header>RepBucket: Goals Tracker (CRUD)
                         </Item.Header>
                         <Item.Description>
                             <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". </p>
@@ -153,6 +154,40 @@ const Project = () => {
                     </Card.Content>
                 </Card>
             </Card.Group>
+
+            {/* Card 05 */}
+            <Card fluid centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Image src={codecstory} size='large' wrapped ui={false} />
+                        <Divider/>
+                        <Item.Header>Codec Story: A Text Adventure Game (DEMO)</Item.Header>
+                        <Item.Description>
+                            <p>Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success.</p>
+                            <p>(Character Image Placeholders Used)</p>
+                            <h4>Technologies Used:</h4>
+                                <p>- HTML5</p>
+                                <p>- CSS3</p>
+                                <p>- Python 3</p>
+                                <p>- Flask</p>
+                                <p>- Gunicorn</p>
+                                <p>- Bootstrap</p>
+                        </Item.Description>
+                            <h3>
+                                <a href='https://codecu.herokuapp.com/' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/codecu' target="_blank">
+                                <Button size='large'>
+                                    <Icon size='large' name='github square'/>Github Repo
+                                </Button> 
+                                </a>
+                                </h3>
+                    </Card.Content>
+                </Card>
             
             <br></br>
             <br></br>
