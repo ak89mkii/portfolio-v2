@@ -33,12 +33,6 @@ const Project = () => {
                                         <p>- CSS3</p>
                                         <p>- JavaScript</p>
                                         <p>- Bootstrap</p>
-                                        <br></br>
-                                        <br></br>
-                                        <br></br>
-                                        <br></br>
-                                        <br></br>
-                                        <br></br>
                                 </Item.Description>
                                     <h3>
                                         <a href='http://war-were-declared-4.surge.sh/' target="_blank">
@@ -91,13 +85,6 @@ const Project = () => {
                             </Card.Content>
                         </Card>
                     
-
-            {/* Row 02 */}
-            {/* <Item.Group> */}
-            {/* <Grid columns={2} divided stackable>
-                <Grid.Row verticalAlign='middle'>
-                    
-                    <Grid.Column>    */}
                         <Card centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={paj} size='large' wrapped ui={false} />
@@ -130,9 +117,7 @@ const Project = () => {
                                     </h3>
                             </Card.Content>
                         </Card>
-                    {/* </Grid.Column>
-                    
-                    <Grid.Column>  */}
+                 
                     <Card centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={repbucket} size='large' wrapped ui={false} />
@@ -166,10 +151,6 @@ const Project = () => {
                                     </h3>
                             </Card.Content>
                         </Card>
-                    {/* </Grid.Column>
-                </Grid.Row>
-            </Grid> */}
-            {/* </Item.Group> */}
             </Card.Group>
             
             <br></br>
