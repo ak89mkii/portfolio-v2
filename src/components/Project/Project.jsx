@@ -153,7 +153,6 @@ const Project = () => {
                             </h3>
                     </Card.Content>
                 </Card>
-            </Card.Group>
 
             {/* Card 05 */}
             <Card fluid centered size='large' stackable>
@@ -188,6 +187,42 @@ const Project = () => {
                                 </h3>
                     </Card.Content>
                 </Card>
+
+                {/* Card 06 */}  
+                <Card centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Image src={repbucket} size='large' wrapped ui={false} />
+                        <Divider/>
+                        <Item.Header>iContextuall: Browser GUI for Twilio SMS (Template / Guide)
+                        </Item.Header>
+                        <Item.Description>
+                            <p>A basic browser-based GUI template for the Twilio SMS Python platform. You must add your own credentials (account_sid, auth_token, phone number, etc.). Links to the Twilio docs and other references are linked below. NOT DEPLOY READY.
+                            </p>
+                            <h4>Technologies Used:</h4>
+                                <p>- HTML5</p>
+                                <p>- CSS3</p>
+                                <p>- Python 3</p>
+                                <p>- Flask</p>
+                                <p>- Twilio Python (Helper Library)</p>
+                                <p>- Bootstrap</p>
+                        </Item.Description>
+                            <h3>
+                                <a href='https://repbucket-04.herokuapp.com/' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank">
+                                <Button size='large'>
+                                    <Icon size='large' name='github square'/>Github Repo
+                                </Button> 
+                                </a>
+                            </h3>
+                    </Card.Content>
+                </Card>
+            </Card.Group>
             
             <br></br>
             <br></br>
