@@ -10,7 +10,6 @@ import repbucket from '../../Img/repbucket.png'
 const Project = () => {
     return (
         <div>
-            <Card.Group centered items/>
             <Divider horizontal>
               <Header as='h2'>
                 <Icon name='file code' />
@@ -19,7 +18,8 @@ const Project = () => {
             </Divider>
 
             <Card.Group itemsPerRow={2} stackable>
-                {/* Row 01*/}
+
+                {/* Card 01 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
                         <Item.Image src={war} size='large' wrapped ui={false} />
@@ -50,7 +50,8 @@ const Project = () => {
                     </Card.Content>
                 </Card>
                     
-                    <Card fluid centered size='large' stackable>
+                {/* Card 02 */}
+                <Card fluid centered size='large' stackable>
                             <Card.Content>
                                 <Item.Image src={dicedex} size='large' wrapped ui={false} />
                                 <Divider/>
