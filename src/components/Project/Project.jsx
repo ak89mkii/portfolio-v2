@@ -121,38 +121,37 @@ const Project = () => {
                  
                 {/* Card 04 */}  
                 <Card centered size='large' stackable>
-                            <Card.Content>
-                                <Item.Image src={repbucket} size='large' wrapped ui={false} />
-                                <Divider/>
-                                <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
-                                </Item.Header>
-                                <Item.Description>
-                                    <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". </p>
-                                    <h4>Technologies Used:</h4>
-                                        <p>- HTML5</p>
-                                        <p>- CSS3</p>
-                                        <p>- Python 3</p>
-                                        <p>- Django</p>
-                                        <p>- PostgreSQL</p>
-                                        <p>- Bootstrap</p>
-                                        <br></br>
-                                </Item.Description>
-                                    <h3>
-                                        <a href='https://repbucket-04.herokuapp.com/' target="_blank">
-                                        <Button size='large' color='yellow'>
-                                            <Icon size='large' name='power off'/>View Project
-                                        </Button> 
-                                        </a>
-                                        <br></br>
-                                        <br></br>
-                                        <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank">
-                                        <Button size='large'>
-                                            <Icon size='large' name='github square'/>Github Repo
-                                        </Button> 
-                                        </a>
-                                    </h3>
-                            </Card.Content>
-                        </Card>
+                    <Card.Content>
+                        <Item.Image src={repbucket} size='large' wrapped ui={false} />
+                        <Divider/>
+                        <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
+                        </Item.Header>
+                        <Item.Description>
+                            <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". </p>
+                            <h4>Technologies Used:</h4>
+                                <p>- HTML5</p>
+                                <p>- CSS3</p>
+                                <p>- Python 3</p>
+                                <p>- Django</p>
+                                <p>- PostgreSQL</p>
+                                <p>- Bootstrap</p>
+                        </Item.Description>
+                            <h3>
+                                <a href='https://repbucket-04.herokuapp.com/' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank">
+                                <Button size='large'>
+                                    <Icon size='large' name='github square'/>Github Repo
+                                </Button> 
+                                </a>
+                            </h3>
+                    </Card.Content>
+                </Card>
             </Card.Group>
             
             <br></br>
