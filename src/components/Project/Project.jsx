@@ -52,38 +52,38 @@ const Project = () => {
                     
                 {/* Card 02 */}
                 <Card fluid centered size='large' stackable>
-                            <Card.Content>
-                                <Item.Image src={dicedex} size='large' wrapped ui={false} />
-                                <Divider/>
-                                <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
-                                </Item.Header>
-                                <Item.Description>
-                                    <p>DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
-                                    <h4>Technologies Used:</h4>
-                                        <p>- HTML5</p>
-                                        <p>- CSS3</p>
-                                        <p>- Express.js</p>
-                                        <p>- Node.js</p>
-                                        <p>- MongoDB</p>
-                                        <p>- Mongoose JS</p>
-                                        <p>- Bootstrap</p>
-                                </Item.Description>
-                                    <h3>
-                                        <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
-                                        <Button size='large' color='yellow'>
-                                            <Icon size='large' name='power off'/>View Project
-                                        </Button> 
-                                        </a>
-                                        <br></br>
-                                        <br></br>
-                                        <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank">
-                                        <Button size='large'>
-                                            <Icon size='large' name='github square'/>Github Repo
-                                        </Button> 
-                                        </a>
-                                    </h3>
-                            </Card.Content>
-                        </Card>
+                    <Card.Content>
+                        <Item.Image src={dicedex} size='large' wrapped ui={false} />
+                        <Divider/>
+                        <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
+                        </Item.Header>
+                        <Item.Description>
+                            <p>DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
+                            <h4>Technologies Used:</h4>
+                                <p>- HTML5</p>
+                                <p>- CSS3</p>
+                                <p>- Express.js</p>
+                                <p>- Node.js</p>
+                                <p>- MongoDB</p>
+                                <p>- Mongoose JS</p>
+                                <p>- Bootstrap</p>
+                        </Item.Description>
+                            <h3>
+                                <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank">
+                                <Button size='large'>
+                                    <Icon size='large' name='github square'/>Github Repo
+                                </Button> 
+                                </a>
+                            </h3>
+                    </Card.Content>
+                </Card>
                     
                         <Card centered size='large' stackable>
                             <Card.Content>
