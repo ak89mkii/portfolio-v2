@@ -18,38 +18,37 @@ const Project = () => {
               </Header>
             </Divider>
 
-            {/* Row 01*/}
-            <Card.Group itemsPerRow={2}>
-
-                        <Card fluid centered size='large' stackable>
-                            <Card.Content>
-                                <Item.Image src={war} size='large' wrapped ui={false} />
-                                <Divider/>
-                                <Item.Header>War Card Game (Front-End)</Item.Header>
-                                <Item.Description>
-                                    <p>A War playing card variant with a retro game theme.</p>
-                                    <h4>Technologies Used:</h4>
-                                        <p>- HTML5</p>
-                                        <p>- CSS3</p>
-                                        <p>- JavaScript</p>
-                                        <p>- Bootstrap</p>
-                                </Item.Description>
-                                    <h3>
-                                        <a href='http://war-were-declared-4.surge.sh/' target="_blank">
-                                        <Button size='large' color='yellow'>
-                                            <Icon size='large' name='power off'/>View Project
-                                        </Button> 
-                                        </a>
-                                        <br></br>
-                                        <br></br>
-                                        <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
-                                        <Button size='large'>
-                                            <Icon size='large' name='github square'/>Github Repo
-                                        </Button> 
-                                        </a>
-                                    </h3>
-                            </Card.Content>
-                        </Card>
+            <Card.Group itemsPerRow={2} stackable>
+                {/* Row 01*/}
+                <Card fluid centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Image src={war} size='large' wrapped ui={false} />
+                        <Divider/>
+                        <Item.Header>War Card Game (Front-End)</Item.Header>
+                        <Item.Description>
+                            <p>A War playing card variant with a retro game theme.</p>
+                            <h4>Technologies Used:</h4>
+                                <p>- HTML5</p>
+                                <p>- CSS3</p>
+                                <p>- JavaScript</p>
+                                <p>- Bootstrap</p>
+                        </Item.Description>
+                            <h3>
+                                <a href='http://war-were-declared-4.surge.sh/' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
+                                <Button size='large'>
+                                    <Icon size='large' name='github square'/>Github Repo
+                                </Button> 
+                                </a>
+                                </h3>
+                    </Card.Content>
+                </Card>
                     
                     <Card fluid centered size='large' stackable>
                             <Card.Content>
