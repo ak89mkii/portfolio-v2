@@ -6,7 +6,7 @@ import dicedex from '../../Img/dicedex.png'
 import paj from '../../Img/paj.png'
 import repbucket from '../../Img/repbucket.png'
 import codecstory from '../../Img/codec_story.png'
-
+import icontextuall from '../../Img/icontextuall.png'
 
 const Project = () => {
     return (
@@ -193,7 +193,7 @@ const Project = () => {
                 {/* Card 06 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={repbucket} size='large' wrapped ui={false} />
+                        <Item.Image src={icontextuall} size='large' wrapped ui={false} />
                         <Divider/>
                         <Item.Header>iContextuall: Browser GUI for Twilio SMS (Template / Guide)
                         </Item.Header>
