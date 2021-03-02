@@ -198,7 +198,7 @@ const Project = () => {
                         <Item.Header>iContextuall: Browser GUI for Twilio SMS (Template / Guide)
                         </Item.Header>
                         <Item.Description>
-                            <p>A basic browser-based GUI template for the Twilio SMS Python platform. You must add your own credentials (account_sid, auth_token, phone number, etc.). Links to the Twilio docs and other references are linked below. NOT DEPLOY READY.
+                            <p>If you are using Twilio SMS Python and are tired of using the terminal to interact with and send messages, or worse, hard-coding the messages directly into your program, iContextuall is a simple graphical user interface (GUI) template that enables users to interact from a browser.
                             </p>
                             <h4>Technologies Used:</h4>
                                 <p>- HTML5</p>
