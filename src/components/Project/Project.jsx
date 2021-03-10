@@ -58,7 +58,7 @@ const Project = () => {
                     <Card.Content>
                         <Item.Image src={dicedex} size='large' wrapped ui={false} />
                         <Divider/>
-                        <Item.Header>DiceDex: Tabletop Tracker(RESTful, CRD)
+                        <Item.Header>DiceDex: Tabletop Tracker (RESTful, CRD)
                         </Item.Header>
                         <Item.Description>
                             <p>DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
@@ -70,6 +70,7 @@ const Project = () => {
                                 <p>- MongoDB</p>
                                 <p>- Mongoose JS</p>
                                 <p>- Bootstrap</p>
+                                <p>- Google OAuth</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
@@ -93,7 +94,7 @@ const Project = () => {
                     <Card.Content>
                         <Item.Image src={paj} size='large' wrapped ui={false} />
                         <Divider/>
-                        <Item.Header>PAJ: Project Manager (Team Project, MERN)</Item.Header>
+                        <Item.Header>PAJ: Project Manager (Team Project, MERN stack, CRUD)</Item.Header>
                         <Item.Description>
                             <p>PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
                             <h4>Technologies Used:</h4>
@@ -104,6 +105,7 @@ const Project = () => {
                                 <p>- Node.js</p>
                                 <p>- MongoDB</p>
                                 <p>- Semantic UI React</p>
+                                <p>- Authentication</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">
@@ -127,7 +129,7 @@ const Project = () => {
                     <Card.Content>
                         <Item.Image src={repbucket} size='large' wrapped ui={false} />
                         <Divider/>
-                        <Item.Header>RepBucket: Goals Tracker (CRUD)
+                        <Item.Header>RepBucket: Goals Tracker (RESTful, CRUD)
                         </Item.Header>
                         <Item.Description>
                             <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". </p>
@@ -138,6 +140,7 @@ const Project = () => {
                                 <p>- Django</p>
                                 <p>- PostgreSQL</p>
                                 <p>- Bootstrap</p>
+                                <p>- Django Built-in Auth</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://repbucket-04.herokuapp.com/' target="_blank">
