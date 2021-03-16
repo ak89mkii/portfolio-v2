@@ -94,7 +94,7 @@ const Project = () => {
                     <Card.Content>
                         <Item.Image src={paj} size='large' wrapped ui={false} />
                         <Divider/>
-                        <Item.Header>PAJ: Project Manager (Team Project, MERN stack, CRUD)</Item.Header>
+                        <Item.Header>PAJ: Project Manager (Team Project, MERN Stack, CRUD)</Item.Header>
                         <Item.Description>
                             <p>PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
                             <h4>Technologies Used:</h4>
