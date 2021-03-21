@@ -71,6 +71,7 @@ const Project = () => {
                                 <p>- Mongoose JS</p>
                                 <p>- Bootstrap</p>
                                 <p>- Google OAuth</p>
+                                <p>- Heroku</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
@@ -106,6 +107,7 @@ const Project = () => {
                                 <p>- MongoDB</p>
                                 <p>- Semantic UI React</p>
                                 <p>- Authentication</p>
+                                <p>- Heroku</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">
@@ -141,6 +143,7 @@ const Project = () => {
                                 <p>- PostgreSQL</p>
                                 <p>- Bootstrap</p>
                                 <p>- Django Built-in Auth</p>
+                                <p>- Heroku</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://repbucket-04.herokuapp.com/' target="_blank">
@@ -175,6 +178,7 @@ const Project = () => {
                                 <p>- Flask</p>
                                 <p>- Gunicorn</p>
                                 <p>- Bootstrap</p>
+                                <p>- Heroku</p>
                         </Item.Description>
                             <h3>
                                 <a href='https://codecu.herokuapp.com/' target="_blank">
@@ -212,13 +216,13 @@ const Project = () => {
                                 <p>- Bootstrap</p>
                         </Item.Description>
                             <h3>
-                                {/* <a href='https://repbucket-04.herokuapp.com/' target="_blank">
-                                <Button size='large' color='yellow'>
-                                    <Icon size='large' name='power off'/>View Project
+                                <a href='https://ak89mkii.medium.com/build-a-simple-gui-for-twilio-sms-using-flask-not-deployment-ready-785e1df2e8a0' target="_blank">
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name="medium icon"/>View Article
                                 </Button> 
-                                </a> */}
-                                {/* <br></br>
-                                <br></br> */}
+                                </a>
+                                <br></br>
+                                <br></br>
                                 <a href='https://github.com/ak89mkii/iContextuall' target="_blank">
                                 <Button size='large'>
                                     <Icon size='large' name='github square'/>Github Repo

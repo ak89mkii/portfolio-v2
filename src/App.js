@@ -43,9 +43,9 @@ class App extends Component {
         <Sticky context={this.contextRef}>
           <Menu 
           inverted
-          size='massive'
+          size='large'
           attached='top'
-          stackable
+          // stackable
           >
             <a href='#mission'>
             <Menu.Item
@@ -73,7 +73,7 @@ class App extends Component {
             </a>
             <a href='#contact'>
              <Menu.Item
-              name='Contact Info'
+              name='Contact'
               onClick={this.handleItemClick}
             />
             </a>
