@@ -23,7 +23,7 @@ const Skill = () => {
                             <List.Item as='li'>Critical Thinking:</List.Item>
                             <p>As a novice tabletop game designer, inventor, and entrepreneur, I gravitate towards situations that require deep thought, critical thinking, and problem solving. </p>
                             <List.Item as='li'>Teamwork:</List.Item>
-                            <p>Having served in the military, I have an extensive amount of experience working as part of a team, where most siturations demanded a collective effort in order to persevere. </p>
+                            <p>Having served in the military, I have an extensive amount of experience working as part of a team, where most situations demanded a collective effort in order to persevere. </p>
                         </List>
 
                         </Grid.Column>
