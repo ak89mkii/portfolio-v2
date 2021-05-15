@@ -14,7 +14,7 @@ import ReactHowler from 'react-howler'
 
 class App extends Component {
     state = {
-      activeItem: 'Mission Statement',
+      activeItem: 'Mission',
       on: false,
       onMusic: false
     }
@@ -36,13 +36,17 @@ class App extends Component {
   }
 
     render() {
+      const { activeItem } = this.state
       return (
         <div>
         <br></br>
         <div ref={this.contextRef}>
         <Sticky context={this.contextRef}>
-          <Menu 
+        <Segment inverted>
+          <Menu
           inverted
+          pointing
+          secondary
           size='large'
           attached='top'
           // stackable
@@ -50,47 +54,53 @@ class App extends Component {
             <a href='#mission'>
             <Menu.Item
               name='Mission'
+              active={activeItem === 'Mission'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#projects'>
             <Menu.Item
               name='Projects'
+              active={activeItem === 'Projects'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#skills'>
             <Menu.Item
               name='Skills'
+              active={activeItem === 'Skills'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#interests'>
              <Menu.Item
               name='Interests'
+              active={activeItem === 'Interests'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#contact'>
              <Menu.Item
               name='Contact'
+              active={activeItem === 'Contact'}
               onClick={this.handleItemClick}
             />
             </a>
             </Menu>
+          </Segment>
           </Sticky>
           <Segment attached='bottom'>
-            <div>
+            <div id='mission'>
               <Intro/>
             </div>
-             <br></br>
-             <br></br>
+            <br></br>
+            <br></br>
           <main>
-            <div id='mission'>
+            <div id='projects'>
             <Statement className='Statement'
             />
             </div>
-            <div id='projects'>
+            <div>
             <Project className='Project'
             />
             </div>

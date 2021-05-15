@@ -25,19 +25,24 @@ const Project = () => {
                 {/* Card 01 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={war} size='large' wrapped ui={false} />
+                        <Item.Header><h1 className='card'>War Card Game (Front-End)</h1>
+                        </Item.Header>
+                        <Divider />
+                        <div className='photo'>
+                            <Item.Image src={war} size='large' wrapped ui={false} />
+                        </div>
                         <Divider/>
-                        <Item.Header>War Card Game (Front-End)</Item.Header>
                         <Item.Description>
-                            <p>A War playing card variant with a retro game theme.</p>
-                            <h4>Technologies Used:</h4>
-                                <p>- HTML5</p>
-                                <p>- CSS3</p>
-                                <p>- JavaScript</p>
-                                <p>- Bootstrap</p>
+                            <p><h3>Description:</h3>A War playing card variant with a retro game theme.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>N/A</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>surge.sh</p>
                         </Item.Description>
-                            <h3>
-                                <a href='http://war-were-declared-4.surge.sh/' target="_blank">
+                        <Divider/>
+                            <a href='http://war-were-declared-4.surge.sh/' target="_blank">
                                 <Button size='large' color='yellow'>
                                     <Icon size='large' name='power off'/>View Project
                                 </Button> 
@@ -45,34 +50,33 @@ const Project = () => {
                                 <br></br>
                                 <br></br>
                                 <a href='https://github.com/ak89mkii/war-project-01' target="_blank">
-                                <Button size='large'>
-                                    <Icon size='large' name='github square'/>Github Repo
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                                 </Button> 
-                                </a>
-                                </h3>
+                            </a>
                     </Card.Content>
                 </Card>
                     
                 {/* Card 02 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={dicedex} size='large' wrapped ui={false} />
-                        <Divider/>
-                        <Item.Header>DiceDex: Tabletop Tracker (RESTful, CRD)
+                        <Item.Header><h1 className='card'>DiceDex: Tabletop Tracker (RESTful, CRD)</h1>
                         </Item.Header>
+                        <Divider />
+                        <div className='photo'>
+                            <Item.Image src={dicedex} size='large' wrapped ui={false} />
+                        </div>
+                        <Divider/>
                         <Item.Description>
-                            <p>DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
-                            <h4>Technologies Used:</h4>
-                                <p>- HTML5</p>
-                                <p>- CSS3</p>
-                                <p>- Express.js</p>
-                                <p>- Node.js</p>
-                                <p>- MongoDB</p>
-                                <p>- Mongoose JS</p>
-                                <p>- Bootstrap</p>
-                                <p>- Google OAuth</p>
-                                <p>- Heroku</p>
+                            <p><h3>Description:</h3>DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database) | Mongoose</p>
+                                <p><h4>Authentication:</h4>Google OAuth</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
                         </Item.Description>
+                        <Divider/>
                             <h3>
                                 <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
                                 <Button size='large' color='yellow'>
@@ -82,8 +86,8 @@ const Project = () => {
                                 <br></br>
                                 <br></br>
                                 <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank">
-                                <Button size='large'>
-                                    <Icon size='large' name='github square'/>Github Repo
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                                 </Button> 
                                 </a>
                             </h3>

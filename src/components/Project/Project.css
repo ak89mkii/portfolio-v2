@@ -1,0 +1,15 @@
+.card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
