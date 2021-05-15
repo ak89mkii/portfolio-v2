@@ -19,13 +19,13 @@ const Project = () => {
             </Divider>
 
             <Grid>
-            <Grid.Column mobile={16} tablet={20} computer={10}>
+            <Grid.Column computer={14}>
             <Card.Group itemsPerRow={2} stackable>
 
                 {/* Card 01 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><h1 className='card'>War Card Game (Front-End)</h1>
+                        <Item.Header><p className='card'><h1>War Card Game </h1>(Front-End)</p>
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
@@ -33,7 +33,7 @@ const Project = () => {
                         </div>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>A War playing card variant with a retro game theme.</p>
+                            <p><h3>Description:</h3>(Front-End) | A War playing card variant with a retro game theme.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>N/A</p>
@@ -60,7 +60,7 @@ const Project = () => {
                 {/* Card 02 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><h1 className='card'>DiceDex: Tabletop Tracker (RESTful, CRD)</h1>
+                        <Item.Header><p className='card'><h1>DiceDex: Tabletop Tracker</h1>(RESTful, CRD)</p>
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
@@ -68,7 +68,7 @@ const Project = () => {
                         </div>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
+                            <p><h3>Description:</h3> (RESTful, CRD) | DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database) | Mongoose</p>
@@ -97,11 +97,15 @@ const Project = () => {
                 {/* Card 03 */}
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={paj} size='large' wrapped ui={false} />
+                        <Item.Header><h1 className='card'>PAJ: Project Manager</h1>
+                        </Item.Header>
                         <Divider/>
-                        <Item.Header>PAJ: Project Manager (Team Project, MERN Stack, CRUD)</Item.Header>
+                        <div className='photo'>
+                            <Item.Image src={paj} size='large' wrapped ui={false} />
+                        </div>
+                        <Divider/>
                         <Item.Description>
-                            <p>PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
+                            <p>(Team Project, MERN Stack, CRUD) PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
                             <h4>Technologies Used:</h4>
                                 <p>- HTML5</p>
                                 <p>- CSS3</p>
