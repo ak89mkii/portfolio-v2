@@ -27,11 +27,10 @@ class Contact extends Component {
                         <List.Header>Email Address:<p>code@pondermint.com</p><p>        {this.state.copied ? <span style={{color: 'black'}}>- COPIED TO CLIPBOARD -</span> : null}</p></List.Header>
                         <CopyToClipboard text={this.state.value}
                             onCopy={() => this.setState({copied: true})}>
-                            <Button floated='right' icon color='red'>
-                                <Icon name='mail' color='white' />
+                            <Button floated='right' icon color='yellow'>
+                                <Icon name='copy' color='black' />
                             </Button>
                         </CopyToClipboard>
-                        code@pondermint.com
                         </List.Content>
                     </List.Item>
                     <List.Item>
