@@ -39,8 +39,8 @@ class Select extends Component {
         <Button
           size='huge'
           content={open ? 'Close Skill List' : 'Open Skill List'}
-          negative={open}
-          positive={!open}
+          black={open}
+          black={!open}
           onClick={this.handleClick}
         />
         </Grid> 
@@ -48,7 +48,7 @@ class Select extends Component {
         <br></br>
         <Grid centered>
           <Button 
-            color='blue' 
+            color='black' 
             size='huge'
             icon
             onClick={this.handleToggle02}
