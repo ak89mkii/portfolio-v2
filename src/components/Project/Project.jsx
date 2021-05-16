@@ -31,17 +31,7 @@ const Project = () => {
                         <div className='photo'>
                             <Item.Image src={war} size='large' wrapped ui={false} />
                         </div>
-                        <Divider/>
-                        <Item.Description>
-                            <p><h3>Description:</h3>(Front-End) | A War playing card variant with a retro game theme.</p>
-                            <h3>- Technologies Used -</h3>
-                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
-                                <p><h4>Back-End:</h4>N/A</p>
-                                <p><h4>Authentication:</h4>N/A</p>
-                                <p><h4>Version Control:</h4>Git | GitHub</p>
-                                <p><h4>Deployment:</h4>surge.sh</p>
-                        </Item.Description>
-                        <Divider/>
+                        <h3>
                             <a href='http://war-were-declared-4.surge.sh/' target="_blank">
                                 <Button size='large' color='yellow'>
                                     <Icon size='large' name='power off'/>View Project
@@ -54,6 +44,17 @@ const Project = () => {
                                     <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                                 </Button> 
                             </a>
+                        </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3>(Front-End) | A War playing card variant with a retro game theme.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>N/A</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>surge.sh</p>
+                        </Item.Description>
                     </Card.Content>
                 </Card>
                     
