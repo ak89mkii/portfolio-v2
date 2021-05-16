@@ -97,7 +97,7 @@ const Project = () => {
                 {/* Card 03 */}
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><h1 className='card'>PAJ: Project Manager</h1>
+                        <Item.Header><p className='card'><h1>PAJ: Project Manager</h1>(Team Project, RESTful, CRUD)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -105,20 +105,17 @@ const Project = () => {
                         </div>
                         <Divider/>
                         <Item.Description>
-                            <p>(Team Project, MERN Stack, CRUD) PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
-                            <h4>Technologies Used:</h4>
-                                <p>- HTML5</p>
-                                <p>- CSS3</p>
-                                <p>- React.js</p>
-                                <p>- Express.js</p>
-                                <p>- Node.js</p>
-                                <p>- MongoDB</p>
-                                <p>- Semantic UI React</p>
-                                <p>- Authentication</p>
-                                <p>- Heroku</p>
+                            <p><h3>Description:</h3> (Team Project, MERN Stack, CRUD) | PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | React.js | Semantic UI React (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database)</p>
+                                <p><h4>Authentication:</h4>Authentication</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
                         </Item.Description>
+                        <Divider/>
                             <h3>
-                                <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">
+                                <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">                                
                                 <Button size='large' color='yellow'>
                                     <Icon size='large' name='power off'/>View Project
                                 </Button> 
@@ -126,14 +123,14 @@ const Project = () => {
                                 <br></br>
                                 <br></br>
                                 <a href='https://github.com/ak89mkii/PAJ' target="_blank">
-                                <Button size='large'>
-                                    <Icon size='large' name='github square'/>Github Repo
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                                 </Button> 
                                 </a>
                             </h3>
                     </Card.Content>
                 </Card>
-                 
+                
                 {/* Card 04 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
