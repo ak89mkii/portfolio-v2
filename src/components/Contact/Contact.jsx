@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header, Icon, Segment, List, Card, Divider, Button } from 'semantic-ui-react'
-import Resume from '../../Img/resume.PDF'
+import Resume from '../../Img/resume02.PDF'
 
 
 const Contact = () => {
