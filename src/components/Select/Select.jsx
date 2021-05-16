@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Image, Icon, Button, Grid, Header,Segment, TransitionablePortal,} from 'semantic-ui-react'
-import Fight from '../../Img/fight.png'
+import Fight from '../../Img/fight02.png'
 import Music from '../../components/sounds/music.wav'
 import './Select.css'
 import ReactHowler from 'react-howler'
 
 class Select extends Component {
   state = {
-    onMusic: false,
+    onMusic: true,
     open: false
   }
 
@@ -53,7 +53,7 @@ class Select extends Component {
             icon
             onClick={this.handleToggle02}
           > 
-            <Icon centered name='volume up'/>
+            <Icon centered name='volume up'/> |
             <Icon centered name='volume off'/>
           </Button>
         </Grid>
@@ -63,9 +63,9 @@ class Select extends Component {
             style={{ left: '60%', position: 'fixed', top: '50%', zIndex: 1000 }}
           >
             <Header>Technology List:</Header>
-            <p>Row 01: HTML5, CSS3, JavaScript, Python 3</p>
+            <p>Row 01: HTML5, CSS3, JavaScript (ES2018), Python 3</p>
             <p>Row 02: React.js, Node.js, Express.js, Django, MongoDB, PostreSQL</p>
-            <p>Row 03: Materialize, Bootstrap, Semantic UI React, GitHub, Heroku, Coffee (the drink)</p>
+            <p>Row 03: Flask, Bootstrap, Semantic UI React, GitHub, Heroku, Coffee (the drink)</p>
           </Segment>
         </TransitionablePortal>
       </div>
