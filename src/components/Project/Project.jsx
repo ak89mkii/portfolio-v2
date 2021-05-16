@@ -169,7 +169,7 @@ const Project = () => {
                 {/* Card 05 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(DEMO)</p>
+                        <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(Demo)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -191,7 +191,7 @@ const Project = () => {
                         </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>(DEMO) | Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success. (Character Image Placeholders Used) </p>
+                            <p><h3>Description:</h3>(Demo) | Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success. (Character Image Placeholders Used) </p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Python 3 | Flask | Gunicorn</p>
