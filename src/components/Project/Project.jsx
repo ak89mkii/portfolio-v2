@@ -166,10 +166,10 @@ const Project = () => {
                     </Card.Content>
                 </Card>
 
-            {/* Card 05 */}
-            <Card fluid centered size='large' stackable>
+                {/* Card 05 */}
+                <Card fluid centered size='large' stackable>
                     <Card.Content>
-                    <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(DEMO)</p>
+                        <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(DEMO)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -185,7 +185,7 @@ const Project = () => {
                             <br></br>
                             <a href='https://github.com/ak89mkii/codecu' target="_blank">
                             <Button size='large' color='black'>
-                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                                <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                             </Button> 
                             </a>
                         </h3>
@@ -205,35 +205,36 @@ const Project = () => {
                 {/* Card 06 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={icontextuall} size='large' wrapped ui={false} />
-                        <Divider/>
-                        <Item.Header>iContextuall: Browser GUI for Twilio SMS (Template / Guide)
+                        <Item.Header><p className='card'><h1>iContextuall: Twilio SMS GUI</h1>(Template / Guide)</p>
                         </Item.Header>
+                        <Divider/>
+                        <div className='photo'>
+                            <Item.Image src={icontextuall} size='large' wrapped ui={false} />
+                        </div>
+                        <h3>
+                            <a href='https://ak89mkii.medium.com/build-a-simple-gui-for-twilio-sms-using-flask-not-deployment-ready-785e1df2e8a0' target="_blank">
+                            <Button size='large' color='black'>
+                                <Icon size='large' name="medium icon"/>View Article
+                            </Button> 
+                            </a>
+                            <br></br>
+                            <br></br>
+                            <a href='https://github.com/ak89mkii/iContextuall' target="_blank">
+                            <Button size='large' color='black'>
+                                <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                            </Button> 
+                            </a>
+                        </h3>
+                        <Divider/>
                         <Item.Description>
-                            <p>If you are using Twilio SMS Python and are tired of using the terminal to interact with and send messages, or worse, hard-coding the messages directly into your program, iContextuall is a simple graphical user interface (GUI) template that enables users to interact from a browser.
-                            </p>
-                            <h4>Technologies Used:</h4>
-                                <p>- HTML5</p>
-                                <p>- CSS3</p>
-                                <p>- Python 3</p>
-                                <p>- Flask</p>
-                                <p>- Twilio Python (Helper Library)</p>
-                                <p>- Bootstrap</p>
+                            <p><h3>Description:</h3>(DEMO) | Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success. (Character Image Placeholders Used) </p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Python 3 | Flask | Twilio Python (Helper Library)</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>N/A</p>
                         </Item.Description>
-                            <h3>
-                                <a href='https://ak89mkii.medium.com/build-a-simple-gui-for-twilio-sms-using-flask-not-deployment-ready-785e1df2e8a0' target="_blank">
-                                <Button size='large' color='black'>
-                                    <Icon size='large' name="medium icon"/>View Article
-                                </Button> 
-                                </a>
-                                <br></br>
-                                <br></br>
-                                <a href='https://github.com/ak89mkii/iContextuall' target="_blank">
-                                <Button size='large'>
-                                    <Icon size='large' name='github square'/>Github Repo
-                                </Button> 
-                                </a>
-                            </h3>
                     </Card.Content>
                 </Card>
             </Card.Group>
