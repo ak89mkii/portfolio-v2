@@ -18,7 +18,7 @@ const Contact = () => {
                 <List divided relaxed>
                 <List.Item>
                     <List.Content>
-                    <List.Header>Email Address:</List.Header>
+                    <List.Header>Email Address:<p>code@pondermint.com</p></List.Header>
                     <a href='mailto:code@pondermint.com'>
                     <Button floated='right' icon color='red'>
                         <Icon name='mail' color='white' />
