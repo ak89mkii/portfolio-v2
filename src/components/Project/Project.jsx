@@ -130,26 +130,27 @@ const Project = () => {
                             </h3>
                     </Card.Content>
                 </Card>
-                
+
                 {/* Card 04 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={repbucket} size='large' wrapped ui={false} />
-                        <Divider/>
-                        <Item.Header>RepBucket: Goals Tracker (RESTful, CRUD)
+                        <Item.Header><p className='card'><h1>RepBucket: Goals Tracker</h1>(RESTful, CRUD)</p>
                         </Item.Header>
+                        <Divider/>
+                        <div className='photo'>
+                            <Item.Image src={repbucket} size='large' wrapped ui={false} />
+                        </div>
+                        <Divider/>
                         <Item.Description>
-                            <p>RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree". </p>
-                            <h4>Technologies Used:</h4>
-                                <p>- HTML5</p>
-                                <p>- CSS3</p>
-                                <p>- Python 3</p>
-                                <p>- Django</p>
-                                <p>- PostgreSQL</p>
-                                <p>- Bootstrap</p>
-                                <p>- Django Built-in Auth</p>
-                                <p>- Heroku</p>
+                            <p><h3>Description:</h3> (RESTful, CRUD) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | Django | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Python 3 | Django | PostgreSQL (Database)</p>
+                                <p><h4>Authentication:</h4>Django Built-in Auth</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
                         </Item.Description>
+                        <Divider/>
                             <h3>
                                 <a href='https://repbucket-04.herokuapp.com/' target="_blank">
                                 <Button size='large' color='yellow'>
@@ -159,8 +160,8 @@ const Project = () => {
                                 <br></br>
                                 <br></br>
                                 <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank">
-                                <Button size='large'>
-                                    <Icon size='large' name='github square'/>Github Repo
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                                 </Button> 
                                 </a>
                             </h3>
