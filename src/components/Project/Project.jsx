@@ -67,18 +67,7 @@ const Project = () => {
                         <div className='photo'>
                             <Item.Image src={dicedex} size='large' wrapped ui={false} />
                         </div>
-                        <Divider/>
-                        <Item.Description>
-                            <p><h3>Description:</h3> (RESTful, CRD) | DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
-                            <h3>- Technologies Used -</h3>
-                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
-                                <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database) | Mongoose</p>
-                                <p><h4>Authentication:</h4>Google OAuth</p>
-                                <p><h4>Version Control:</h4>Git | GitHub</p>
-                                <p><h4>Deployment:</h4>Heroku</p>
-                        </Item.Description>
-                        <Divider/>
-                            <h3>
+                        <h3>
                                 <a href='https://tabletop-tracker-project-117.herokuapp.com/users' target="_blank">
                                 <Button size='large' color='yellow'>
                                     <Icon size='large' name='power off'/>View Project
@@ -92,6 +81,16 @@ const Project = () => {
                                 </Button> 
                                 </a>
                             </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3> (RESTful, CRD) | DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database) | Mongoose</p>
+                                <p><h4>Authentication:</h4>Google OAuth</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
+                        </Item.Description>
                     </Card.Content>
                 </Card>
                                 
@@ -104,18 +103,7 @@ const Project = () => {
                         <div className='photo'>
                             <Item.Image src={paj} size='large' wrapped ui={false} />
                         </div>
-                        <Divider/>
-                        <Item.Description>
-                            <p><h3>Description:</h3> (Team Project, MERN Stack, CRUD) | PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
-                            <h3>- Technologies Used -</h3>
-                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | React.js | Semantic UI React (CSS Framework)</p>
-                                <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database)</p>
-                                <p><h4>Authentication:</h4>Authentication</p>
-                                <p><h4>Version Control:</h4>Git | GitHub</p>
-                                <p><h4>Deployment:</h4>Heroku</p>
-                        </Item.Description>
-                        <Divider/>
-                            <h3>
+                        <h3>
                                 <a href='https://paj-03-project-hi-nu.herokuapp.com/' target="_blank">                                
                                 <Button size='large' color='yellow'>
                                     <Icon size='large' name='power off'/>View Project
@@ -129,6 +117,16 @@ const Project = () => {
                                 </Button> 
                                 </a>
                             </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3> (Team Project, MERN Stack, CRUD) | PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | React.js | Semantic UI React (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database)</p>
+                                <p><h4>Authentication:</h4>Authentication</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
+                        </Item.Description>
                     </Card.Content>
                 </Card>
 
@@ -141,17 +139,6 @@ const Project = () => {
                         <div className='photo'>
                             <Item.Image src={repbucket} size='large' wrapped ui={false} />
                         </div>
-                        <Divider/>
-                        <Item.Description>
-                            <p><h3>Description:</h3> (RESTful, CRUD) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
-                            <h3>- Technologies Used -</h3>
-                                <p><h4>Front-End:</h4>HTML5 | CSS3 | Django | Bootstrap (CSS Framework)</p>
-                                <p><h4>Back-End:</h4>Python 3 | Django | PostgreSQL (Database)</p>
-                                <p><h4>Authentication:</h4>Django Built-in Auth</p>
-                                <p><h4>Version Control:</h4>Git | GitHub</p>
-                                <p><h4>Deployment:</h4>Heroku</p>
-                        </Item.Description>
-                        <Divider/>
                             <h3>
                                 <a href='https://repbucket-04.herokuapp.com/' target="_blank">
                                 <Button size='large' color='yellow'>
@@ -166,41 +153,52 @@ const Project = () => {
                                 </Button> 
                                 </a>
                             </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3> (RESTful, CRUD) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | Django | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Python 3 | Django | PostgreSQL (Database)</p>
+                                <p><h4>Authentication:</h4>Django Built-in Auth</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
+                        </Item.Description>
                     </Card.Content>
                 </Card>
 
             {/* Card 05 */}
             <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Image src={codecstory} size='large' wrapped ui={false} />
+                    <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(DEMO)</p>
+                        </Item.Header>
                         <Divider/>
-                        <Item.Header>Codec Story: A Text Adventure Game (DEMO)</Item.Header>
+                        <div className='photo'>
+                            <Item.Image src={codecstory} size='large' wrapped ui={false} />
+                        </div>
+                        <h3>
+                            <a href='https://codecu.herokuapp.com/' target="_blank">
+                            <Button size='large' color='yellow'>
+                                <Icon size='large' name='power off'/>View Project
+                            </Button> 
+                            </a>
+                            <br></br>
+                            <br></br>
+                            <a href='https://github.com/ak89mkii/codecu' target="_blank">
+                            <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                            </Button> 
+                            </a>
+                        </h3>
+                        <Divider/>
                         <Item.Description>
-                            <p>Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success.</p>
-                            <p>(Character Image Placeholders Used)</p>
-                            <h4>Technologies Used:</h4>
-                                <p>- HTML5</p>
-                                <p>- CSS3</p>
-                                <p>- Python 3</p>
-                                <p>- Flask</p>
-                                <p>- Gunicorn</p>
-                                <p>- Bootstrap</p>
-                                <p>- Heroku</p>
+                            <p><h3>Description:</h3>(DEMO) | Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success. (Character Image Placeholders Used) </p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | Bootstrap (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>Python 3 | Flask | Gunicorn</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>Heroku</p>
                         </Item.Description>
-                            <h3>
-                                <a href='https://codecu.herokuapp.com/' target="_blank">
-                                <Button size='large' color='yellow'>
-                                    <Icon size='large' name='power off'/>View Project
-                                </Button> 
-                                </a>
-                                <br></br>
-                                <br></br>
-                                <a href='https://github.com/ak89mkii/codecu' target="_blank">
-                                <Button size='large'>
-                                    <Icon size='large' name='github square'/>Github Repo
-                                </Button> 
-                                </a>
-                                </h3>
                     </Card.Content>
                 </Card>
 
