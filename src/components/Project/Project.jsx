@@ -205,7 +205,7 @@ const Project = () => {
                 {/* Card 06 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>iContextuall: Twilio SMS GUI</h1>(Template / Guide)</p>
+                        <Item.Header><p className='card'><h1>iContextuall: Twilio SMS GUI</h1>(Template | Guide)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -227,7 +227,7 @@ const Project = () => {
                         </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>(DEMO) | Codec Story is a text adventure game where players make decisions, branching and progressing the story. Choose wisely, not every decision will result in success. (Character Image Placeholders Used) </p>
+                            <p><h3>Description:</h3>(Template | Guide) | A basic browser-based GUI template for the Twilio SMS Python platform. You must add your own credentials (account_sid, auth_token, phone number, etc.). Links to the Twilio docs and other references are linked below. code . NOT DEPLOY READY.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Python 3 | Flask | Twilio Python (Helper Library)</p>
