@@ -7,7 +7,7 @@ import ReactHowler from 'react-howler'
 
 class Select extends Component {
   state = {
-    onMusic: true,
+    onMusic: false,
     open: false
   }
 
