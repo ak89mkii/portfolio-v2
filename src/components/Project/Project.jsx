@@ -249,7 +249,7 @@ const Project = () => {
                             <Item.Image src={ex} size='large' wrapped ui={false} />
                         </div>
                         <h3>
-                            <a href='ex-health-tracker.surge.sh' target="_blank">
+                            <a href='http://www.ex-health-tracker.surge.sh' target="_blank">
                                 <Button size='large' color='yellow'>
                                     <Icon size='large' name='power off'/>View Project
                                 </Button> 
