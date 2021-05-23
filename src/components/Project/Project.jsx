@@ -25,7 +25,7 @@ const Project = () => {
                 {/* Card 01 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>War Card Game </h1>(Front-End)</p>
+                        <Item.Header><p className='card'><h1>War Card Game</h1>(Front-End, JavaScript)</p>
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
@@ -47,7 +47,7 @@ const Project = () => {
                         </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>(Front-End) | A War playing card variant with a retro game theme.</p>
+                            <p><h3>Description:</h3>(Front-End, JavaScript) | A War playing card variant with a retro game theme.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>N/A</p>
@@ -61,7 +61,7 @@ const Project = () => {
                 {/* Card 02 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>DiceDex: Tabletop Tracker</h1>(RESTful, CRD)</p>
+                        <Item.Header><p className='card'><h1>DiceDex: Tabletop Tracker</h1>(RESTful, CRD, Express.js)</p>
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
@@ -83,7 +83,7 @@ const Project = () => {
                             </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3> (RESTful, CRD) | DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
+                            <p><h3>Description:</h3> (RESTful, CRD, Express.js) | DiceDex is an application that enables groups of users to create shared tabletop libraries, wishlists, as well as leave comments on a message board.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database) | Mongoose</p>
@@ -97,7 +97,7 @@ const Project = () => {
                 {/* Card 03 */}
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>PAJ: Project Manager</h1>(Team Project, RESTful, CRUD)</p>
+                        <Item.Header><p className='card'><h1>PAJ: Project Manager</h1>(Team Project, RESTful, CRUD, MERN Stack)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -119,7 +119,7 @@ const Project = () => {
                             </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3> (Team Project, MERN Stack, CRUD) | PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
+                            <p><h3>Description:</h3> (Team Project, RESTful, CRUD, MERN Stack) | PAJ, the Project Assistance Journal, is a platform that enables users to add and monitor their project progressions as well facilitating collaborative efforts.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | React.js | Semantic UI React (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Node.js | Express.js | MongoDB (Database)</p>
@@ -133,7 +133,7 @@ const Project = () => {
                 {/* Card 04 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>RepBucket: Goals Tracker</h1>(RESTful, CRUD)</p>
+                        <Item.Header><p className='card'><h1>RepBucket: Goals Tracker</h1>(RESTful, CRUD, Django)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -155,7 +155,7 @@ const Project = () => {
                             </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3> (RESTful, CRUD) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
+                            <p><h3>Description:</h3> (RESTful, CRUD, Django) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | Django | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Python 3 | Django | PostgreSQL (Database)</p>
@@ -169,7 +169,7 @@ const Project = () => {
                 {/* Card 05 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(Demo)</p>
+                        <Item.Header><p className='card'><h1>Codec Story: A Text Adventure</h1>(Back-End, Flask)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -237,6 +237,43 @@ const Project = () => {
                         </Item.Description>
                     </Card.Content>
                 </Card>
+
+                {/* Card 07 */}
+                <Card fluid centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Header><p className='card'><h1>EX-Life Tracker</h1>(Front-End, React.js)</p>
+                        </Item.Header>
+                        <Divider />
+                        <div className='photo'>
+                            <Item.Image src={war} size='large' wrapped ui={false} />
+                        </div>
+                        <h3>
+                            <a href='ex-health-tracker.surge.sh' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                                </Button> 
+                            </a>
+                        </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3>(Front-End, React.js) | A stats tracker application for a specific tabletop game.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | JavaScript (ES2018) | React.js | Semantic UI React (CSS Framework)</p>
+                                <p><h4>Back-End:</h4>N/A</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>surge.sh</p>
+                        </Item.Description>
+                    </Card.Content>
+                </Card>
+                    
             </Card.Group>
             </Grid.Column>
             </Grid>
