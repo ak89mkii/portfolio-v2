@@ -274,6 +274,42 @@ const Project = () => {
                         </Item.Description>
                     </Card.Content>
                 </Card>
+
+                {/* Card 08 */}
+                <Card fluid centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Header><p className='card'><h1>IG 9000</h1>(Back-End, Flask, gTTS)</p>
+                        </Item.Header>
+                        <Divider />
+                        <div className='photo'>
+                            <Item.Image src={ex} size='large' wrapped ui={false} />
+                        </div>
+                        <h3>
+                            <a href='http://www.ex-health-tracker.surge.sh' target="_blank">
+                                <Button size='large' color='yellow'>
+                                    <Icon size='large' name='power off'/>View Project
+                                </Button> 
+                                </a>
+                                <br></br>
+                                <br></br>
+                                <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
+                                <Button size='large' color='black'>
+                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                                </Button> 
+                            </a>
+                        </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3>(Back-End, Flask, gTTS) | A voice recognition and natural speech (Google Text-to-Speech) programmable response virtual assistant with GUI.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3</p>
+                                <p><h4>Back-End:</h4>Flask</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>localhost</p>
+                        </Item.Description>
+                    </Card.Content>
+                </Card>
                     
             </Card.Group>
             </Grid.Column>
