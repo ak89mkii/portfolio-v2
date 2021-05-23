@@ -250,16 +250,16 @@ const Project = () => {
                         </div>
                         <h3>
                             <a href='http://www.ex-health-tracker.surge.sh' target="_blank">
-                                <Button size='large' color='yellow'>
-                                    <Icon size='large' name='power off'/>View Project
-                                </Button> 
-                                </a>
-                                <br></br>
-                                <br></br>
-                                <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
-                                <Button size='large' color='black'>
-                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
-                                </Button> 
+                            <Button size='large' color='yellow'>
+                                <Icon size='large' name='power off'/>View Project
+                            </Button> 
+                            </a>
+                            <br></br>
+                            <br></br>
+                            <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
+                            <Button size='large' color='black'>
+                                <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                            </Button> 
                             </a>
                         </h3>
                         <Divider/>
@@ -285,17 +285,17 @@ const Project = () => {
                             <Item.Image src={ex} size='large' wrapped ui={false} />
                         </div>
                         <h3>
-                            <a href='http://www.ex-health-tracker.surge.sh' target="_blank">
-                                <Button size='large' color='yellow'>
-                                    <Icon size='large' name='power off'/>View Project
-                                </Button> 
-                                </a>
-                                <br></br>
-                                <br></br>
-                                <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
-                                <Button size='large' color='black'>
-                                    <Icon size='large' name='github square' inverted color='grey'/>Github Repo
-                                </Button> 
+                            {/* <a href='' target="_blank"> */}
+                            <Button size='large' color='yellow' disabled>
+                                <Icon size='large' name='power off'/>View Project
+                            </Button> 
+                            {/* </a> */}
+                            <br></br>
+                            <br></br>
+                            <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
+                            <Button size='large' color='black'>
+                                <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                            </Button> 
                             </a>
                         </h3>
                         <Divider/>
