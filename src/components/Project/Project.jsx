@@ -7,6 +7,7 @@ import paj from '../../Img/paj.png'
 import repbucket from '../../Img/repbucket.png'
 import codecstory from '../../Img/codec_story.png'
 import icontextuall from '../../Img/icontextuall.png'
+import ex from '../../Img/ex_life_tracker.png'
 
 const Project = () => {
     return (
@@ -245,7 +246,7 @@ const Project = () => {
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
-                            <Item.Image src={war} size='large' wrapped ui={false} />
+                            <Item.Image src={ex} size='large' wrapped ui={false} />
                         </div>
                         <h3>
                             <a href='ex-health-tracker.surge.sh' target="_blank">
