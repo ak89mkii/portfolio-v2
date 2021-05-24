@@ -8,6 +8,7 @@ import repbucket from '../../Img/repbucket.png'
 import codecstory from '../../Img/codec_story.png'
 import icontextuall from '../../Img/icontextuall.png'
 import ex from '../../Img/ex_life_tracker.png'
+import ig from '../../Img/ig.png'
 
 const Project = () => {
     return (
@@ -278,11 +279,11 @@ const Project = () => {
                 {/* Card 08 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>IG 9000</h1>(Back-End, Flask, gTTS)</p>
+                        <Item.Header><p className='card'><h1>IG 9000</h1>(Back-End, Flask, gTTS, PyAudio)</p>
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
-                            <Item.Image src={ex} size='large' wrapped ui={false} />
+                            <Item.Image src={ig} size='large' wrapped ui={false} />
                         </div>
                         <h3>
                             {/* <a href='' target="_blank"> */}
@@ -292,7 +293,7 @@ const Project = () => {
                             {/* </a> */}
                             <br></br>
                             <br></br>
-                            <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank">
+                            <a href='https://github.com/ak89mkii/ig-9000' target="_blank">
                             <Button size='large' color='black'>
                                 <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                             </Button> 
@@ -300,7 +301,7 @@ const Project = () => {
                         </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>(Back-End, Flask, gTTS) | A voice recognition and natural speech (Google Text-to-Speech) programmable response virtual assistant with GUI.</p>
+                            <p><h3>Description:</h3>(Back-End, Flask, gTTS, PyAudio) | A voice recognition and natural speech (Google Text-to-Speech) programmable response virtual assistant with GUI.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3</p>
                                 <p><h4>Back-End:</h4>Flask</p>
