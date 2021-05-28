@@ -338,7 +338,7 @@ const Project = () => {
                         </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3>(Back-End, Flask, gTTS, PyAudio) | A voice recognition and natural speech (Google Text-to-Speech) programmable response virtual assistant with GUI.</p>
+                            <p><h3>Description:</h3>(Front-End, React.js, Raspberry Pi 4, Raspberry Pi OS, Holographic Display) | A home built holographic display with a custom web-based HUD.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | React.js</p>
                                 <p><h4>Back-End:</h4>N/A</p>
