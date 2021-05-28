@@ -323,14 +323,14 @@ const Project = () => {
                             <Item.Image src={holo} size='large' wrapped ui={false} />
                         </div>
                         <h3>
-                            {/* <a href='' target="_blank"> */}
-                            <Button size='large' color='yellow' disabled>
+                            <a href='http://holo-hud.surge.sh/' target="_blank">
+                            <Button size='large' color='yellow'>
                                 <Icon size='large' name='power off'/>View Project
                             </Button> 
-                            {/* </a> */}
+                            </a>
                             <br></br>
                             <br></br>
-                            <a href='https://github.com/ak89mkii/ig-9000' target="_blank">
+                            <a href='https://github.com/ak89mkii/holo-hud' target="_blank">
                             <Button size='large' color='black'>
                                 <Icon size='large' name='github square' inverted color='grey'/>Github Repo
                             </Button> 
