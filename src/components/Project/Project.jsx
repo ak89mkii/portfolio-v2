@@ -9,6 +9,7 @@ import codecstory from '../../Img/codec_story.png'
 import icontextuall from '../../Img/icontextuall.png'
 import ex from '../../Img/ex_life_tracker.png'
 import ig from '../../Img/ig.png'
+import holo from '../../Img/holo.png'
 
 const Project = () => {
     return (
@@ -308,6 +309,42 @@ const Project = () => {
                                 <p><h4>Authentication:</h4>N/A</p>
                                 <p><h4>Version Control:</h4>Git | GitHub</p>
                                 <p><h4>Deployment:</h4>localhost</p>
+                        </Item.Description>
+                    </Card.Content>
+                </Card>
+
+                {/* Card 09 */}
+                <Card fluid centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Header><p className='card'><h1>Holo-HUD</h1>(Front-End, React.js, Raspberry Pi 4, Raspberry Pi OS, Holographic Display)</p>
+                        </Item.Header>
+                        <Divider />
+                        <div className='photo'>
+                            <Item.Image src={holo} size='large' wrapped ui={false} />
+                        </div>
+                        <h3>
+                            {/* <a href='' target="_blank"> */}
+                            <Button size='large' color='yellow' disabled>
+                                <Icon size='large' name='power off'/>View Project
+                            </Button> 
+                            {/* </a> */}
+                            <br></br>
+                            <br></br>
+                            <a href='https://github.com/ak89mkii/ig-9000' target="_blank">
+                            <Button size='large' color='black'>
+                                <Icon size='large' name='github square' inverted color='grey'/>Github Repo
+                            </Button> 
+                            </a>
+                        </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3>(Back-End, Flask, gTTS, PyAudio) | A voice recognition and natural speech (Google Text-to-Speech) programmable response virtual assistant with GUI.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | React.js</p>
+                                <p><h4>Back-End:</h4>N/A</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>surge.sh</p>
                         </Item.Description>
                     </Card.Content>
                 </Card>
