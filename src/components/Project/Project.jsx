@@ -294,6 +294,13 @@ const Project = () => {
                             {/* </a> */}
                             <br></br>
                             <br></br>
+                            <a href='http://holo-hud.surge.sh/' target="_blank">
+                            <Button size='large' color='linkedin'>
+                                <Icon size='large' name='linkedin'/>View Article
+                            </Button> 
+                            </a>
+                            <br></br>
+                            <br></br>
                             <a href='https://github.com/ak89mkii/ig-9000' target="_blank">
                             <Button size='large' color='black'>
                                 <Icon size='large' name='github square' inverted color='grey'/>Github Repo
@@ -326,6 +333,13 @@ const Project = () => {
                             <a href='http://holo-hud.surge.sh/' target="_blank">
                             <Button size='large' color='yellow'>
                                 <Icon size='large' name='power off'/>View Project
+                            </Button> 
+                            </a>
+                            <br></br>
+                            <br></br>
+                            <a href='http://holo-hud.surge.sh/' target="_blank">
+                            <Button size='large' color='linkedin'>
+                                <Icon size='large' name='linkedin'/>View Article
                             </Button> 
                             </a>
                             <br></br>
