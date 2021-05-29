@@ -337,7 +337,7 @@ const Project = () => {
                             </a>
                             <br></br>
                             <br></br>
-                            <a href='http://holo-hud.surge.sh/' target="_blank">
+                            <a href='https://www.linkedin.com/pulse/speech-recognition-program-holographic-display-project-kasem/' target="_blank">
                             <Button size='large' color='linkedin'>
                                 <Icon size='large' name='linkedin'/>View Article
                             </Button> 
