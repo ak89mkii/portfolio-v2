@@ -136,7 +136,7 @@ const Project = () => {
                 {/* Card 04 */}  
                 <Card centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>RepBucket: Goals Tracker</h1>(RESTful, CRUD, Django)</p>
+                        <Item.Header><p className='card'><h1>RepBucket: Goals Tracker</h1>(MVC, CRUD, Django)</p>
                         </Item.Header>
                         <Divider/>
                         <div className='photo'>
@@ -158,7 +158,7 @@ const Project = () => {
                             </h3>
                         <Divider/>
                         <Item.Description>
-                            <p><h3>Description:</h3> (RESTful, CRUD, Django) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
+                            <p><h3>Description:</h3> (MVC, CRUD, Django) | RepBucket is a platform that "gamifies" the tracking and highlighting of achievements, activities, skills, hobbies, and goals. From the mundane to monumental, goals are your "Quests", which can be found in your "Quest Journal". Your skills and hobbies are represented as skills on your "Talent Tree".</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | Django | Bootstrap (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>Python 3 | Django | PostgreSQL (Database)</p>
