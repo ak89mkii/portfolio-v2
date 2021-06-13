@@ -10,6 +10,7 @@ import icontextuall from '../../Img/icontextuall.png'
 import ex from '../../Img/ex_life_tracker.png'
 import ig from '../../Img/ig.png'
 import holo from '../../Img/holo.png'
+import counter from '../../Img/counter.png'
 
 const Project = () => {
     return (
@@ -323,7 +324,7 @@ const Project = () => {
                 {/* Card 09 */}
                 <Card fluid centered size='large' stackable>
                     <Card.Content>
-                        <Item.Header><p className='card'><h1>Holo-HUD</h1>(Front-End, React.js, Raspberry Pi 4, Raspberry Pi OS, Holographic Display)</p>
+                        <Item.Header><p className='card'><h1>Holo-HUD</h1>(Front-End, React.js, Raspberry Pi 4, Holographic Display)</p>
                         </Item.Header>
                         <Divider />
                         <div className='photo'>
@@ -355,6 +356,42 @@ const Project = () => {
                             <p><h3>Description:</h3>(Front-End, React.js, Raspberry Pi 4, Raspberry Pi OS, Holographic Display) | A home built holographic display with a custom web-based HUD.</p>
                             <h3>- Technologies Used -</h3>
                                 <p><h4>Front-End:</h4>HTML5 | CSS3 | React.js</p>
+                                <p><h4>Back-End:</h4>N/A</p>
+                                <p><h4>Authentication:</h4>N/A</p>
+                                <p><h4>Version Control:</h4>Git | GitHub</p>
+                                <p><h4>Deployment:</h4>surge.sh</p>
+                        </Item.Description>
+                    </Card.Content>
+                </Card>
+
+                {/* Card 10 */}
+                <Card fluid centered size='large' stackable>
+                    <Card.Content>
+                        <Item.Header><p className='card'><h1>Donation Counter</h1>(Front-End, React.js)</p>
+                        </Item.Header>
+                        <Divider />
+                        <div className='photo'>
+                            <Item.Image src={counter} size='large' wrapped ui={false} />
+                        </div>
+                        <h3>
+                            <a href='http://fidgetkicounter.surge.sh/' target="_blank">
+                            <Button size='large' color='yellow'>
+                                <Icon size='large' name='power off'/>View Project
+                            </Button> 
+                            </a>
+                            <br></br>
+                            <br></br>
+                            <a href='https://github.com/ak89mkii/donate-counter' target="_blank">
+                            <Button size='large' color='black'>
+                                <Icon size='large' name='github square'/>GitHub Repo
+                            </Button> 
+                            </a>
+                        </h3>
+                        <Divider/>
+                        <Item.Description>
+                            <p><h3>Description:</h3>(Front-End, React.js) | A counter application designed to improve the donation responsibility counting process for a specific entrepreneurial venture.</p>
+                            <h3>- Technologies Used -</h3>
+                                <p><h4>Front-End:</h4>HTML5 | CSS3 | React.js | Semantic UI React (CSS Framework)</p>
                                 <p><h4>Back-End:</h4>N/A</p>
                                 <p><h4>Authentication:</h4>N/A</p>
                                 <p><h4>Version Control:</h4>Git | GitHub</p>
