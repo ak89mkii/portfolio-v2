@@ -403,6 +403,11 @@ const Project = () => {
             </Card.Group>
             </Grid.Column>
             </Grid>
+            <br></br>
+            <br></br>
+            <Grid centered>
+                <iframe frameborder="0" src="https://itch.io/embed/1110852" width="552" height="167"><a href="https://a-i-chasm-games.itch.io/bug-buster">Bug Buster by a_i_chasm_games</a></iframe>
+            </Grid>
             
             <br></br>
             <br></br>
