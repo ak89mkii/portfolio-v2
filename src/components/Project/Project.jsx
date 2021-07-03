@@ -411,7 +411,7 @@ const Project = () => {
             <br></br>
             <br></br>
             <Grid centered>
-                <a href='https://github.com/ak89mkii/donate-counter' target="_blank">
+                <a href='https://github.com/ak89mkii/bug-buster' target="_blank">
                 <Button size='large' color='black'>
                     <Icon size='large' name='github square'/>GitHub Repo
                 </Button>
