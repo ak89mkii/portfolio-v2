@@ -16,6 +16,7 @@ class App extends Component {
     state = {
       activeItem: 'Mission',
       on: false,
+      sound: false,
       onMusic: false
     }
 
@@ -25,13 +26,14 @@ class App extends Component {
 
   handleToggle = () => {
     this.setState({
-      on: !this.state.on
+      on: !this.state.on,
+      sound: !this.state.sound
     })
   }
 
   handleToggle02 = () => {
     this.setState({
-      onMusic: !this.state.onMusic
+      sound: !this.state.sound
     })
   }
 
@@ -110,9 +112,10 @@ class App extends Component {
             </div>
             <div>
               {this.state.on && (<Select />)}
-              {this.state.on && (<ReactHowler
+              {this.state.sound && (<ReactHowler
                 src={Audio}
                 playing={true}
+                onEnd={this.handleToggle02}
               />)}
             </div>
             <br></br>
