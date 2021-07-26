@@ -54,35 +54,35 @@ class App extends Component {
             <a href='#mission'>
             <Menu.Item
               name='Mission'
-              active={activeItem === 'Mission'}
+              // active={activeItem === 'Mission'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#projects'>
             <Menu.Item
               name='Projects'
-              active={activeItem === 'Projects'}
+              // active={activeItem === 'Projects'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#skills'>
             <Menu.Item
               name='Skills'
-              active={activeItem === 'Skills'}
+              // active={activeItem === 'Skills'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#interests'>
              <Menu.Item
               name='Interests'
-              active={activeItem === 'Interests'}
+              // active={activeItem === 'Interests'}
               onClick={this.handleItemClick}
             />
             </a>
             <a href='#contact'>
              <Menu.Item
               name='Contact'
-              active={activeItem === 'Contact'}
+              // active={activeItem === 'Contact'}
               onClick={this.handleItemClick}
             />
             </a>
