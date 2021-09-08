@@ -3,9 +3,9 @@ import '../../App.css'
 import { Image, Button, Grid } from 'semantic-ui-react'
 import Profile from '../../Img/profile.jpeg'
 
-const Intro = () => {
+const Intro = (props) => {
     return (
-        <div>
+        <div className={props.mode}>
             <Image
               bordered
               centered

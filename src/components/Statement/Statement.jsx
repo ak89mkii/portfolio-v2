@@ -3,9 +3,9 @@ import { Header, Grid, Image, Menu, Message, Divider } from 'semantic-ui-react'
 import './Statment.css'
 
 
-const Statment = () => {
+const Statment = (props) => {
     return (
-        <div>
+        <div className={props.mode}>
             <Divider horizontal>
               <Header as='h2'>
                 {/* <Icon name='left quote' /> */}

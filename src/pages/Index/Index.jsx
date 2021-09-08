@@ -47,14 +47,15 @@ class Home extends Component {
                 <Sticky context={this.contextRef}>
                     <NavBar />
                 </Sticky>
-                <Segment attached='bottom'>
-                    <div id='mission'>
-                    <Intro/>
+                {/* <Segment attached='bottom'> */}
+                    <div className={this.state.mode} id='mission'>
+                    <Intro
+                    />
                     </div>
                     <br></br>
                     <br></br>
                     <div id='projects'>
-                    <Statement className='main'
+                    <Statement 
                     />
                     </div>
                     <div>
@@ -96,7 +97,7 @@ class Home extends Component {
                     </div>
                 <br></br>
                 <Footer />
-                </Segment>
+                {/* </Segment> */}
             </div>
         )
     }
