@@ -1,7 +1,7 @@
 import React, { Component, createRef } from 'react'
 import '../../App.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Button, Grid, Sticky, Menu, Segment, Divider } from 'semantic-ui-react'
+import { Button, Grid, Sticky, Radio, Container, Divider } from 'semantic-ui-react'
 import NavBar from '../../components/NavBar/NavBar'
 import Statement from '../../components/Statement/Statement'
 import Project from '../../components/Project/Project'
@@ -17,7 +17,7 @@ import ReactHowler from 'react-howler'
 class Home extends Component {
     state = {
         activeItem: 'Mission',
-        mode: 'dark',
+        mode: 'light',
         on: false,
         sound: false,
         onMusic: false
@@ -40,6 +40,24 @@ class Home extends Component {
         })
     }
 
+    toggleMode = () => {
+        if (this.state.mode == 'light') {
+            this.setState({
+                mode: 'dark',
+                photo: 'photoDark',
+                nav: 'navDark',
+                menu: 'ui inverted menu'
+            })
+        } else if (this.state.mode == 'dark') {
+            this.setState({
+                mode: 'light',
+                photo: 'photo',
+                nav: 'nav',
+                menu: 'ui menu'
+            })
+        }
+    }
+
     render() {
         const { activeItem } = this.state
         return (
@@ -47,8 +65,14 @@ class Home extends Component {
                 <Sticky context={this.contextRef}>
                     <NavBar />
                 </Sticky>
-                {/* <Segment attached='bottom'> */}
-                    <div className={this.state.mode} id='mission'>
+                <br></br>
+                <Container>
+                <Radio 
+                    toggle
+                    onClick={this.toggleMode}
+                />   
+                </Container>
+                    <div id='mission'>
                     <Intro
                     />
                     </div>
@@ -97,7 +121,6 @@ class Home extends Component {
                     </div>
                 <br></br>
                 <Footer />
-                {/* </Segment> */}
             </div>
         )
     }
