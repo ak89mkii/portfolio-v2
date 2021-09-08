@@ -2,15 +2,6 @@ import React, { Component, createRef } from 'react'
 import '../../App.css'
 import 'semantic-ui-css/semantic.min.css'
 import { Button, Grid, Sticky, Menu, Segment, Divider } from 'semantic-ui-react'
-import Statement from '../Statement/Statement'
-import Project from '../Project/Project'
-import Interest from '../Interest/Interest'
-import Contact from '../Contact/Contact'
-import Intro from '../Intro/Intro'
-import Select from '../Select/Select'
-import Skill from '../Skill/Skill'
-import Audio from '../../sounds/select.mp3'
-import ReactHowler from 'react-howler'
 
 class NavBar extends Component {
     state = {
@@ -42,10 +33,10 @@ class NavBar extends Component {
         return (
             <div>
                 <br></br>
-                <div ref={this.contextRef}>
-                <Sticky context={this.contextRef}>
+                <div>
                 <Segment inverted>
                 <Menu
+                className='menu'
                 inverted
                 pointing
                 secondary
@@ -90,7 +81,6 @@ class NavBar extends Component {
                     </a>
                     </Menu>
                 </Segment>
-                </Sticky>
                 </div>
             </div>
         )

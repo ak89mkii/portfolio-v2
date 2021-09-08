@@ -41,14 +41,16 @@ class Home extends Component {
     render() {
         const { activeItem } = this.state
         return (
-            <div>
+            <div ref={this.contextRef}>
+                <Sticky context={this.contextRef}>
+                    <NavBar />
+                </Sticky>
                 <Segment attached='bottom'>
                     <div id='mission'>
                     <Intro/>
                     </div>
                     <br></br>
                     <br></br>
-                <main>
                     <div id='projects'>
                     <Statement className='Statement'
                     />
@@ -90,7 +92,6 @@ class Home extends Component {
                     <Contact 
                     />
                     </div>
-                </main>
                 <br></br>
                 <Divider />
                     <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2021</div>
