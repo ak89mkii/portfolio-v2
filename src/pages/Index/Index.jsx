@@ -10,12 +10,14 @@ import Contact from '../../components/Contact/Contact'
 import Intro from '../../components/Intro/Intro'
 import Select from '../../components/Select/Select'
 import Skill from '../../components/Skill/Skill'
+import Footer from '../../components/Footer/Footer'
 import Audio from '../../sounds/select.mp3'
 import ReactHowler from 'react-howler'
 
 class Home extends Component {
     state = {
         activeItem: 'Mission',
+        mode: 'dark',
         on: false,
         sound: false,
         onMusic: false
@@ -41,7 +43,7 @@ class Home extends Component {
     render() {
         const { activeItem } = this.state
         return (
-            <div ref={this.contextRef}>
+            <div className={this.state.mode} ref={this.contextRef}>
                 <Sticky context={this.contextRef}>
                     <NavBar />
                 </Sticky>
@@ -52,15 +54,15 @@ class Home extends Component {
                     <br></br>
                     <br></br>
                     <div id='projects'>
-                    <Statement className='Statement'
+                    <Statement className='main'
                     />
                     </div>
                     <div>
-                    <Project className='Project'
+                    <Project className='main'
                     />
                     </div>
                     <div id='skills'>
-                    <Skill className='Project'
+                    <Skill className='main'
                     />
                     </div>
                     <div>
@@ -93,9 +95,7 @@ class Home extends Component {
                     />
                     </div>
                 <br></br>
-                <Divider />
-                    <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2021</div>
-                <br></br>
+                <Footer />
                 </Segment>
             </div>
         )
