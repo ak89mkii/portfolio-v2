@@ -2,17 +2,17 @@ import React, { Component, createRef } from 'react'
 import '../../App.css'
 import 'semantic-ui-css/semantic.min.css'
 import { Button, Grid, Sticky, Menu, Segment, Divider } from 'semantic-ui-react'
-import Statement from '../../components/Statement/Statement'
-import Project from '../../components/Project/Project'
-import Interest from '../../components/Interest/Interest'
-import Contact from '../../components/Contact/Contact'
-import Intro from '../../components/Intro/Intro'
-import Select from '../../components/Select/Select'
-import Skill from '../../components/Skill/Skill'
+import Statement from '../Statement/Statement'
+import Project from '../Project/Project'
+import Interest from '../Interest/Interest'
+import Contact from '../Contact/Contact'
+import Intro from '../Intro/Intro'
+import Select from '../Select/Select'
+import Skill from '../Skill/Skill'
 import Audio from '../../sounds/select.mp3'
 import ReactHowler from 'react-howler'
 
-class Menu extends Component {
+class NavBar extends Component {
     state = {
         activeItem: 'Mission',
         on: false,
@@ -97,5 +97,5 @@ class Menu extends Component {
     }
 }
 
-export default Menu;
+export default NavBar;
 

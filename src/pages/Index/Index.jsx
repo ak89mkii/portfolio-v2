@@ -2,6 +2,7 @@ import React, { Component, createRef } from 'react'
 import '../../App.css'
 import 'semantic-ui-css/semantic.min.css'
 import { Button, Grid, Sticky, Menu, Segment, Divider } from 'semantic-ui-react'
+import NavBar from '../../components/NavBar/NavBar'
 import Statement from '../../components/Statement/Statement'
 import Project from '../../components/Project/Project'
 import Interest from '../../components/Interest/Interest'
@@ -14,142 +15,91 @@ import ReactHowler from 'react-howler'
 
 class Home extends Component {
     state = {
-      activeItem: 'Mission',
-      on: false,
-      sound: false,
-      onMusic: false
+        activeItem: 'Mission',
+        on: false,
+        sound: false,
+        onMusic: false
     }
 
-  contextRef = createRef()
+    contextRef = createRef()
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-  handleToggle = () => {
-    this.setState({
-      on: !this.state.on,
-      sound: !this.state.sound
-    })
-  }
+    handleToggle = () => {
+        this.setState({
+        on: !this.state.on,
+        sound: !this.state.sound
+        })
+    }
 
-  handleToggle02 = () => {
-    this.setState({
-      sound: !this.state.sound
-    })
-  }
+    handleToggle02 = () => {
+        this.setState({
+        sound: !this.state.sound
+        })
+    }
 
     render() {
-      const { activeItem } = this.state
-      return (
-        <div>
-        <br></br>
-        <div ref={this.contextRef}>
-        <Sticky context={this.contextRef}>
-        <Segment inverted>
-          <Menu
-          inverted
-          pointing
-          secondary
-          size='large'
-          attached='top'
-          // stackable
-          >
-            <a href='#mission'>
-            <Menu.Item
-              name='Mission'
-              // active={activeItem === 'Mission'}
-              onClick={this.handleItemClick}
-            />
-            </a>
-            <a href='#projects'>
-            <Menu.Item
-              name='Projects'
-              // active={activeItem === 'Projects'}
-              onClick={this.handleItemClick}
-            />
-            </a>
-            <a href='#skills'>
-            <Menu.Item
-              name='Skills'
-              // active={activeItem === 'Skills'}
-              onClick={this.handleItemClick}
-            />
-            </a>
-            <a href='#interests'>
-             <Menu.Item
-              name='Interests'
-              // active={activeItem === 'Interests'}
-              onClick={this.handleItemClick}
-            />
-            </a>
-            <a href='#contact'>
-             <Menu.Item
-              name='Contact'
-              // active={activeItem === 'Contact'}
-              onClick={this.handleItemClick}
-            />
-            </a>
-            </Menu>
-          </Segment>
-          </Sticky>
-          <Segment attached='bottom'>
-            <div id='mission'>
-              <Intro/>
-            </div>
-            <br></br>
-            <br></br>
-          <main>
-            <div id='projects'>
-            <Statement className='Statement'
-            />
-            </div>
+        const { activeItem } = this.state
+        return (
             <div>
-            <Project className='Project'
-            />
-            </div>
-            <div id='skills'>
-            <Skill className='Project'
-            />
-            </div>
-            <div>
-              {this.state.on && (<Select />)}
-              {this.state.sound && (<ReactHowler
-                src={Audio}
-                playing={true}
-                onEnd={this.handleToggle02}
-              />)}
-            </div>
-            <br></br>
-            <br></br>
-            <Grid centered>
-              <Button 
-                color='yellow' 
-                size='huge'
-                onClick={this.handleToggle}
-              >Toggle Skills View 
-              </Button>
-            </Grid>
-             <br></br>
-             <br></br>
+                <Segment attached='bottom'>
+                    <div id='mission'>
+                    <Intro/>
+                    </div>
+                    <br></br>
+                    <br></br>
+                <main>
+                    <div id='projects'>
+                    <Statement className='Statement'
+                    />
+                    </div>
+                    <div>
+                    <Project className='Project'
+                    />
+                    </div>
+                    <div id='skills'>
+                    <Skill className='Project'
+                    />
+                    </div>
+                    <div>
+                    {this.state.on && (<Select />)}
+                    {this.state.sound && (<ReactHowler
+                        src={Audio}
+                        playing={true}
+                        onEnd={this.handleToggle02}
+                    />)}
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <Grid centered>
+                    <Button 
+                        color='yellow' 
+                        size='huge'
+                        onClick={this.handleToggle}
+                    >Toggle Skills View 
+                    </Button>
+                    </Grid>
+                    <br></br>
+                    <br></br>
 
-            <div id='interests'>
-            <Interest className='Interest'
-            />
+                    <div id='interests'>
+                    <Interest className='Interest'
+                    />
+                    </div>
+                    <div id='contact'>
+                    <Contact 
+                    />
+                    </div>
+                </main>
+                <br></br>
+                <Divider />
+                    <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2021</div>
+                <br></br>
+                </Segment>
             </div>
-            <div id='contact'>
-            <Contact 
-            />
-            </div>
-          </main>
-          <br></br>
-          <Divider />
-            <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2021</div>
-          <br></br>
-        </Segment>
-        </div>
-        </div>
-      )
+        )
     }
-  }
+}
 
 export default Home;
 
