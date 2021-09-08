@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Image, Icon, Button, Grid, Header,Segment, TransitionablePortal,} from 'semantic-ui-react'
 import Fight from '../../Img/fight02.png'
-import Music from '../../components/sounds/music.wav'
+import Music from '../../sounds/music.wav'
 import './Select.css'
 import ReactHowler from 'react-howler'
 import Iframe from 'react-iframe'
