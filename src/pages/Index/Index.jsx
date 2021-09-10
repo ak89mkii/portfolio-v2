@@ -18,6 +18,7 @@ class Home extends Component {
     state = {
         activeItem: 'Mission',
         mode: 'light',
+        photo: 'photo',
         on: false,
         sound: false,
         onMusic: false
@@ -72,12 +73,17 @@ class Home extends Component {
                     onClick={this.toggleMode}
                 />   
                 </Container>
-                    <div id='mission'>
-                    <Intro
+
+                <Grid>
+                {/* Photo, Name, and Title */}
+                <div id='mission'>
+                    <Intro 
+                        photo={this.state.photo}
                     />
-                    </div>
-                    <br></br>
-                    <br></br>
+                </div>
+                <br></br>
+                <br></br>
+
                     <div id='projects'>
                     <Statement 
                     />
@@ -119,6 +125,7 @@ class Home extends Component {
                     <Contact 
                     />
                     </div>
+                </Grid>
                 <br></br>
                 <Footer />
             </div>

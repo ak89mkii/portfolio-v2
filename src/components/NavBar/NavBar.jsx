@@ -34,15 +34,17 @@ class NavBar extends Component {
             <div>
                 <br></br>
                 <div>
-                <Segment inverted>
-                <Menu
-                className='menu'
-                inverted
-                pointing
-                secondary
-                size='large'
-                attached='top'
-                // stackable
+                {/* <Segment inverted> */}
+                <Menu 
+                    inverted
+                    // className='text'
+                    // inverted
+                    // pointing
+                    // secondary
+                    fluid
+                    // size='large'
+                    attached='top'
+                    // stackable
                 >
                     <a href='#mission'>
                     <Menu.Item
@@ -79,8 +81,8 @@ class NavBar extends Component {
                     onClick={this.handleItemClick}
                     />
                     </a>
-                    </Menu>
-                </Segment>
+                </Menu>
+                {/* </Segment> */}
                 </div>
             </div>
         )
