@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');html, body {
+    height: 100%;
+    margin: 0;
+}
+  
 .card {
     background-color: black;
     color: white;
@@ -12,4 +17,14 @@
     border-width: 10px;
     border-color: black;
     border-style: solid;
+}
+
+.light {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+  
+.dark {
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }

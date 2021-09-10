@@ -19,3 +19,13 @@
   font-size: 15px;
   color: white;
 }
+
+.light {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.dark {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}

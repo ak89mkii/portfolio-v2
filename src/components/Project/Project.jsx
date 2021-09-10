@@ -12,14 +12,14 @@ import ig from '../../Img/ig.png'
 import holo from '../../Img/holo.png'
 import counter from '../../Img/counter.png'
 
-const Project = () => {
+const Project = (props) => {
     return (
         <div>
             <Divider horizontal>
-              <Header as='h2'>
+              <h1 className={props.mode}>
                 <Icon name='file code' />
                 Projects
-              </Header>
+              </h1>
             </Divider>
 
             <Grid>

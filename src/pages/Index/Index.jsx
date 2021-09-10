@@ -90,6 +90,7 @@ class Home extends Component {
                     <div id='mission'>
                         <Statement 
                             mission={this.state.mission}
+                            mode={this.state.mode}
                         />
                     </div>
                     <br></br>
@@ -99,7 +100,7 @@ class Home extends Component {
                     <Grid.Row>
                     <div id='projects'>
                         <Project className='main'
-
+                            mode={this.state.mode}
                         />
                     </div>
                     <br></br>

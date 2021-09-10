@@ -7,7 +7,7 @@ const Statment = (props) => {
     return (
         <div>
             <Divider horizontal>
-              <h1 className={props.mission}>
+              <h1 className={props.mode}>
                 {/* <Icon name='left quote' /> */}
                 Mission Statement
               </h1>
