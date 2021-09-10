@@ -12,6 +12,28 @@ import ig from '../../Img/ig.png'
 import holo from '../../Img/holo.png'
 import counter from '../../Img/counter.png'
 
+const items1 = [
+    {
+        image: war,
+        header: 'War Card Game',
+        meta: 'A War playing card variant with a retro game theme.', 
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: dicedex,
+        header: 'DiceDex: Tabletop Game Group Database ',
+        meta: 'www.dicedex.io',
+        href: 'https://www.aikasem.com/',
+    },
+    {
+        image: paj,
+        header: 'Sam Rose Salon',
+        meta: 'www.samrosesalon.com',
+        href: 'https://www.aikasem.com/',
+    },
+]
+
 const Project = (props) => {
     return (
         <div>
@@ -23,6 +45,12 @@ const Project = (props) => {
             </Divider>
             <br></br>
             <br></br>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items1} />
+                </Grid.Row>
+            </Grid>
 
             <Grid>
             <Grid.Column computer={14}>
