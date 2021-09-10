@@ -21,6 +21,8 @@ const Project = (props) => {
                 Projects
               </h1>
             </Divider>
+            <br></br>
+            <br></br>
 
             <Grid>
             <Grid.Column computer={14}>
