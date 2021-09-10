@@ -74,7 +74,7 @@ class Home extends Component {
                     onClick={this.toggleMode}
                 />   
                 </Container>
-                <Grid centered>
+                <Grid>
                     {/* Photo, Name, and Title. */}
                     <Grid.Row>
                     <div id='mission'>

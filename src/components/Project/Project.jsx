@@ -38,13 +38,19 @@ const Project = (props) => {
     return (
         <div>
             <Divider horizontal>
-              <h1 className={props.mode}>
-                <Icon name='file code' />
-                Projects
-              </h1>
+                <h1 className={props.mode}>
+                    <Icon name='file code' />
+                    Projects
+                </h1>
             </Divider>
             <br></br>
             <br></br>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <h1 className={props.mode}>Front-End</h1>
+                </Grid.Row>
+            </Grid>
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
