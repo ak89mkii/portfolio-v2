@@ -19,6 +19,7 @@ class Home extends Component {
         activeItem: 'Mission',
         mode: 'light',
         photo: 'photo',
+        mission: 'mission',
         on: false,
         sound: false,
         onMusic: false
@@ -46,14 +47,14 @@ class Home extends Component {
             this.setState({
                 mode: 'dark',
                 photo: 'photoDark',
-                nav: 'navDark',
+                mission: 'missionDark',
                 menu: 'ui inverted menu'
             })
         } else if (this.state.mode == 'dark') {
             this.setState({
                 mode: 'light',
                 photo: 'photo',
-                nav: 'nav',
+                mission: 'mission',
                 menu: 'ui menu'
             })
         }
@@ -73,25 +74,39 @@ class Home extends Component {
                     onClick={this.toggleMode}
                 />   
                 </Container>
-
-                <Grid>
-                {/* Photo, Name, and Title */}
-                <div id='mission'>
-                    <Intro 
-                        photo={this.state.photo}
-                    />
-                </div>
-                <br></br>
-                <br></br>
-
+                <Grid centered>
+                    {/* Photo, Name, and Title. */}
+                    <Grid.Row>
+                    <div id='mission'>
+                        <Intro 
+                            photo={this.state.photo}
+                        />
+                    </div>
+                    <br></br>
+                    <br></br>
+                    </Grid.Row>
+                    {/* Mission Statement. */}
+                    <Grid.Row>
+                    <div id='mission'>
+                        <Statement 
+                            mission={this.state.mission}
+                        />
+                    </div>
+                    <br></br>
+                    <br></br>
+                    </Grid.Row>
+                    {/* Projects. */}
+                    <Grid.Row>
                     <div id='projects'>
-                    <Statement 
-                    />
+                        <Project className='main'
+
+                        />
                     </div>
-                    <div>
-                    <Project className='main'
-                    />
-                    </div>
+                    <br></br>
+                    <br></br>
+                    </Grid.Row>
+
+
                     <div id='skills'>
                     <Skill className='main'
                     />

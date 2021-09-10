@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .grid {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mission {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.missionDark {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: white;
 }
