@@ -15,17 +15,31 @@ import counter from '../../Img/counter.png'
 const items1 = [
     {
         image: dicedex,
-        header: 'DiceDex (Express.js | Node.js)',
+        header: 'DiceDex (Express.js | Node.js | MongoDB)',
         meta: 'Tabletop Game Group Database', 
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
     {
+        image: codecstory,
+        header: 'Codec Story (Python 3 | Flask | Gunicorn)',
+        meta: 'A Text Adventure', 
+        description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
+    },
+    {
         image: paj,
-        header: 'PAJ (React.js | Node.js)',
+        header: 'PAJ (React.js | Node.js | MongoDB | Team Developed)',
         meta: 'Project Assistance Journal',
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://paj-03-project-hi-nu.herokuapp.com/',
+    },
+    {
+        image: repbucket,
+        header: 'RepBucket (Python 3 | Django | PostgeSQL)',
+        meta: 'Goals and Skills Tracker',
+        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://repbucket-04.herokuapp.com/',
     },
 ]
 
