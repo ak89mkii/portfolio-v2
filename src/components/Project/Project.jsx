@@ -14,6 +14,23 @@ import counter from '../../Img/counter.png'
 
 const items1 = [
     {
+        image: dicedex,
+        header: 'DiceDex (Express.js | Node.js)',
+        meta: 'Tabletop Game Group Database', 
+        description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
+    },
+    {
+        image: paj,
+        header: 'PAJ (React.js | Node.js)',
+        meta: 'Project Assistance Journal',
+        description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://paj-03-project-hi-nu.herokuapp.com/',
+    },
+]
+
+const items2 = [
+    {
         image: war,
         header: 'War Card Game',
         meta: 'A War playing card variant with a retro game theme.', 
@@ -46,15 +63,29 @@ const Project = (props) => {
             <br></br>
             <br></br>
 
+            {/* Full-Stack Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h1 className={props.mode}>Front-End</h1>
+                    <h1 className={props.mode}>Full-Stack Applications</h1>
                 </Grid.Row>
             </Grid>
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <Card.Group centered items={items1} />
+                </Grid.Row>
+            </Grid>
+
+            {/* Front-End Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <h1 className={props.mode}>Front-End Applications</h1>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items2} />
                 </Grid.Row>
             </Grid>
 
