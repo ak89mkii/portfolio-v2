@@ -12,6 +12,7 @@ import ig from '../../Img/ig.png'
 import holo from '../../Img/holo.png'
 import counter from '../../Img/counter.png'
 
+{/* Full-Stack Projects. */}
 const items1 = [
     {
         image: dicedex,
@@ -38,11 +39,12 @@ const items1 = [
         image: repbucket,
         header: 'RepBucket (Python 3 | Django | PostgeSQL)',
         meta: 'Goals and Skills Tracker',
-        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://repbucket-04.herokuapp.com/',
     },
 ]
 
+{/* Front-End Projects. */}
 const items2 = [
     {
         image: war,
@@ -80,7 +82,7 @@ const Project = (props) => {
             {/* Full-Stack Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h1 className={props.mode}>Full-Stack Applications</h1>
+                    <h1 className={props.mode}><Icon name='server' />Full-Stack Applications</h1>
                 </Grid.Row>
             </Grid>
 
@@ -93,7 +95,7 @@ const Project = (props) => {
             {/* Front-End Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h1 className={props.mode}>Front-End Applications</h1>
+                    <h1 className={props.mode}><Icon name='code' />Front-End Applications</h1>
                 </Grid.Row>
             </Grid>
 
