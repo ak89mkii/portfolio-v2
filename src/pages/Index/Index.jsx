@@ -42,6 +42,7 @@ class Home extends Component {
         })
     }
 
+    // Function Toggle Dark Mode.
     toggleMode = () => {
         if (this.state.mode == 'light') {
             this.setState({

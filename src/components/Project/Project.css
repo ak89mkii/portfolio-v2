@@ -28,3 +28,12 @@
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.bar {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.hidden {
+    
+}
