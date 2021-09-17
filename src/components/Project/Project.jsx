@@ -11,6 +11,10 @@ import ex from '../../Img/ex_life_tracker.png'
 import ig from '../../Img/ig.png'
 import holo from '../../Img/holo.png'
 import counter from '../../Img/counter.png'
+import pondercode from '../../Img/pondercode.png'
+import note from '../../Img/note.png'
+import hair from '../../Img/hair.png'
+import bug from '../../Img/bug.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -51,8 +55,84 @@ const items2 = [
 {/* Front-End 03 Projects. */}
 const items3 = [
     {
+        image: counter,
+        header: 'Donation Counter Application (React.js)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: ex,
+        header: 'War Card Game (JavaScript ES2018)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: note,
+        header: 'War Card Game (JavaScript ES2018)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+]
+
+{/* Front-End 04 Projects. */}
+const items4 = [
+    {
+        image: pondercode,
+        header: 'Donation Counter Application (React.js)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: hair,
+        header: 'War Card Game (JavaScript ES2018)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
         image: war,
         header: 'War Card Game (JavaScript ES2018)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+]
+
+{/* Front-End 05 Projects. */}
+const items5 = [
+    {
+        image: icontextuall,
+        header: 'Donation Counter Application (React.js)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: ig,
+        header: 'War Card Game (JavaScript ES2018)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: holo,
+        header: 'War Card Game (JavaScript ES2018)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+]
+
+
+{/* Front-End 06 Projects. */}
+const items6 = [
+    {
+        image: bug,
+        header: 'Donation Counter Application (React.js)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
@@ -87,7 +167,7 @@ const Project = (props) => {
             {/* Full-Stack 02 Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <p hidden>- <Icon name='code' />Front-End Applications -</p>
+                    <p className='break'>-</p>
                 </Grid.Row>
             </Grid>
 
@@ -100,6 +180,12 @@ const Project = (props) => {
             {/* Front-End 03 Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
                     <h1 className={props.mode}>- <Icon name='code' />Front-End Applications -</h1>
                 </Grid.Row>
             </Grid>
@@ -110,6 +196,62 @@ const Project = (props) => {
                 </Grid.Row>
             </Grid>
 
+            {/* Front-End 04 Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p hidden>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items4} />
+                </Grid.Row>
+            </Grid>
+
+            {/* Miscellaneous 05 Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <h1 className={props.mode}>- <Icon name='game' />Miscellaneous | Templates | Video Games -</h1>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items5} />
+                </Grid.Row>
+            </Grid>
+            
+            {/* Front-End 06 Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+            
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p hidden>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items6} />
+                </Grid.Row>
+            </Grid>
 
             <br></br>
             <br></br>
