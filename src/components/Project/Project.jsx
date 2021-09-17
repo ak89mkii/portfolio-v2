@@ -63,14 +63,14 @@ const items3 = [
     },
     {
         image: ex,
-        header: 'War Card Game (JavaScript ES2018)',
+        header: 'EX-Life Tracker (JavaScript ES2018)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
     },
     {
         image: note,
-        header: 'War Card Game (JavaScript ES2018)',
+        header: 'Note Taking App (JavaScript ES2018)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
@@ -81,14 +81,14 @@ const items3 = [
 const items4 = [
     {
         image: pondercode,
-        header: 'Donation Counter Application (React.js)',
+        header: 'Ponder Code Website (React.js | Semantic UI React)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
     },
     {
         image: hair,
-        header: 'War Card Game (JavaScript ES2018)',
+        header: 'Sam Rose Salon Website (JavaScript ES2018)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
@@ -106,21 +106,21 @@ const items4 = [
 const items5 = [
     {
         image: icontextuall,
-        header: 'Donation Counter Application (React.js)',
+        header: 'iContextuall (React.js | Flask | Twilio SMS API)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
     },
     {
         image: ig,
-        header: 'War Card Game (JavaScript ES2018)',
+        header: 'IG 9000 (React.js | Flask | Google Text-to-Speech | PyAudio)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
     },
     {
         image: holo,
-        header: 'War Card Game (JavaScript ES2018)',
+        header: 'Holo-HUD (React.js | Raspberry Pi 4 | Custom Built Display)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
@@ -132,7 +132,7 @@ const items5 = [
 const items6 = [
     {
         image: bug,
-        header: 'Donation Counter Application (React.js)',
+        header: 'Bug Buster (C# | The Unity Engine)',
         meta: 'War Playing Card Game with Retro Game Theme',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
