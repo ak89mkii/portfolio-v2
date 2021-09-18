@@ -14,7 +14,7 @@ const items = [
       childKey: 1,
       image: 'https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png',
       header: 'Tech Used Before:',
-      description: <div><p>Node.js | Express.js | Django | Flask | MongoDB | PostgreSQL | Boostrap | C# | Unity Engine</p><img width='50px' src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'/><img width='50px' src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'/><img width='50px' src='https://miro.medium.com/max/1200/1*1OBwwxzJksMv0YDD-XmyBw.png'/><img margin='10px' width='50px' src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'/><img height='70px' src='https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png'/><img height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png'/><img height='70px' src='https://freepikpsd.com/media/2019/10/bootstrap-logo-png-1-Transparent-Images-Free.png'/><img margin='10px' height='70px' src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'/></div>,
+      description: <div><p>Node.js | Express.js | Django | Flask | MongoDB | PostgreSQL | Boostrap | C# | Unity Engine</p><img height='70px' src='https://pbs.twimg.com/profile_images/749981640609398784/-amtsDMY_400x400.jpg'/><img height='70px' src='https://images.tute.io/tute/topic/express-js.png'/><img height='70px' src='https://miro.medium.com/max/1200/1*1OBwwxzJksMv0YDD-XmyBw.png'/><img margin='10px' height='70px' src='https://www.pngfind.com/pngs/m/104-1044449_python-logo-clipart-drawing-flask-python-hd-png.png'/><img height='70px' src='https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png'/><img height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png'/><img height='70px' src='https://freepikpsd.com/media/2019/10/bootstrap-logo-png-1-Transparent-Images-Free.png'/><img margin='10px' height='70px' src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'/></div>,
       meta: 'The technologies and languages that I am familiar with.',
   },
   {
@@ -31,7 +31,7 @@ const Skill = () => {
       <div>
        <Divider horizontal>
         <Header as='h2'>
-          <Icon name='certificate' />
+          <Icon name='cogs' />
             Skills
         </Header>
       </Divider>
