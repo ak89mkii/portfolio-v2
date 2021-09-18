@@ -15,6 +15,7 @@ import pondercode from '../../Img/pondercode.png'
 import note from '../../Img/note.png'
 import hair from '../../Img/hair.png'
 import bug from '../../Img/bug.png'
+import code from '../../Img/code.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -46,6 +47,13 @@ const items2 = [
     {
         image: repbucket,
         header: 'RepBucket (Python 3 | Django | PostgeSQL)',
+        meta: 'Goals and Skills Tracker with Gaming / RPG Elements',
+        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://repbucket-04.herokuapp.com/',
+    },
+    {
+        image: code,
+        header: 'Code Seonbi (React.js | Django | PostgeSQL)',
         meta: 'Goals and Skills Tracker with Gaming / RPG Elements',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://repbucket-04.herokuapp.com/',
