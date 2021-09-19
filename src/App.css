@@ -63,3 +63,14 @@ h3 {
 .text {
   font-family: 'Roboto', sans-serif;
 }
+
+/* SKills */
+
+.left {
+  text-align: left;
+}
+
+.meta {
+  text-align: left;
+  color: white;
+}

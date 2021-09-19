@@ -108,9 +108,10 @@ class Home extends Component {
                     <br></br>
                     </Grid.Row>
 
-
+                    <Grid.Row>
                     <div id='skills'>
                     <Skill className='main'
+                                                mode={this.state.mode}
                     />
                     </div>
                     <div>
@@ -123,6 +124,7 @@ class Home extends Component {
                     </div>
                     <br></br>
                     <br></br>
+                    </Grid.Row>
                     <Grid centered>
                     <Button 
                         color='yellow' 
