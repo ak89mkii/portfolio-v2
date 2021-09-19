@@ -100,18 +100,20 @@ class Home extends Component {
                     {/* Projects. */}
                     <Grid.Row>
                     <div id='projects'>
-                        <Project className='main'
+                        <Project 
+                            className='main'
                             mode={this.state.mode}
                         />
                     </div>
                     <br></br>
                     <br></br>
                     </Grid.Row>
-
+                    {/* Skills. */}
                     <Grid.Row>
                     <div id='skills'>
-                    <Skill className='main'
-                                                mode={this.state.mode}
+                    <Skill 
+                        className='main'
+                        mode={this.state.mode}
                     />
                     </div>
                     <div>
@@ -125,14 +127,15 @@ class Home extends Component {
                     <br></br>
                     <br></br>
                     </Grid.Row>
-                    <Grid centered>
+                    {/* Skills Toggle Button. */}
+                    <Grid.Row centered>
                     <Button 
                         color='yellow' 
                         size='huge'
                         onClick={this.handleToggle}
                     >Toggle Skills View 
                     </Button>
-                    </Grid>
+                    </Grid.Row>
                     <br></br>
                     <br></br>
 
