@@ -5,9 +5,9 @@ import '../../App.css'
 const items = [
   {
       childKey: 0,
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhIgjPSZVyidiZeGS2pqXl9eFLkHNVim5bvF6FTUTYuy3K55w8LPTns8kvk0nWExDG9UQ&usqp=CAU',
+      image: 'https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png',
       header: <h2 className='left'>Core Competencies:</h2>,
-      description: <div><p>The technologies and laguages that I am best with.</p><p>JavaScript (ES2018) | HTML5 | CSS3 | React.js | Semantic UI React | Python 3 | Git | GitHub (Version Control)</p><Icon name='js' size='huge' color='yellow'/><Icon name='html5' size='huge' color='red'/><Icon name='css3 alternate' size='huge' color='blue'/><Icon name='react' size='huge' color='blue'/><Icon name='python' size='huge' color='black'/><Icon name='github' size='huge' color='black'/></div>
+      description: <div><p>The technologies and laguages that I am best with.</p><p>JavaScript (ES2018) | HTML5 | CSS3 | React.js | Semantic UI React | Python 3 | Git | GitHub (Version Control)</p><img height='70px' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'/><img height='70px' src='https://banner2.cleanpng.com/20180802/tpl/kisspng-logo-html5-brand-clip-art-%E6%9D%89-%E5%B1%B1-%E8%89%AF-%E9%9B%84-5b62be01b565d5.334247781533197825743.jpg'/><img margin='10px' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'/><img height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png'/><img height='70px' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhIgjPSZVyidiZeGS2pqXl9eFLkHNVim5bvF6FTUTYuy3K55w8LPTns8kvk0nWExDG9UQ&usqp=CAU'/><img height='70px' src='https://i.pinimg.com/originals/43/4d/cf/434dcfe1acd79af48ddfc35292c31de5.png'/><img margin='10px' height='70px' src='https://github.githubassets.com/images/modules/logos_page/Octocat.png'/></div>
       ,
   },
   {
