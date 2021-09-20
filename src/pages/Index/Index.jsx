@@ -97,17 +97,6 @@ class Home extends Component {
                     <br></br>
                     <br></br>
                     </Grid.Row>
-                    {/* Projects. */}
-                    <Grid.Row>
-                    <div id='projects'>
-                        <Project 
-                            className='main'
-                            mode={this.state.mode}
-                        />
-                    </div>
-                    <br></br>
-                    <br></br>
-                    </Grid.Row>
                     {/* Skills. */}
                     <Grid.Row>
                     <div id='skills'>
@@ -123,6 +112,17 @@ class Home extends Component {
                         playing={true}
                         onEnd={this.handleToggle02}
                     />)}
+                    </div>
+                    <br></br>
+                    <br></br>
+                    </Grid.Row>
+                    {/* Projects. */}
+                    <Grid.Row>
+                    <div id='projects'>
+                        <Project 
+                            className='main'
+                            mode={this.state.mode}
+                        />
                     </div>
                     <br></br>
                     <br></br>
@@ -143,6 +143,7 @@ class Home extends Component {
                     <div id='about'>
                     <Interest 
                         className='about'
+                        mode={this.state.mode}
                     />
                     </div>
                     </Grid.Row>
@@ -150,6 +151,7 @@ class Home extends Component {
                     <Grid.Row centered>
                     <div id='contact'>
                     <Contact 
+                        mode={this.state.mode}
                     />
                     </div>
                     </Grid.Row>

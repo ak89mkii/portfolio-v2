@@ -7,21 +7,21 @@ class Contact extends Component {
     state = {
       value: 'code@pondermint.com',
       copied: false,
-      open: false 
+      open: false,
     };
   
     handleClick = () => this.setState((prevState) => ({ open: !prevState.open }))
     handleClose = () => this.setState({ open: false })
 
-    render() {
+    render(props) {
         const { open } = this.state
         return (
             <div>
-                <Divider horizontal>
-                <Header as='h2'>
-                    Contact Information
-                </Header>
-                </Divider>
+                {/* <Divider horizontal> */}
+                    <h2 className={this.props.mode}>
+                        Contact Information
+                    </h2>
+                {/* </Divider> */}
             
                 <Card centered>
                 <Segment>
@@ -42,7 +42,7 @@ class Contact extends Component {
                     <Segment
                         style={{ left: '5%', position: 'fixed', top: '80%', zIndex: 1000 }}
                     >
-                        <Header>Email copied to clipboard.</Header>
+                        <Header>Email address copied to clipboard.</Header>
                     </Segment>
                     </TransitionablePortal>
 
