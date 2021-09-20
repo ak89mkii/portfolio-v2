@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Header, Icon, Segment, List, Card, Divider, Button } from 'semantic-ui-react'
+import { Header, Icon, Segment, List, Card, Divider, Button, TransitionablePortal } from 'semantic-ui-react'
 import Resume from '../../Img/resume02.PDF'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
@@ -7,14 +7,18 @@ class Contact extends Component {
     state = {
       value: 'code@pondermint.com',
       copied: false,
+      open: false 
     };
   
+    handleClick = () => this.setState((prevState) => ({ open: !prevState.open }))
+    handleClose = () => this.setState({ open: false })
+
     render() {
+        const { open } = this.state
         return (
             <div>
                 <Divider horizontal>
                 <Header as='h2'>
-                    <Icon name='id card' />
                     Contact Information
                 </Header>
                 </Divider>
@@ -24,15 +28,24 @@ class Contact extends Component {
                     <List divided relaxed>
                     <List.Item>
                         <List.Content>
-                        <List.Header>Email Address:<p>code@pondermint.com</p><p>        {this.state.copied ? <span style={{color: 'black'}}>- COPIED TO CLIPBOARD -</span> : null}</p></List.Header>
+                        <List.Header>Email Address:<p>code@pondermint.com</p></List.Header>
                         <CopyToClipboard text={this.state.value}
                             onCopy={() => this.setState({copied: true})}>
-                            <Button floated='right' icon color='yellow'>
+                            <Button floated='right' icon color='yellow' onClick={this.handleClick}>
                                 <Icon name='copy' color='black' />
                             </Button>
                         </CopyToClipboard>
                         </List.Content>
                     </List.Item>
+
+                    <TransitionablePortal onClose={this.handleClose} open={open}>
+                    <Segment
+                        style={{ left: '5%', position: 'fixed', top: '80%', zIndex: 1000 }}
+                    >
+                        <Header>Email copied to clipboard.</Header>
+                    </Segment>
+                    </TransitionablePortal>
+
                     <List.Item>
                         <List.Content>
                         <List.Header>LinkedIn:</List.Header>

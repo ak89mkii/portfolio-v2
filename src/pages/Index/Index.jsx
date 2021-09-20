@@ -138,15 +138,21 @@ class Home extends Component {
                     </Grid.Row>
                     <br></br>
                     <br></br>
-
-                    <div id='interests'>
-                    <Interest className='Interest'
+                    {/* About. */}
+                    <Grid.Row centered>
+                    <div id='about'>
+                    <Interest 
+                        className='about'
                     />
                     </div>
+                    </Grid.Row>
+                    {/* Contacts. */}
+                    <Grid.Row centered>
                     <div id='contact'>
                     <Contact 
                     />
                     </div>
+                    </Grid.Row>
                 </Grid>
                 <br></br>
                 <Footer />
