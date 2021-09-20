@@ -8,7 +8,7 @@ const Interest = (props) => {
         <div>
             <Divider horizontal>
               <h1 className={props.mode}>
-                <Icon name='id card' />
+                <Icon name='id badge outline' />
                 About
               </h1>
             </Divider>

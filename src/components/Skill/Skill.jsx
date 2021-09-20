@@ -30,7 +30,7 @@ const Skill = (props) => {
       <Divider horizontal>
         <h1 className={props.mode} as='h2'>
           <Icon name='cogs' />
-            Skills
+          Skills
         </h1>
       </Divider>
       <br></br>
