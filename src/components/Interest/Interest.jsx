@@ -35,7 +35,6 @@ const Interest = (props) => {
                         <span>I enjoy snowboarding and skateboading, though I am a bit better at the former than the latter. I intend on getting a One Wheel at some point.</span>
                         <Divider />
 
-                        
                         </Grid.Column>
                         <Grid.Column>
 
