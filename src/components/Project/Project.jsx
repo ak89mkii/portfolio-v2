@@ -162,7 +162,7 @@ const Project = (props) => {
             {/* Full-Stack 01 Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h1 className={props.mode}>- <Icon name='server' />Full-Stack Applications -</h1>
+                    <h2 className={props.mode}>Full-Stack Applications</h2>
                 </Grid.Row>
             </Grid>
 
@@ -194,7 +194,7 @@ const Project = (props) => {
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h1 className={props.mode}>- <Icon name='code' />Front-End Applications -</h1>
+                    <h2 className={props.mode}>Front-End Applications</h2>
                 </Grid.Row>
             </Grid>
 
@@ -232,7 +232,7 @@ const Project = (props) => {
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h1 className={props.mode}>- <Icon name='game' />Miscellaneous | Templates | Video Games -</h1>
+                    <h2 className={props.mode}>Miscellaneous | Templates | Video Games</h2>
                 </Grid.Row>
             </Grid>
 
