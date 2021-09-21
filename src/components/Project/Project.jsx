@@ -71,14 +71,14 @@ const items3 = [
     },
     {
         image: ex,
-        header: 'EX-Life Tracker (JavaScript ES2018)',
+        header: 'EX-Life Tracker: "Specific" Tabletop Game Stats Tool',
         meta: 'React.js | CSS3 | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
     },
     {
         image: note,
-        header: 'Note Taking App (JavaScript ES2018)',
+        header: 'Note Taking App: Editable (Data Does Not Persist)',
         meta: 'JavaScript (ES2018) | HTML5 | CSS3',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
@@ -103,8 +103,8 @@ const items4 = [
     },
     {
         image: war,
-        header: 'War Card Game (JavaScript ES2018)',
-        meta: 'JavaScript (ES2018) | HTML5 | CSS3 | Bootstra',
+        header: 'War Card Game: Old Arcade Game Theme',
+        meta: 'JavaScript (ES2018) | HTML5 | CSS3 | Bootstrap',
         description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://war-were-declared-4.surge.sh/',
     },
