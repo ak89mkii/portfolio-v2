@@ -22,21 +22,21 @@ const items1 = [
     {
         image: dicedex,
         header: 'DiceDex: Tabletop Game Group Database and Tracker',
-        meta: 'HTML5 | CSS3 | Express.js | Node.js | MongoDB | Bootstrap', 
+        meta: 'Express.js | Node.js | MongoDB | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
     {
         image: codecstory,
         header: 'Codec Story: A Text Adventure Game',
-        meta: 'HTML5 | CSS3 | Python 3 | Flask | Gunicorn | Bootstrap', 
+        meta: 'HTML5 | Python 3 | Flask | Gunicorn | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://codecu.herokuapp.com/',
     },
     {
         image: paj,
         header: 'PAJ: Project Management App (Team Developed)',
-        meta: 'HTML5 | CSS3 | React.js | Node.js | Express.js | MongoDB | Semantic UI React',
+        meta: 'React.js | Express.js | Node.js | MongoDB | CSS3 | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
@@ -46,17 +46,17 @@ const items1 = [
 const items2 = [
     {
         image: repbucket,
-        header: 'RepBucket (Python 3 | Django | PostgeSQL)',
-        meta: 'Goals and Skills Tracker with Gaming / RPG Elements',
+        header: 'RepBucket: Goals and Skills Tracker',
+        meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://repbucket-04.herokuapp.com/',
     },
     {
         image: code,
-        header: 'Code Seonbi (React.js | Django | PostgeSQL)',
-        meta: 'Goals and Skills Tracker with Gaming / RPG Elements',
-        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://repbucket-04.herokuapp.com/',
+        header: 'Code Seonbi: Coding References and Bug Tracker',
+        meta: 'React.js | Django | PostgeSQL | CSS3 | Semantic UI React',
+        description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://github.com/ak89mkii/code-seonbi',
     },
 ]
 
