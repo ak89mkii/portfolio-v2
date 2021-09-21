@@ -21,22 +21,22 @@ import code from '../../Img/code.png'
 const items1 = [
     {
         image: dicedex,
-        header: 'DiceDex (Express.js | Node.js | MongoDB)',
-        meta: 'Tabletop Game Group Database and Tracker', 
+        header: 'DiceDex: Tabletop Game Group Database and Tracker',
+        meta: 'HTML5 | CSS3 | Express.js | Node.js | MongoDB | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
     {
         image: codecstory,
-        header: 'Codec Story (Python 3 | Flask | Gunicorn)',
-        meta: 'A Text Adventure Game (Using Placeholder Images)', 
+        header: 'Codec Story: A Text Adventure Game',
+        meta: 'HTML5 | CSS3 | Python 3 | Flask | Gunicorn | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://codecu.herokuapp.com/',
     },
     {
         image: paj,
-        header: 'PAJ (React.js | Node.js | MongoDB | Team Developed)',
-        meta: 'Project Assistance Journal, Project Tracker App',
+        header: 'PAJ: Project Management App (Team Developed)',
+        meta: 'HTML5 | CSS3 | React.js | Node.js | Express.js | MongoDB | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
