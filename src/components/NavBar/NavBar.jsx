@@ -53,34 +53,34 @@ class NavBar extends Component {
                     onClick={this.handleItemClick}
                     />
                     </a>
-                    <a href='#projects'>
+                    <a href='#skills'>
                     <Menu.Item
-                    name='Projects'
+                    name='Skills'
                     // active={activeItem === 'Projects'}
                     onClick={this.handleItemClick}
                     />
                     </a>
-                    <a href='#skills'>
+                    <a href='#projects'>
                     <Menu.Item
-                    name='Skills'
+                    name='Projects'
                     // active={activeItem === 'Skills'}
                     onClick={this.handleItemClick}
                     />
                     </a>
-                    <a href='#interests'>
+                    <a href='#about'>
                     <Menu.Item
-                    name='Interests'
+                    name='About'
                     // active={activeItem === 'Interests'}
                     onClick={this.handleItemClick}
                     />
                     </a>
-                    <a href='#contact'>
+                    {/* <a href='#contact'>
                     <Menu.Item
                     name='Contact'
                     // active={activeItem === 'Contact'}
                     onClick={this.handleItemClick}
                     />
-                    </a>
+                    </a> */}
                 </Menu>
                 {/* </Segment> */}
                 </div>
