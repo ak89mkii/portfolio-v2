@@ -99,7 +99,7 @@ const items4 = [
         header: 'Sam Rose Salon: Local Haircut Business Site',
         meta: 'React.js | CSS3 | Semantic UI React | npm Webpacks',
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
-        href: '',
+        href: 'https://samrosesalon.surge.sh/',
     },
     {
         image: war,
