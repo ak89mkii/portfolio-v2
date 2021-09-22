@@ -145,6 +145,11 @@ const items6 = [
         description: <a href='https://github.com/ak89mkii/bug-buster' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://a-i-chasm-games.itch.io/bug-buster',
     },
+    {
+        header: <iframe frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='260px' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>,
+        description: 'Controls: Fireball (Left Mouse Click) | Movement (A, S, D) | Jump (Spacebar)',
+    },
+    
 ]
 
 const Project = (props) => {
