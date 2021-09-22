@@ -114,22 +114,22 @@ const items4 = [
 const items5 = [
     {
         image: icontextuall,
-        header: 'iContextuall (React.js | Flask | Twilio SMS API)',
-        meta: 'War Playing Card Game with Retro Game Theme',
+        header: 'iContextuall: Twilio SMS Template',
+        meta: 'React.js | Flask | CSS3 | Bootstrap | Twilio SMS API',
         description: <a href='https://github.com/ak89mkii/iContextuall' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://ak89mkii.medium.com/build-a-simple-gui-for-twilio-sms-using-flask-not-deployment-ready-785e1df2e8a0',
     },
     {
         image: ig,
-        header: 'IG 9000 (React.js | Flask | Google Text-to-Speech | PyAudio)',
-        meta: 'War Playing Card Game with Retro Game Theme',
+        header: 'IG 9000: Voice Recongition Virtual Assistant',
+        meta: 'React.js | Flask | CSS3 | Semantic UI Reat | Google Text-to-Speech | PyAudio',
         description: <a href='https://github.com/ak89mkii/ig-9000' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.linkedin.com/pulse/speech-recognition-program-holographic-display-project-kasem/?trackingId=fc9Mdeuv9KrouSk%2Bo7d8Gg%3D%3D',
     },
     {
         image: holo,
-        header: 'Holo-HUD (React.js | Raspberry Pi 4 | Custom Built Display)',
-        meta: 'War Playing Card Game with Retro Game Theme',
+        header: 'Holo-HUD: Custom Holographic Display Project',
+        meta: 'React.js | CSS3 | Semantic UI React | Raspberry Pi 4 | Custom Built Display',
         description: <a href='https://github.com/ak89mkii/holo-hud' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.linkedin.com/pulse/speech-recognition-program-holographic-display-project-kasem/?trackingId=fc9Mdeuv9KrouSk%2Bo7d8Gg%3D%3D',
     },
