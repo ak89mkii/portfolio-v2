@@ -116,17 +116,6 @@ class Home extends Component {
                     <br></br>
                     <br></br>
                     </Grid.Row>
-                    {/* Projects. */}
-                    <Grid.Row>
-                    <div id='projects'>
-                        <Project 
-                            className='main'
-                            mode={this.state.mode}
-                        />
-                    </div>
-                    <br></br>
-                    <br></br>
-                    </Grid.Row>
                     {/* Skills Toggle Button. */}
                     <Grid.Row centered>
                     <Button 
@@ -138,6 +127,17 @@ class Home extends Component {
                     </Grid.Row>
                     <br></br>
                     <br></br>
+                    {/* Projects. */}
+                    <Grid.Row>
+                    <div id='projects'>
+                        <Project 
+                            className='main'
+                            mode={this.state.mode}
+                        />
+                    </div>
+                    <br></br>
+                    <br></br>
+                    </Grid.Row>
                     {/* About. */}
                     <Grid.Row centered>
                     <div id='about'>
