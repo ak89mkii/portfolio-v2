@@ -89,7 +89,7 @@ const items3 = [
 const items4 = [
     {
         image: pondercode,
-        header: 'Ponder Code: Mimimalist Custom Web Apps Site',
+        header: 'Ponder Code: Minimalist Custom Web Apps Site',
         meta: 'React.js | CSS3 | Semantic UI React | npm Webpacks',
         description: <a href='https://github.com/ak89mkii/ponder-code' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.pondercode.com/',
@@ -121,7 +121,7 @@ const items5 = [
     },
     {
         image: ig,
-        header: 'IG 9000: Voice Recongition Virtual Assistant',
+        header: 'IG 9000: Voice Recognition Virtual Assistant',
         meta: 'React.js | Flask | CSS3 | Semantic UI Reat | Google Text-to-Speech | PyAudio',
         description: <a href='https://github.com/ak89mkii/ig-9000' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.linkedin.com/pulse/speech-recognition-program-holographic-display-project-kasem/?trackingId=fc9Mdeuv9KrouSk%2Bo7d8Gg%3D%3D',
