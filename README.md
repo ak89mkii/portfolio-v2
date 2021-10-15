@@ -36,6 +36,7 @@ The Ponder Code website.
 // https://stackoverflow.com/questions/47686345/playing-sound-in-reactjs
 // https://www.youtube.com/watch?v=x5oiX93DeHA
 // https://stackoverflow.com/questions/56553576/react-clicking-on-resume-header-doesnt-download-resume-pdf-file
+// https://stackoverflow.com/questions/16375592/favicon-not-showing-up-in-google-chrome
 #### Images References / Credits:
 // https://thenounproject.com/term/coffee/4112/
 // https://thenounproject.com/search/?q=arcade+button&i=1469651
