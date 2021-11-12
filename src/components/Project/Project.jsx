@@ -81,7 +81,7 @@ const items3 = [
         header: 'Note Taking App: Editable (Data Does Not Persist)',
         meta: 'JavaScript (ES2018) | HTML5 | CSS3',
         description: <a href='https://github.com/ak89mkii/note-card-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://github.com/ak89mkii/note-card-app',
+        href: 'https://ig-note-117.surge.sh/',
     },
 ]
 
