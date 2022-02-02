@@ -12,7 +12,7 @@ class Footer extends Component {
         return (
             <div>
                 <Divider />
-                    <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2021</div>
+                    <div className='copyright'>Copyright &#169; Alexander I. Kasem 2020-2022</div>
                 <br></br>
             </div>
         )
