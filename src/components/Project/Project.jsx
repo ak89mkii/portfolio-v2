@@ -27,29 +27,29 @@ const items1 = [
         href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
     {
-        image: codecstory,
-        header: 'Codec Story: A Text Adventure Game',
-        meta: 'HTML5 | Python 3 | Flask | Gunicorn | CSS3 | Bootstrap', 
-        description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://codecu.herokuapp.com/',
-    },
-    {
         image: paj,
         header: 'PAJ: Project Management App (Team Developed)',
         meta: 'React.js | Express.js | Node.js | MongoDB | CSS3 | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
-]
-
-{/* Full-Stack 02 Projects. */}
-const items2 = [
     {
         image: repbucket,
         header: 'RepBucket: Goals and Skills Tracker',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://repbucket-04.herokuapp.com/',
+    },
+]
+
+{/* Full-Stack 02 Projects. */}
+const items2 = [
+    {
+        image: code,
+        header: 'Code Seonbi: Coding References and Bug Tracker',
+        meta: 'React.js | Django | PostgeSQL | CSS3 | Semantic UI React',
+        description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://github.com/ak89mkii/code-seonbi',
     },
     {
         image: code,
@@ -139,6 +139,13 @@ const items5 = [
 {/* Front-End 06 Projects. */}
 const items6 = [
     {
+        image: codecstory,
+        header: 'Codec Story: A Text Adventure Game',
+        meta: 'HTML5 | Python 3 | Flask | Gunicorn | CSS3 | Bootstrap', 
+        description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://codecu.herokuapp.com/',
+    },
+    {
         image: bug,
         header: 'Bug Buster (C# | The Unity Engine)',
         meta: 'War Playing Card Game with Retro Game Theme',
@@ -167,7 +174,7 @@ const Project = (props) => {
             {/* Full-Stack 01 Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h2 className={props.mode}>Full-Stack Applications</h2>
+                    <h2 className={props.mode}>Full-Stack Applications | Native Applications</h2>
                 </Grid.Row>
             </Grid>
 
