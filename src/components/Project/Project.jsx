@@ -16,6 +16,7 @@ import note from '../../Img/note.png'
 import hair from '../../Img/hair.png'
 import bug from '../../Img/bug.png'
 import code from '../../Img/code.png'
+import phone from '../../Img/phone.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -52,7 +53,7 @@ const items2 = [
         href: 'https://github.com/ak89mkii/code-seonbi',
     },
     {
-        image: code,
+        image: phone,
         header: 'Code Seonbi: Coding References and Bug Tracker',
         meta: 'React.js | Django | PostgeSQL | CSS3 | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
