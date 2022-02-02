@@ -71,8 +71,11 @@ class Home extends Component {
                 <br></br>
                 <Container>
                 <Radio 
+                    className='main'
+                    mode={this.state.mode}
                     toggle
                     onClick={this.toggleMode}
+                    label='Light / Dark Mode Toggle'
                 />   
                 </Container>
                 <Grid>
