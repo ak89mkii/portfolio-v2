@@ -41,6 +41,8 @@ The Ponder Code website.
 // https://thenounproject.com/term/coffee/4112/
 // https://thenounproject.com/search/?q=arcade+button&i=1469651
 // Capcom Image
+// https://thenounproject.com/icon/dark-mode-4300955/
+// https://thenounproject.com/icon/brightness-4140598/
 #### Sounds References / Credits:
 // https://freesound.org/people/pumodi/sounds/150222/
 // https://freesound.org/people/Sirkoto51/sounds/414214/

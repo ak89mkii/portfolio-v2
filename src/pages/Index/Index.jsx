@@ -1,7 +1,7 @@
 import React, { Component, createRef } from 'react'
 import '../../App.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Button, Grid, Sticky, Radio, Container, Divider } from 'semantic-ui-react'
+import { Button, Grid, Sticky, Radio, Container, Image } from 'semantic-ui-react'
 import NavBar from '../../components/NavBar/NavBar'
 import Statement from '../../components/Statement/Statement'
 import Project from '../../components/Project/Project'
@@ -13,6 +13,9 @@ import Skill from '../../components/Skill/Skill'
 import Footer from '../../components/Footer/Footer'
 import Audio from '../../sounds/select.mp3'
 import ReactHowler from 'react-howler'
+import sun from '../../Img/sun.png'
+import moon from '../../Img/moon.png'
+
 
 class Home extends Component {
     state = {
@@ -22,7 +25,8 @@ class Home extends Component {
         mission: 'mission',
         on: false,
         sound: false,
-        onMusic: false
+        onMusic: false,
+        icon: sun,
     }
 
     contextRef = createRef()
@@ -49,14 +53,16 @@ class Home extends Component {
                 mode: 'dark',
                 photo: 'photoDark',
                 mission: 'missionDark',
-                menu: 'ui inverted menu'
+                menu: 'ui inverted menu',
+                icon: moon
             })
         } else if (this.state.mode == 'dark') {
             this.setState({
                 mode: 'light',
                 photo: 'photo',
                 mission: 'mission',
-                menu: 'ui menu'
+                menu: 'ui menu',
+                icon: sun
             })
         }
     }
@@ -75,8 +81,11 @@ class Home extends Component {
                     mode={this.state.mode}
                     toggle
                     onClick={this.toggleMode}
-                    label='Light / Dark Mode Toggle'
+                    // label='Light / Dark Mode Toggle'
                 />   
+                <Image  
+                    className='sun' 
+                    src={this.state.icon} />
                 </Container>
                 <Grid>
                     {/* Photo, Name, and Title. */}

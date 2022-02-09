@@ -74,3 +74,9 @@ h3 {
   text-align: left;
   color: white;
 }
+
+.sun {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
