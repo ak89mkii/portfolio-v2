@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Header, Icon, Segment, List, Card, Divider, Button, TransitionablePortal } from 'semantic-ui-react'
-import Resume from '../../Img/resume02.PDF'
+import Resume from '../../Img/resume03.PDF'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 class Contact extends Component {
