@@ -49,7 +49,7 @@ class Contact extends Component {
                     <List.Item>
                         <List.Content>
                         <List.Header>LinkedIn:</List.Header>
-                        <a href='https://www.linkedin.com/in/alexander-kasem-/' target="_blank">
+                        <a href='https://www.linkedin.com/in/alexander-kasem/' target="_blank">
                         <Button floated='right' color='linkedin' icon>
                             <Icon name='linkedin' />
                         </Button>
