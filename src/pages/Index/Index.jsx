@@ -85,7 +85,8 @@ class Home extends Component {
                 />   
                 <Image  
                     className='sun' 
-                    src={this.state.icon} />
+                    src={this.state.icon} 
+                />
                 </Container>
                 <Grid>
                     {/* Photo, Name, and Title. */}
