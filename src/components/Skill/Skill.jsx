@@ -1,5 +1,5 @@
 import React from 'react'
-import { Divider, Icon, Header, Grid, List, Item } from 'semantic-ui-react'
+import { Divider, Icon, Container, Grid, List, Item } from 'semantic-ui-react'
 import '../../App.css'
 
 const items = [
@@ -27,6 +27,7 @@ const items = [
 const Skill = (props) => {
   return (
     <div>
+      <Container>
       <Divider horizontal>
         <h1 className={props.mode} as='h2'>
           <Icon name='cogs' />
@@ -38,6 +39,7 @@ const Skill = (props) => {
         <Item.Group divided items={items} />
       <br></br>
       <br></br>
+      </Container>
     </div>
   )
 }
