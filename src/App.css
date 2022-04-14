@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');html, body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
   height: 100%;
   margin: 0;
 }
@@ -43,6 +45,7 @@ h3 {
 }
 
 /* Name Card */
+
 .photo {
   background-color: black;
   border-color: black;
@@ -64,7 +67,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
 }
 
-/* SKills */
+/* Skills */
 
 .left {
   text-align: left;

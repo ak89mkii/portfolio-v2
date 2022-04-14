@@ -17,6 +17,8 @@ import hair from '../../Img/hair.png'
 import bug from '../../Img/bug.png'
 import code from '../../Img/code.png'
 import phone from '../../Img/phone.png'
+import sholodex from '../../Img/sholodex.png'
+import graph from '../../Img/graph.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -66,28 +68,36 @@ const items3 = [
     {
         image: counter,
         header: 'Donation Counter Application: Category, Total, Date',
-        meta: 'React.js | CSS3 | Semantic UI React',
+        meta: 'React.js | CSS3 | Semantic UI React | Git with GitHub',
         description: <a href='https://github.com/ak89mkii/donate-counter' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://fidgetkicounter.surge.sh/',
     },
     {
         image: ex,
         header: 'EX-Life Tracker: "Specific" Tabletop Game Stats Tool',
-        meta: 'React.js | CSS3 | Semantic UI React',
+        meta: 'React.js | CSS3 | Semantic UI React | Git with GitHub',
         description: <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://ex-health-tracker.surge.sh/',
     },
     {
-        image: note,
-        header: 'Note Taking App: Editable (Data Does Not Persist)',
-        meta: 'JavaScript (ES2018) | HTML5 | CSS3',
-        description: <a href='https://github.com/ak89mkii/note-card-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://ig-note-117.surge.sh/',
+        image: graph,
+        header: 'Table Visualization App: Bar and Line Graphs',
+        meta: 'React.js | CSS3 | Bootstrap | Git with GitHub',
+        description: <a href='https://github.com/ak89mkii/table-visualization' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://data-graph-ig.surge.sh/',
     },
 ]
 
 {/* Front-End 04 Projects. */}
 const items4 = [
+
+    {
+        image: note,
+        header: 'Note Taking App: Editable (Data Does Not Persist)',
+        meta: 'JavaScript (ES2018) | HTML5 | CSS3 | Git with GitHub',
+        description: <a href='https://github.com/ak89mkii/note-card-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://ig-note-117.surge.sh/',
+    },
     {
         image: pondercode,
         header: 'Ponder Code: Minimalist Custom Web Apps Site',
@@ -101,6 +111,17 @@ const items4 = [
         meta: 'React.js | CSS3 | Semantic UI React | npm Webpacks',
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
         href: 'https://samrosesalon.surge.sh/',
+    }
+]
+
+{/* Front-End 07 Projects. */}
+const items7 = [
+    {
+        image: sholodex,
+        header: 'Sholodex: The Show Lowdown Index',
+        meta: 'React.js | CSS3 | Bootstrap | Git with GitHub',
+        description: <a href='https://github.com/ak89mkii/sholodex-v2' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://sholodex.com',
     },
     {
         image: war,
@@ -111,7 +132,7 @@ const items4 = [
     },
 ]
 
-{/* Front-End 05 Projects. */}
+{/* Miscellaneous 05 Projects. */}
 const items5 = [
     {
         image: icontextuall,
@@ -137,7 +158,7 @@ const items5 = [
 ]
 
 
-{/* Front-End 06 Projects. */}
+{/* Miscellaneous 06 Projects. */}
 const items6 = [
     {
         image: codecstory,
@@ -236,6 +257,25 @@ const Project = (props) => {
                 </Grid.Row>
             </Grid>
 
+            {/* Front-End 07 Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p hidden>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items7} />
+                </Grid.Row>
+            </Grid>
+
             {/* Miscellaneous 05 Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
@@ -255,7 +295,7 @@ const Project = (props) => {
                 </Grid.Row>
             </Grid>
             
-            {/* Front-End 06 Projects. */}
+            {/* Miscellaneous 06 Projects. */}
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <p className='break'>-</p>
