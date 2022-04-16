@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Icon, Image, Card, Button, Divider, Grid, Item, Message, Segment } from 'semantic-ui-react'
+import { Header, Icon, Container, Card, Button, Divider, Grid, Item, Message, Segment } from 'semantic-ui-react'
 import './Project.css'
 import war from '../../Img/war.png'
 import dicedex from '../../Img/dicedex.png'
@@ -194,12 +194,14 @@ const Project = (props) => {
             <br></br>
 
             {/* Full-Stack 01 Projects. */}
+            <Container className='projectType'>
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <h2 className={props.mode}>Full-Stack Applications | Native Applications</h2>
                     <br></br>    
                 </Grid.Row>
             </Grid>
+            </Container>
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
@@ -227,12 +229,14 @@ const Project = (props) => {
                 </Grid.Row>
             </Grid>
 
-            <Grid stackable centered itemsPerRow={1}>
+            <Container className='projectType'>
+                <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <h2 className={props.mode}>Front-End Applications</h2>
                     <br></br>    
                 </Grid.Row>
             </Grid>
+            </Container>
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
@@ -285,12 +289,13 @@ const Project = (props) => {
                 </Grid.Row>
             </Grid>
 
+            <Container className='projectType'>
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <h2 className={props.mode}>Miscellaneous | Templates | Video Games</h2>
-                    <br></br>    
                 </Grid.Row>
             </Grid>
+            </Container>
 
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>

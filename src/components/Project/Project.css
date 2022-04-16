@@ -37,3 +37,7 @@
 .break {
     visibility: hidden;
 }
+
+.projectType {
+    padding: 40px;
+}
