@@ -198,7 +198,6 @@ const Project = (props) => {
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <h2 className={props.mode}>Full-Stack Applications | Native Applications</h2>
-                    <br></br>    
                 </Grid.Row>
             </Grid>
             </Container>
@@ -233,7 +232,6 @@ const Project = (props) => {
                 <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <h2 className={props.mode}>Front-End Applications</h2>
-                    <br></br>    
                 </Grid.Row>
             </Grid>
             </Container>
