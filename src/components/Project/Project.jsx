@@ -16,7 +16,7 @@ import note from '../../Img/note.png'
 import hair from '../../Img/hair.png'
 import bug from '../../Img/bug.png'
 import code from '../../Img/code.png'
-import phone from '../../Img/phone.png'
+import duallists from '../../Img/duallists.png'
 import sholodex from '../../Img/sholodex.png'
 import graph from '../../Img/graph.png'
 
@@ -55,7 +55,7 @@ const items2 = [
         href: 'https://github.com/ak89mkii/code-seonbi',
     },
     {
-        image: phone,
+        image: duallists,
         header: 'Dual-Lists: A Simple Shopping List App',
         meta: 'React Native | Expo (Deployed on Expo and Google Play)',
         description: <a href='https://github.com/ak89mkii/shop-list-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
