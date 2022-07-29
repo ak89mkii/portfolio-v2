@@ -57,9 +57,9 @@ const items2 = [
     {
         image: phone,
         header: 'Dual-Lists: A Simple Shopping List App',
-        meta: 'React Native | Expo (Deployed on Expo for Android OS)',
+        meta: 'React Native | Expo (Deployed on Expo and Google Play)',
         description: <a href='https://github.com/ak89mkii/shop-list-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'exp://exp.host/@ak89mkii/simple-list-app?release-channel=default',
+        href: 'https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp',
     },
 ]
 
