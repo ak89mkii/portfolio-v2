@@ -83,3 +83,7 @@ h3 {
   width: 100px;
   height: 100px;
 }
+
+.iconPad {
+  padding-left: 2px;
+}

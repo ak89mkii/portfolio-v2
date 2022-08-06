@@ -5,7 +5,7 @@ import './Statment.css'
 
 const Statment = (props) => {
     return (
-        <div>
+        <div className='iconPad'>
             <Divider horizontal>
               <h1 className={props.mode}>
                 {/* <Icon name='left quote' /> */}
