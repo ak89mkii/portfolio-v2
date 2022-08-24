@@ -19,6 +19,7 @@ import code from '../../Img/code.png'
 import duallists from '../../Img/duallists.png'
 import sholodex from '../../Img/sholodex.png'
 import graph from '../../Img/graph.png'
+import nu from '../../Img/nu.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -99,23 +100,30 @@ const items4 = [
         href: 'https://ig-note-117.surge.sh/',
     },
     {
+        image: nu,
+        header: 'Nu Game Store: Sample Small Business Landing Page',
+        meta: 'React.js | CSS3 | Bootstrap React | npm Webpacks',
+        description: <a href='https://github.com/ak89mkii/nu-game-store' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://www.dicedex.io/',
+    },
+    {
         image: pondercode,
         header: 'Ponder Code: Minimalist Custom Web Apps Site',
         meta: 'React.js | CSS3 | Semantic UI React | npm Webpacks',
         description: <a href='https://github.com/ak89mkii/ponder-code' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.pondercode.com/',
     },
+]
+
+{/* Front-End 07 Projects. */}
+const items7 = [
     {
         image: hair,
         header: 'Sam Rose Salon: Local Haircut Business Site',
         meta: 'React.js | CSS3 | Semantic UI React | npm Webpacks',
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
         href: 'https://samrosesalon.surge.sh/',
-    }
-]
-
-{/* Front-End 07 Projects. */}
-const items7 = [
+    },
     {
         image: sholodex,
         header: 'Sholodex: The Show Lowdown Index',
@@ -190,8 +198,17 @@ const Project = (props) => {
                     Projects
                 </h1>
             </Divider>
-            <br></br>
-            <br></br>
+
+            {/* Message */}
+            <Container className='projectType'>
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className={props.mode}>Click on a <b>project thumbnail</b> to view the deployed application or on the <b>GitHub button</b> to view the docs and source code.</p>
+                </Grid.Row>
+            </Grid>
+            </Container>
+            {/* <br></br>
+            <br></br> */}
 
             {/* Full-Stack 01 Projects. */}
             <Container className='projectType'>
