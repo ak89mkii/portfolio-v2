@@ -112,7 +112,7 @@ const items4 = [
         header: 'Nu Game Store: Sample Small Business Landing Page',
         meta: 'React.js | CSS3 | Bootstrap React | npm Webpacks',
         description: <a href='https://github.com/ak89mkii/nu-game-store' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://www.dicedex.io/',
+        href: 'https://www.repbucket.com',
     },
     {
         image: pondercode,
