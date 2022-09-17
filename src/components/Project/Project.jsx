@@ -20,12 +20,20 @@ import duallists from '../../Img/duallists.png'
 import sholodex from '../../Img/sholodex.png'
 import graph from '../../Img/graph.png'
 import nu from '../../Img/nu.png'
+import io from '../../Img/io.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
     {
+        image: io,
+        header: 'DiceDex.io: Tabletop Game Group Database and Tracker',
+        meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
+        description: <a href='https://github.com/ak89mkii/dicedex.io' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://repbucket-04.herokuapp.com/',
+    },
+    {
         image: dicedex,
-        header: 'DiceDex: Tabletop Game Group Database and Tracker',
+        header: 'DiceDex (Old): Tabletop Game Group Database and Tracker',
         meta: 'Express.js | Node.js | MongoDB | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
@@ -37,6 +45,10 @@ const items1 = [
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
+]
+
+{/* Full-Stack 02 Projects. */}
+const items2 = [
     {
         image: repbucket,
         header: 'RepBucket: Goals and Skills Tracker',
@@ -44,10 +56,6 @@ const items1 = [
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://repbucket-04.herokuapp.com/',
     },
-]
-
-{/* Full-Stack 02 Projects. */}
-const items2 = [
     {
         image: code,
         header: 'Code Seonbi: Coding References and Bug Tracker',
