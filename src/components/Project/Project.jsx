@@ -29,7 +29,7 @@ const items1 = [
         header: 'DiceDex.io: Tabletop Game Group Database and Tracker',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/dicedex.io' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://repbucket-04.herokuapp.com/',
+        href: 'https://dicedex.io/',
     },
     {
         image: dicedex,
