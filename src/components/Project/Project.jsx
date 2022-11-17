@@ -26,7 +26,7 @@ import io from '../../Img/io.png'
 const items1 = [
     {
         image: io,
-        header: 'DiceDex.io: Tabletop Game Group Database and Tracker',
+        header: 'DiceDex.io: Board Game Tracker (Test Login: Tester_01, crentist)',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/dicedex.io' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.dicedex.io/',
