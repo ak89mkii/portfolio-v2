@@ -6,12 +6,15 @@ import './Interest.css'
 const Interest = (props) => {
     return (
         <div>
+            <Container>
             <Divider horizontal>
               <h1 className={props.mode}>
                 <Icon name='id badge outline' />
                 About
               </h1>
             </Divider>
+            </Container>
+            
             <h2>Programming and...</h2>
             <br></br>
             <br></br>

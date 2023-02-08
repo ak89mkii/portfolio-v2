@@ -16,7 +16,7 @@ import note from '../../Img/note.png'
 import hair from '../../Img/hair.png'
 import bug from '../../Img/bug.png'
 import code from '../../Img/code.png'
-import duallists from '../../Img/duallists.png'
+import phone from '../../Img/phone.png'
 import sholodex from '../../Img/sholodex.png'
 import graph from '../../Img/graph.png'
 import nu from '../../Img/nu.png'
@@ -59,16 +59,16 @@ const items2 = [
     {
         image: code,
         header: 'Code Seonbi: Coding References and Bug Tracker',
-        meta: 'React.js | Django | PostgeSQL | CSS3 | Semantic UI React',
+        meta: 'React.js | Django REST Framework | PostgeSQL | CSS3 | Bootstrap',
         description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://code-seonbi-v2.herokuapp.com/',
     },
     {
-        image: duallists,
-        header: 'Dual-Lists: A Simple Shopping List App',
+        image: phone,
+        header: 'Dual-Lists 2: A Simple Shopping List App',
         meta: 'React Native | Expo (Deployed on Expo and Google Play)',
         description: <a href='https://github.com/ak89mkii/shop-list-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://play.google.com/store/apps/details?id=com.ak89mkii.simplelistapp',
+        href: 'https://play.google.com/store/apps/details?id=com.ak89mkii.AwesomeProject',
     },
 ]
 
