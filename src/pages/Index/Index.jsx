@@ -20,6 +20,7 @@ import moon from '../../Img/moon.png'
 class Home extends Component {
     state = {
         activeItem: 'Mission',
+        check: 0,
         mode: 'light',
         photo: 'photo',
         mission: 'mission',
@@ -56,6 +57,7 @@ class Home extends Component {
                 menu: 'ui inverted menu',
                 icon: moon
             })
+            this.handleFormSubmitDark();
         } else if (this.state.mode == 'dark') {
             this.setState({
                 mode: 'light',
@@ -64,8 +66,67 @@ class Home extends Component {
                 menu: 'ui menu',
                 icon: sun
             })
+            this.handleFormSubmitLight();
         }
     }
+
+    // Save mode: light in local Storage:
+    handleFormSubmitLight = () => {
+        localStorage.setItem('mode', 'light');
+        localStorage.setItem('photo', 'photo');
+        localStorage.setItem('nav', 'nav');
+        localStorage.setItem('menu', 'ui menu');
+        localStorage.setItem('contact', 'contact');
+        localStorage.setItem('s1TitleSub', 's1TitleSub');
+        localStorage.setItem('s2', 's2');
+        localStorage.setItem('s2TitleSub', 's2TitleSub');
+        localStorage.setItem('icon', sun);
+    };
+
+    // Save mode: dark in local Storage:
+    handleFormSubmitDark = () => {
+        localStorage.setItem('check', 1);
+        localStorage.setItem('mode', 'dark');
+        localStorage.setItem('photo', 'photoDark');
+        localStorage.setItem('nav', 'navDark');
+        localStorage.setItem('menu', 'ui inverted menu');
+        localStorage.setItem('contact', 'contactDark');
+        localStorage.setItem('s1TitleSub', 's1TitleSubDark');
+        localStorage.setItem('s2', 's2Dark');
+        localStorage.setItem('s2TitleSub', 's2TitleSubDark');
+        localStorage.setItem('icon', moon);
+    };
+
+    // Retreive mode in localStorage:
+    componentDidMount() {
+        const check = localStorage.getItem('check');
+        this.setState({ check });
+        console.log({check})
+
+        if (check == 1) {
+        // console.log("halo")
+
+        const mode = localStorage.getItem('mode');
+        this.setState({ mode });
+        const photo = localStorage.getItem('photo');
+        this.setState({ photo });
+        const nav = localStorage.getItem('nav');
+        this.setState({ nav });
+        const menu = localStorage.getItem('menu');
+        this.setState({ menu });
+        const contact = localStorage.getItem('contact');
+        this.setState({ contact });
+        const s1TitleSub = localStorage.getItem('s1TitleSub');
+        this.setState({ s1TitleSub });
+        const s2 = localStorage.getItem('s2');
+        this.setState({ s2 });
+        const s2TitleSub = localStorage.getItem('s2TitleSub');
+        this.setState({ s2TitleSub });
+        const icon = localStorage.getItem('icon');
+        this.setState({ icon });
+
+        }
+    };
 
     render() {
         const { activeItem } = this.state
