@@ -36,14 +36,14 @@ const items1 = [
         header: 'DiceDex (Old): Tabletop Game Group Database and Tracker',
         meta: 'Express.js | Node.js | MongoDB | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
+        // href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
     {
         image: paj,
         header: 'PAJ: Project Management App (Team Developed)',
         meta: 'React.js | Express.js | Node.js | MongoDB | CSS3 | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://paj-03-project-hi-nu.herokuapp.com/',
+        // href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
 ]
 
@@ -54,7 +54,7 @@ const items2 = [
         header: 'RepBucket: Goals and Skills Tracker',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://repbucket-04.herokuapp.com/',
+        // href: 'https://repbucket-04.herokuapp.com/',
     },
     {
         image: code,
