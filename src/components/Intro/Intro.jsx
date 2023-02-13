@@ -13,7 +13,7 @@ const Intro = (props) => {
                         className='text'
                         image={Profile}
                         header='Alex Kasem'
-                        description='Full-Stack Software Engineer'
+                        description='Software Engineer'
                     />
                     </div>
                 </Grid.Column>

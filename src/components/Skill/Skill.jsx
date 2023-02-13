@@ -61,13 +61,17 @@ const items = [
       childKey: 2,
       image: 'https://www.kindpng.com/picc/m/35-350705_skill-icon-png-logo-for-resume-skill-transparent.png',
       header: <h2 className='left'>Other Skills:</h2>,
-      description: <div><p>Experience from the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Critical Thinker | Adobe Photoshop | Jira | ClickUp | Researcher | Teamwork | Continuous Learner</p>
+      description: <div><p>Developing adjacent skills and experience from the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Critical Thinker | Researcher | Teamwork | Continuous Learner | Adobe Photoshop | Jira | ClickUp | Shopify | WordPress</p>
         
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/2/20/Photoshop_CC_icon.png'/>
 
         <img className='iconPad' height='70px' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png'/>
 
         <img className='iconPad' height='70px' src='https://logos.prod-v1.vertice.one/cf2806f5-280c-55c0-8306-4ca61ef546f6.svg'/>
+
+        <img className='iconPad' height='70px' src='https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_shopping-512.png'/>
+
+        <img className='iconPad' height='70px' src='https://cdn-icons-png.flaticon.com/512/174/174881.png'/>
 
       </div>,
   },
