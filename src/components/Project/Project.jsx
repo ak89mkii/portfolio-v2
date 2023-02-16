@@ -21,6 +21,9 @@ import sholodex from '../../Img/sholodex.png'
 import graph from '../../Img/graph.png'
 import nu from '../../Img/nu.png'
 import io from '../../Img/io.png'
+import pm from '../../Img/pm.png'
+import bt from '../../Img/bt.png'
+import pes from '../../Img/pes.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -88,19 +91,7 @@ const items3 = [
         meta: 'React.js | CSS3 | Semantic UI React | Git with GitHub',
         description: <a href='https://github.com/ak89mkii/ex-life-tracker' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'http://ex-health-tracker.surge.sh/',
-    },
-    {
-        image: graph,
-        header: 'Ponder Mint LLC: Invent, Innovate, Iterate',
-        meta: 'React.js | CSS3 | Bootstrap | Git with GitHub',
-        description: <a href='https://github.com/ak89mkii/ponder-mint' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://pondermint.com/',
-    },
-]
-
-{/* Front-End 04 Projects. */}
-const items4 = [
-
+    }, 
     {
         image: note,
         header: 'Note Taking App: Editable (Data Does Not Persist)',
@@ -108,6 +99,10 @@ const items4 = [
         description: <a href='https://github.com/ak89mkii/note-card-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://ig-note-117.surge.sh/',
     },
+]
+
+{/* Front-End 04 Projects. */}
+const items4 = [
     {
         image: nu,
         header: 'Nu Game Store: Sample Small Business Landing Page',
@@ -121,6 +116,13 @@ const items4 = [
         meta: 'React.js | CSS3 | Semantic UI React | npm Webpacks',
         description: <a href='https://github.com/ak89mkii/ponder-code' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.pondercode.com/',
+    },
+    {
+        image: pm,
+        header: 'Ponder Mint LLC: Invent, Innovate, Iterate',
+        meta: 'React.js | CSS3 | Bootstrap | Git with GitHub',
+        description: <a href='https://github.com/ak89mkii/ponder-mint' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://pondermint.com/',
     },
 ]
 
@@ -208,14 +210,14 @@ const items8 = [
         href: 'http://war-were-declared-4.surge.sh/',
     },
     {
-        image: bug,
+        image: bt,
         header: 'Battle Thesis: Who Would Win in a Fight? (WordPress)',
         meta: 'A site that discusses hypothetical matchups for fun (hopefully).',
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
         href: 'https://battlethesis.com/',
     },
     {
-        image: bug,
+        image: pes,
         header: 'Ponder Enterprises Store (Shopify)',
         meta: 'The Ponder Enterprises online store developed with Shopify.',
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
