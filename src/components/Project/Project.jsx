@@ -24,6 +24,14 @@ import io from '../../Img/io.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
+
+    {
+        image: code,
+        header: 'Code Seonbi: Coding References and Bug Tracker',
+        meta: 'React.js | Django REST Framework | PostgeSQL | CSS3 | Bootstrap',
+        description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://code-seonbi-v2.herokuapp.com/',
+    },
     {
         image: io,
         header: 'DiceDex.io: Board Game Tracker (Test Login: Tester_01, crentist)',
@@ -38,6 +46,10 @@ const items1 = [
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
+]
+
+{/* Full-Stack 02 Projects. */}
+const items2 = [
     {
         image: paj,
         header: 'PAJ: Project Management App (Team Developed)',
@@ -45,23 +57,12 @@ const items1 = [
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
-]
-
-{/* Full-Stack 02 Projects. */}
-const items2 = [
     {
         image: repbucket,
         header: 'RepBucket: Goals and Skills Tracker',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://repbucket-04.herokuapp.com/',
-    },
-    {
-        image: code,
-        header: 'Code Seonbi: Coding References and Bug Tracker',
-        meta: 'React.js | Django REST Framework | PostgeSQL | CSS3 | Bootstrap',
-        description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://code-seonbi-v2.herokuapp.com/',
     },
     {
         image: phone,
@@ -90,10 +91,10 @@ const items3 = [
     },
     {
         image: graph,
-        header: 'Table Visualization App: Bar and Line Graphs',
+        header: 'Ponder Mint LLC: Invent, Innovate, Iterate',
         meta: 'React.js | CSS3 | Bootstrap | Git with GitHub',
-        description: <a href='https://github.com/ak89mkii/table-visualization' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://data-graph-ig.surge.sh/',
+        description: <a href='https://github.com/ak89mkii/ponder-mint' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://pondermint.com/',
     },
 ]
 
@@ -140,11 +141,11 @@ const items7 = [
         href: 'https://sholodex.com',
     },
     {
-        image: war,
-        header: 'War Card Game: Old Arcade Game Theme',
-        meta: 'JavaScript (ES2018) | HTML5 | CSS3 | Bootstrap',
-        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'http://war-were-declared-4.surge.sh/',
+        image: graph,
+        header: 'Table Visualization App: Bar and Line Graphs',
+        meta: 'React.js | CSS3 | Bootstrap | Git with GitHub',
+        description: <a href='https://github.com/ak89mkii/table-visualization' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://data-graph-ig.surge.sh/',
     },
 ]
 
@@ -177,13 +178,6 @@ const items5 = [
 {/* Miscellaneous 06 Projects. */}
 const items6 = [
     {
-        image: codecstory,
-        header: 'Codec Story: A Text Adventure Game',
-        meta: 'HTML5 | Python 3 | Flask | Gunicorn | CSS3 | Bootstrap', 
-        description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://codecu.herokuapp.com/',
-    },
-    {
         image: bug,
         header: 'Bug Buster (C# | The Unity Engine)',
         meta: 'War Playing Card Game with Retro Game Theme',
@@ -194,7 +188,39 @@ const items6 = [
         header: <iframe frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='260px' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>,
         description: 'Controls: Fireball (Left Mouse Click) | Movement (A, S, D) | Jump (Spacebar)',
     },
+    {
+        image: codecstory,
+        header: 'Codec Story: A Text Adventure Game',
+        meta: 'HTML5 | Python 3 | Flask | Gunicorn | CSS3 | Bootstrap', 
+        description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://codecu.herokuapp.com/',
+    },
+]
+
+{/* Miscellaneous 08 Projects. */}
+const items8 = [
     
+    {
+        image: war,
+        header: 'War Card Game: Old Arcade Game Theme',
+        meta: 'JavaScript (ES2018) | HTML5 | CSS3 | Bootstrap',
+        description: <a href='https://github.com/ak89mkii/war-project-01' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'http://war-were-declared-4.surge.sh/',
+    },
+    {
+        image: bug,
+        header: 'Battle Thesis: Who Would Win in a Fight? (WordPress)',
+        meta: 'A site that discusses hypothetical matchups for fun (hopefully).',
+        description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://battlethesis.com/',
+    },
+    {
+        image: bug,
+        header: 'Ponder Enterprises Store (Shopify)',
+        meta: 'The Ponder Enterprises online store developed with Shopify.',
+        description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://ponderenterprises.com/',
+    },
 ]
 
 const Project = (props) => {
@@ -222,7 +248,7 @@ const Project = (props) => {
             <Container className='projectType'>
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h2 className={props.mode}>Full-Stack Applications | Native Applications</h2>
+                    <h2 className={props.mode}>[ <Icon name='database' /> Full-Stack Applications | Native Applications ]</h2>
                 </Grid.Row>
             </Grid>
             </Container>
@@ -256,7 +282,7 @@ const Project = (props) => {
             <Container className='projectType'>
                 <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h2 className={props.mode}>Front-End Applications</h2>
+                    <h2 className={props.mode}>[ <Icon name='code' /> Front-End Applications ]</h2>
                 </Grid.Row>
             </Grid>
             </Container>
@@ -315,7 +341,7 @@ const Project = (props) => {
             <Container className='projectType'>
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h2 className={props.mode}>Miscellaneous | Templates | Video Games</h2>
+                    <h2 className={props.mode}>[ <Icon name='game' /> Miscellaneous | Templates | Video Games | CMS Projects ]</h2>
                 </Grid.Row>
             </Grid>
             </Container>
@@ -342,6 +368,25 @@ const Project = (props) => {
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <Card.Group centered items={items6} />
+                </Grid.Row>
+            </Grid>
+            
+            {/* Miscellaneous 08 Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+            
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p hidden>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items8} />
                 </Grid.Row>
             </Grid>
 
