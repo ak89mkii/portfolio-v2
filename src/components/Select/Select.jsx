@@ -38,6 +38,8 @@ class Select extends Component {
         <br></br>
         <br></br>
         <Arcade />
+        <br></br>
+        <br></br>
         <Grid centered>
         <Button
           size='huge'

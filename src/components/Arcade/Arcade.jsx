@@ -7,6 +7,7 @@ import html from './Img/html.png'
 import ex from './Img/ex.png'
 import flask from './Img/flask.png'
 import engineer from './Img/engineer.png'
+import tree from './Img/tree.png'
 
 class Arcade extends Component {
   state = {
@@ -45,10 +46,10 @@ class Arcade extends Component {
             </Card>          
           </Grid.Column>
 
-          <Grid.Column  width={8}></Grid.Column>
+          <Grid.Column  width={8}><Image src={tree} className='code'/></Grid.Column>
 
           <Grid.Column>
-            <h1 className='blink'>2P</h1>
+            <h1 className='blink2'>2P</h1>
             <Card>
               <Image src={this.state.opponentImage} wrapped ui={false} />
               <Card.Content>
