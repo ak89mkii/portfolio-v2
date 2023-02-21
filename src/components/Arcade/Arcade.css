@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Teko:wght@300;500&display=swap');
+
+.blink {
+    font-size: 30px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    animation: blink 1s steps(1, end) infinite;
+    padding: 5px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .background {
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+  }

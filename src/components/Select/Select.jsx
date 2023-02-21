@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Image, Icon, Button, Grid, Header,Segment, TransitionablePortal,} from 'semantic-ui-react'
 import Fight from '../../Img/fight02.png'
 import Music from '../../sounds/music.wav'
+import Arcade from '../Arcade/Arcade.jsx'
 import './Select.css'
 import ReactHowler from 'react-howler'
 import Iframe from 'react-iframe'
@@ -36,12 +37,13 @@ class Select extends Component {
         />
         <br></br>
         <br></br>
+        <Arcade />
         <Grid centered>
         <Button
           size='huge'
           content={open ? 'Close Skill List' : 'Open Skill List'}
-          black={open}
-          black={!open}
+          // black={open}
+          // black={!open}
           onClick={this.handleClick}
         />
         </Grid> 
