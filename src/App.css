@@ -87,3 +87,10 @@ h3 {
 .iconPad {
   padding-left: 2px;
 }
+
+/* Coins */
+
+.coin {
+  height: 200px;
+  padding: 20px;
+}

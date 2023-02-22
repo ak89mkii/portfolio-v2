@@ -8,15 +8,20 @@ import ex from './Img/ex.png'
 import flask from './Img/flask.png'
 import engineer from './Img/engineer.png'
 import tree from './Img/tree.png'
+import ReactHowler from 'react-howler'
+import Hover from '../../sounds/hover.wav'
+import Choose from '../../sounds/select.mp3'
 
 class Arcade extends Component {
   state = {
     opponentImage: '',
     opponentName: '',
-    opponentDescription: ''
+    opponentDescription: '',
+    onSound: false,
+    onSound2: false,
   }
 
-  setHTML = () => this.setState({ opponentImage: html, opponentName: 'HTML5', opponentDescription: 'Markup Language' })
+  setHTML = () => this.setState({ opponentImage: html, opponentName: 'HTML5', opponentDescription: 'Markup Language', onSound: false, onSound2: true })
   setCSS = () => this.setState({ opponentImage: flask, opponentName: 'CSS3', opponentDescription: 'Cascading Style Sheet'  })
   setJS = () => this.setState({ opponentImage: js, opponentName: 'JavaScript', opponentDescription: 'Scripting Language' })
   setReact = () => this.setState({ opponentImage: flask, opponentName: 'React.js', opponentDescription: 'JavaScript Library'  })
@@ -38,6 +43,14 @@ class Arcade extends Component {
   render() {
     return (
       <div className='background'>
+        {this.state.onSound && (<ReactHowler
+          src={Hover}
+          playing={true}
+        />)}
+        {this.state.onSound2 && (<ReactHowler
+          src={Choose}
+          playing={true}
+        />)}
         <Container>
         <br></br>
         <br></br>
@@ -78,8 +91,8 @@ class Arcade extends Component {
           <Grid.Row>
           <Grid.Column  width={8}>
             <Card.Group itemsPerRow={6}>
-              <Card link raised image={html} onClick={this.setHTML}/>
-              <Card link raised image={js} onClick={this.setCSS}/>
+              <Card link raised image={html} onClick={this.setHTML} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false , onSound2: false })} />
+              <Card link raised image={js} onClick={this.setCSS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })}/>
               <Card link raised image={js} onClick={this.setJS}/>
               <Card link raised image={js} onClick={this.setReact}/>
               <Card link raised image={js} onClick={this.setPython}/>

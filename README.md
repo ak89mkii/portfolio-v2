@@ -37,15 +37,21 @@ The Ponder Code website.
 // https://www.youtube.com/watch?v=x5oiX93DeHA
 // https://stackoverflow.com/questions/56553576/react-clicking-on-resume-header-doesnt-download-resume-pdf-file
 // https://stackoverflow.com/questions/16375592/favicon-not-showing-up-in-google-chrome
+// https://stackoverflow.com/questions/37342757/how-to-trigger-a-state-change-when-hovering-over-an-element
+// https://reactjs.org/docs/conditional-rendering.html
+// https://codepen.io/Barrydreamt/pen/gNWeOO
 #### Images References / Credits:
 // https://thenounproject.com/term/coffee/4112/
 // https://thenounproject.com/search/?q=arcade+button&i=1469651
 // Capcom Image
 // https://thenounproject.com/icon/dark-mode-4300955/
 // https://thenounproject.com/icon/brightness-4140598/
+// https://thenounproject.com/icon/tree-642305/
 #### Sounds References / Credits:
 // https://freesound.org/people/pumodi/sounds/150222/
 // https://freesound.org/people/Sirkoto51/sounds/414214/
+// https://freesound.org/people/StavSounds/sounds/546079/
+// https://freesound.org/people/Mrthenoronha/sounds/511385/
 #### Fonts / Credits:
 // https://fonts.google.com/specimen/Nanum+Brush+Script?category=Handwriting&query=brush+&preview.text=Technology%20Proficiency&preview.text_type=custom
 // https://fonts.google.com/specimen/Roboto

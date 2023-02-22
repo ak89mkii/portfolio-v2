@@ -12,10 +12,12 @@ import Select from '../../components/Select/Select'
 import Skill from '../../components/Skill/Skill'
 import Footer from '../../components/Footer/Footer'
 import Audio from '../../sounds/select.mp3'
+import Coin01 from '../../sounds/coin1.wav'
+import Coin02 from '../../sounds/coin2.wav'
 import ReactHowler from 'react-howler'
 import sun from '../../Img/sun.png'
 import moon from '../../Img/moon.png'
-
+import coin from '../../Img/coin.png'
 
 class Home extends Component {
     state = {
@@ -26,6 +28,8 @@ class Home extends Component {
         mission: 'mission',
         on: false,
         sound: false,
+        coin1: false,
+        coin2: false,
         onMusic: false,
         icon: sun,
     }
@@ -43,7 +47,21 @@ class Home extends Component {
 
     handleToggle02 = () => {
         this.setState({
-        sound: !this.state.sound
+        sound: false,
+        coin2: false
+        })
+    }
+
+    insertCoin1 = () => {
+        this.setState({
+            coin1: !this.state.coin1
+        })
+    }
+
+    handleCoin02 = () => {
+        this.setState({
+            coin1: false,
+            coin2: !this.state.coin2,
         })
     }
 
@@ -186,9 +204,24 @@ class Home extends Component {
                         playing={true}
                         onEnd={this.handleToggle02}
                     />)}
+                    {this.state.coin1 && (<ReactHowler
+                        src={Coin01}
+                        playing={true}
+                        onEnd={this.handleCoin02}
+                    />)}
+                    {this.state.coin2 && (<ReactHowler
+                        src={Coin02}
+                        playing={true}
+                        onEnd={this.handleToggle02}
+                    />)}
                     </div>
                     <br></br>
                     <br></br>
+                    </Grid.Row>
+                    {/* Coins. */}
+                    <Grid.Row centered>
+                    <Image src={coin} className='coin' onClick={this.insertCoin1} />
+                    <Image src={coin} className='coin' onClick={this.insertCoin1} />
                     </Grid.Row>
                     {/* Skills Toggle Button. */}
                     <Grid.Row centered>
