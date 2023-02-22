@@ -230,7 +230,7 @@ const Project = (props) => {
         <div>
             <Divider horizontal>
                 <h1 className={props.mode}>
-                    <Icon name='file code' />
+                    <Icon name='file' />
                     Projects
                 </h1>
             </Divider>
@@ -284,7 +284,7 @@ const Project = (props) => {
             <Container className='projectType'>
                 <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
-                    <h2 className={props.mode}>[ <Icon name='code' /> Front-End Applications ]</h2>
+                    <h2 className={props.mode}>[ <Icon name='react' /> Front-End Applications ]</h2>
                 </Grid.Row>
             </Grid>
             </Container>
