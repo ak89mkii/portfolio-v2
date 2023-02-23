@@ -266,6 +266,7 @@ class Home extends Component {
                      {this.state.onAnnouncer && (<ReactHowler
                         src={Announcer}
                         playing={true}
+                        volume={0.5}
                     />)}
                     </div>
                     <br></br>
