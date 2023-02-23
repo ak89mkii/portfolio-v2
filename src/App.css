@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Teko:wght@300;500&display=swap');
 
 html, body {
   height: 100%;
@@ -93,4 +94,12 @@ h3 {
 .coin {
   height: 200px;
   padding: 20px;
+}
+
+.coinTitle {
+    font-size: 20px;
+    /* color: yellow; */
+    font-family: 'Press Start 2P', cursive;
+    animation: blink 1s steps(1, end) infinite;
+    padding: 5px;
 }

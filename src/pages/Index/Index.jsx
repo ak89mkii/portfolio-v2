@@ -32,6 +32,9 @@ class Home extends Component {
         coin2: false,
         onMusic: false,
         icon: sun,
+        coinImg1: coin,
+        coinImg2: coin,
+        coinMessage: 'INSERT COINS',
     }
 
     contextRef = createRef()
@@ -40,11 +43,16 @@ class Home extends Component {
 
     handleToggle = () => {
         this.setState({
-        on: !this.state.on,
-        sound: !this.state.sound
+        // on: !this.state.on,
+        // sound: !this.state.sound
+        coin1: false,
+        coin2: false,
+        coinImg1: coin,
+        coinImg2: coin,
         })
     }
-
+    
+    // Resets state of remaining sound effects in Index.jsx.
     handleToggle02 = () => {
         this.setState({
         sound: false,
@@ -52,9 +60,26 @@ class Home extends Component {
         })
     }
 
-    insertCoin1 = () => {
+    // Coin 01 sounds and image state.
+    insertCoin01 = () => {
         this.setState({
-            coin1: !this.state.coin1
+            coin1: !this.state.coin1,
+            coinImg1: false
+        })
+    }
+
+    handleCoin01 = () => {
+        this.setState({
+            coin1: false,
+            coin2: !this.state.coin2,
+        })
+    }
+
+    // Coin 02 sounds and image state.
+    insertCoin02 = () => {
+        this.setState({
+            coin1: !this.state.coin1,
+            coinImg2: false
         })
     }
 
@@ -198,7 +223,7 @@ class Home extends Component {
                     />
                     </div>
                     <div>
-                    {this.state.on && (<Select />)}
+                    {(this.state.coinImg2 == false && this.state.coinImg2 == false) && (<Select />)}
                     {this.state.sound && (<ReactHowler
                         src={Audio}
                         playing={true}
@@ -218,20 +243,26 @@ class Home extends Component {
                     <br></br>
                     <br></br>
                     </Grid.Row>
+                    {/* Insert Coin Message */}
+                    {(this.state.coinImg2 == coin && this.state.coinImg2 == coin) && (<Grid.Row centered><h1 className='coinTitle'>{this.state.coinMessage}</h1></Grid.Row>)}
+                    {(this.state.coinImg2 == coin && this.state.coinImg2 == coin) && (<Grid.Row centered><p><b>Click</b> on the coins below.</p></Grid.Row>)}
                     {/* Coins. */}
                     <Grid.Row centered>
-                    <Image src={coin} className='coin' onClick={this.insertCoin1} />
-                    <Image src={coin} className='coin' onClick={this.insertCoin1} />
+                    <Image src={this.state.coinImg1} className='coin' onClick={this.insertCoin01} />
+                    <Image src={this.state.coinImg2} className='coin' onClick={this.insertCoin02} />
                     </Grid.Row>
                     {/* Skills Toggle Button. */}
-                    <Grid.Row centered>
-                    <Button 
-                        color='yellow' 
-                        size='huge'
-                        onClick={this.handleToggle}
-                    >Toggle Skills View 
-                    </Button>
-                    </Grid.Row>
+                    {(this.state.coinImg2 == false && this.state.coinImg2 == false) && (
+                        <Grid.Row centered>
+                            <Button 
+                            color='yellow' 
+                            size='huge'
+                            onClick={this.handleToggle}
+                            >
+                                Close 
+                            </Button>
+                        </Grid.Row>
+                    )} 
                     <br></br>
                     <br></br>
                     {/* Projects. */}
