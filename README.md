@@ -40,6 +40,8 @@ The Ponder Code website.
 // https://stackoverflow.com/questions/37342757/how-to-trigger-a-state-change-when-hovering-over-an-element
 // https://reactjs.org/docs/conditional-rendering.html
 // https://codepen.io/Barrydreamt/pen/gNWeOO
+// https://stackoverflow.com/questions/49997358/utilizing-and-statement-two-conditions-inside-react-ternary-operator
+// 
 #### Images References / Credits:
 // https://thenounproject.com/term/coffee/4112/
 // https://thenounproject.com/search/?q=arcade+button&i=1469651
@@ -52,6 +54,7 @@ The Ponder Code website.
 // https://freesound.org/people/Sirkoto51/sounds/414214/
 // https://freesound.org/people/StavSounds/sounds/546079/
 // https://freesound.org/people/Mrthenoronha/sounds/511385/
+// https://freesound.org/people/grizzlymittz/sounds/529940/
 #### Fonts / Credits:
 // https://fonts.google.com/specimen/Nanum+Brush+Script?category=Handwriting&query=brush+&preview.text=Technology%20Proficiency&preview.text_type=custom
 // https://fonts.google.com/specimen/Roboto

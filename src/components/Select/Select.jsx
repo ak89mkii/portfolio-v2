@@ -10,6 +10,7 @@ import Iframe from 'react-iframe'
 class Select extends Component {
   state = {
     onMusic: false,
+    onAnnouncer: false,
     open: false
   }
 
@@ -38,7 +39,8 @@ class Select extends Component {
         <br></br>
         <br></br> */}
         <Grid centered>
-        <Arcade /></Grid>
+          <Arcade />
+        </Grid>
         <br></br>
         <br></br>
         {/* <Grid centered>
@@ -63,6 +65,8 @@ class Select extends Component {
             <Icon centered name='volume off'/>
           </Button>
         </Grid>
+        <br></br><br></br>
+        <Grid centered><p>Music toggle button.</p></Grid>
       <div>
         <TransitionablePortal onClose={this.handleClose} open={open}>
           <Segment

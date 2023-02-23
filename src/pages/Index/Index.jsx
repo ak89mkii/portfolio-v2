@@ -14,6 +14,7 @@ import Footer from '../../components/Footer/Footer'
 import Audio from '../../sounds/select.mp3'
 import Coin01 from '../../sounds/coin1.wav'
 import Coin02 from '../../sounds/coin2.wav'
+import Announcer from '../../sounds/announcer.mp3'
 import ReactHowler from 'react-howler'
 import sun from '../../Img/sun.png'
 import moon from '../../Img/moon.png'
@@ -31,6 +32,7 @@ class Home extends Component {
         coin1: false,
         coin2: false,
         onMusic: false,
+        onAnnouncer: false,
         icon: sun,
         coinImg1: coin,
         coinImg2: coin,
@@ -56,37 +58,53 @@ class Home extends Component {
     handleToggle02 = () => {
         this.setState({
         sound: false,
-        coin2: false
         })
     }
 
     // Coin 01 sounds and image state.
     insertCoin01 = () => {
         this.setState({
-            coin1: !this.state.coin1,
+            coin1: true,
             coinImg1: false
         })
+        if (this.state.coinImg1 == false) {
+            setTimeout(()=> {
+                this.setState({
+                    onAnnouncer: true
+                })
+            }
+            ,1700);
+        }
     }
-
+    
+    // Part 01: Handles coins sound.
     handleCoin01 = () => {
         this.setState({
             coin1: false,
-            coin2: !this.state.coin2,
+            coin2: true,
         })
     }
 
     // Coin 02 sounds and image state.
     insertCoin02 = () => {
         this.setState({
-            coin1: !this.state.coin1,
+            coin1: true,
             coinImg2: false
         })
+        if (this.state.coinImg1 == false) {
+            setTimeout(()=> {
+                this.setState({
+                    onAnnouncer: true
+                })
+            }
+            ,1700);
+        }
     }
 
+    // Part 02: Handles coin sound.
     handleCoin02 = () => {
         this.setState({
-            coin1: false,
-            coin2: !this.state.coin2,
+            coin2: false,
         })
     }
 
@@ -225,44 +243,51 @@ class Home extends Component {
                     </Grid.Row>
                     <div>
                     <Grid.Row>
-                    {(this.state.coinImg2 == false && this.state.coinImg2 == false) && (<Select />)}
+                    {(this.state.coinImg1 == false && this.state.coinImg2 == false) && (<Select />)}
                     </Grid.Row>
                     {this.state.sound && (<ReactHowler
                         src={Audio}
                         playing={true}
+                        volume={0.5}
                         onEnd={this.handleToggle02}
                     />)}
                     {this.state.coin1 && (<ReactHowler
                         src={Coin01}
                         playing={true}
-                        onEnd={this.handleCoin02}
+                        volume={0.4}
+                        onEnd={this.handleCoin01}
                     />)}
                     {this.state.coin2 && (<ReactHowler
                         src={Coin02}
                         playing={true}
-                        onEnd={this.handleToggle02}
+                        volume={0.4}
+                        onEnd={this.handleCoin02}
+                    />)}
+                     {this.state.onAnnouncer && (<ReactHowler
+                        src={Announcer}
+                        playing={true}
                     />)}
                     </div>
                     <br></br>
                     <br></br>
                     {/* </Grid.Row> */}
                     {/* Insert Coin Message */}
-                    {(this.state.coinImg2 == coin && this.state.coinImg2 == coin) && (<Grid.Row centered><h1 className='coinTitle'>{this.state.coinMessage}</h1></Grid.Row>)}
-                    {(this.state.coinImg2 == coin && this.state.coinImg2 == coin) && (<Grid.Row centered><p><b>Click</b> on the coins below.</p></Grid.Row>)}
+                    {(this.state.coinImg1 == coin || this.state.coinImg2 == coin) && (<Grid.Row centered><h1 className='coinTitle'>{this.state.coinMessage}</h1></Grid.Row>)}
+                    {(this.state.coinImg1 == coin || this.state.coinImg2 == coin) && (<Grid.Row centered><p><b>Click</b> on the coins below to insert.</p></Grid.Row>)}
                     {/* Coins. */}
                     <Grid.Row centered>
                     <Image src={this.state.coinImg1} className='coin' onClick={this.insertCoin01} />
                     <Image src={this.state.coinImg2} className='coin' onClick={this.insertCoin02} />
                     </Grid.Row>
                     {/* Skills Toggle Button. */}
-                    {(this.state.coinImg2 == false && this.state.coinImg2 == false) && (
+                    {(this.state.coinImg1 == false && this.state.coinImg2 == false) && (
                         <Grid.Row centered>
                             <Button 
                             color='yellow' 
                             size='huge'
                             onClick={this.handleToggle}
                             >
-                                Close 
+                                <b>[ X ]</b>  Close Arcade View
                             </Button>
                         </Grid.Row>
                     )} 
