@@ -45,19 +45,19 @@ class Home extends Component {
 
     handleToggle = () => {
         this.setState({
-        // on: !this.state.on,
-        // sound: !this.state.sound
-        coin1: false,
-        coin2: false,
-        coinImg1: coin,
-        coinImg2: coin,
+            // on: !this.state.on,
+            // sound: !this.state.sound
+            coin1: false,
+            coin2: false,
+            coinImg1: coin,
+            coinImg2: coin,
         })
     }
     
     // Resets state of remaining sound effects in Index.jsx.
     handleToggle02 = () => {
         this.setState({
-        sound: false,
+            onAnnouncer: false,
         })
     }
 
@@ -67,7 +67,7 @@ class Home extends Component {
             coin1: true,
             coinImg1: false
         })
-        if (this.state.coinImg1 == false) {
+        if (this.state.coinImg2 == false) {
             setTimeout(()=> {
                 this.setState({
                     onAnnouncer: true
@@ -266,7 +266,8 @@ class Home extends Component {
                      {this.state.onAnnouncer && (<ReactHowler
                         src={Announcer}
                         playing={true}
-                        volume={0.5}
+                        volume={0.4}
+                        onEnd={this.handleToggle02}
                     />)}
                     </div>
                     <br></br>
