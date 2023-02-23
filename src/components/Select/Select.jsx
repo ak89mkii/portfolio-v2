@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Image, Icon, Button, Grid, Header,Segment, TransitionablePortal,} from 'semantic-ui-react'
+import { Image, Icon, Button, Grid, Header,Segment, TransitionablePortal, Container,} from 'semantic-ui-react'
 import Fight from '../../Img/fight02.png'
 import Music from '../../sounds/music.wav'
 import Arcade from '../Arcade/Arcade.jsx'
@@ -30,17 +30,18 @@ class Select extends Component {
           src={Music}
           playing={true}
         />)}
-        <Image
+        {/* <Image
           bordered
           centered
           src={Fight}
         />
         <br></br>
-        <br></br>
-        <Arcade />
-        <br></br>
-        <br></br>
+        <br></br> */}
         <Grid centered>
+        <Arcade /></Grid>
+        <br></br>
+        <br></br>
+        {/* <Grid centered>
         <Button
           size='huge'
           content={open ? 'Close Skill List' : 'Open Skill List'}
@@ -50,7 +51,7 @@ class Select extends Component {
         />
         </Grid> 
         <br></br>
-        <br></br>
+        <br></br> */}
         <Grid centered>
           <Button 
             color='black' 

@@ -222,8 +222,11 @@ class Home extends Component {
                         mode={this.state.mode}
                     />
                     </div>
+                    </Grid.Row>
                     <div>
+                    <Grid.Row>
                     {(this.state.coinImg2 == false && this.state.coinImg2 == false) && (<Select />)}
+                    </Grid.Row>
                     {this.state.sound && (<ReactHowler
                         src={Audio}
                         playing={true}
@@ -242,7 +245,7 @@ class Home extends Component {
                     </div>
                     <br></br>
                     <br></br>
-                    </Grid.Row>
+                    {/* </Grid.Row> */}
                     {/* Insert Coin Message */}
                     {(this.state.coinImg2 == coin && this.state.coinImg2 == coin) && (<Grid.Row centered><h1 className='coinTitle'>{this.state.coinMessage}</h1></Grid.Row>)}
                     {(this.state.coinImg2 == coin && this.state.coinImg2 == coin) && (<Grid.Row centered><p><b>Click</b> on the coins below.</p></Grid.Row>)}
