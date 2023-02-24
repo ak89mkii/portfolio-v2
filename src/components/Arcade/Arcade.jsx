@@ -49,27 +49,27 @@ class Arcade extends Component {
   
   setDjangoRS = () => this.setState({ opponentImage: drf, opponentName: 'Django REST Framework', opponentDescription: 'Python Framework', onSound: false, onSound2: true  })
   
-  setPostgreSQL = () => this.setState({ opponentImage: psql, opponentName: 'PostgreSQL', opponentDescription: 'Relational Database'  })
+  setPostgreSQL = () => this.setState({ opponentImage: psql, opponentName: 'PostgreSQL', opponentDescription: 'Relational Database', onSound: false, onSound2: true  })
   
-  setBootstrap = () => this.setState({ opponentImage: bootstrap, opponentName: 'Bootstrap', opponentDescription: 'Front-End Framework'  })
+  setBootstrap = () => this.setState({ opponentImage: bootstrap, opponentName: 'Bootstrap', opponentDescription: 'Front-End Framework', onSound: false, onSound2: true  })
   
-  setSemanticUI = () => this.setState({ opponentImage: suir, opponentName: 'Semantic UI React', opponentDescription: 'Front-End Framework'  })
+  setSemanticUI = () => this.setState({ opponentImage: suir, opponentName: 'Semantic UI React', opponentDescription: 'Front-End Framework', onSound: false, onSound2: true  })
   
-  setGit = () => this.setState({ opponentImage: git, opponentName: 'Git', opponentDescription: 'Version Control'  })
+  setGit = () => this.setState({ opponentImage: git, opponentName: 'Git', opponentDescription: 'Version Control', onSound: false, onSound2: true  })
   
-  setGitHub = () => this.setState({ opponentImage: github, opponentName: 'GitHub', opponentDescription: 'Version Control Hosting'  })
+  setGitHub = () => this.setState({ opponentImage: github, opponentName: 'GitHub', opponentDescription: 'Version Control Hosting', onSound: false, onSound2: true  })
   
-  setHeroku = () => this.setState({ opponentImage: heroku, opponentName: 'Heroku', opponentDescription: 'Web Hosting Service'  })
+  setHeroku = () => this.setState({ opponentImage: heroku, opponentName: 'Heroku', opponentDescription: 'Web Hosting Service', onSound: false, onSound2: true  })
   
-  setNode = () => this.setState({ opponentImage: node, opponentName: 'Node.js', opponentDescription: 'Back-End JavaScript'  })
+  setNode = () => this.setState({ opponentImage: node, opponentName: 'Node.js', opponentDescription: 'Back-End JavaScript', onSound: false, onSound2: true  })
   
-  setEX = () => this.setState({ opponentImage: express, opponentName: 'Express.js',opponentDescription: 'Node.js Framework' })
+  setEX = () => this.setState({ opponentImage: express, opponentName: 'Express.js',opponentDescription: 'Node.js Framework', onSound: false, onSound2: true  })
   
-  setFlask = () => this.setState({ opponentImage: flask, opponentName: 'Flask', opponentDescription: 'Python Micro Framework'  })
+  setFlask = () => this.setState({ opponentImage: flask, opponentName: 'Flask', opponentDescription: 'Python Micro Framework', onSound: false, onSound2: true  })
   
-  setMongoDB = () => this.setState({ opponentImage: mdb, opponentName: 'MongoDB', opponentDescription: 'Document Database'  })
+  setMongoDB = () => this.setState({ opponentImage: mdb, opponentName: 'MongoDB', opponentDescription: 'Document Database', onSound: false, onSound2: true  })
   
-  setCoffee = () => this.setState({ opponentImage: coffee, opponentName: 'Coffee', opponentDescription: 'The Beverage'  })
+  setCoffee = () => this.setState({ opponentImage: coffee, opponentName: 'Coffee', opponentDescription: 'The Beverage', onSound: false, onSound2: true  })
 
   render() {
     return (
