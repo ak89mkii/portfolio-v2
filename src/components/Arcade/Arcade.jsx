@@ -9,9 +9,19 @@ import react from './Img/react.png'
 import express from './Img/express.png'
 import python from './Img/python.png'
 import django from './Img/django.png'
+import drf from './Img/drf.png'
+import psql from './Img/psql.png'
+import bootstrap from './Img/bootstrap.png'
+import suir from './Img/suir.png'
+import git from './Img/git.png'
+import github from './Img/github.png'
+import heroku from './Img/heroku.png'
+import node from './Img/node.png'
 import flask from './Img/flask.png'
 import engineer from './Img/engineer.png'
 import tree from './Img/tree.png'
+import mdb from './Img/mdb.png'
+import coffee from './Img/coffee.gif'
 import ReactHowler from 'react-howler'
 import Hover from '../../sounds/hover.wav'
 import Choose from '../../sounds/select.mp3'
@@ -37,29 +47,29 @@ class Arcade extends Component {
   
   setDjango = () => this.setState({ opponentImage: django, opponentName: 'Django', opponentDescription: 'Python Framework', onSound: false, onSound2: true  })
   
-  setDjangoRS = () => this.setState({ opponentImage: flask, opponentName: 'Django REST Framework', opponentDescription: 'Python Framework', onSound: false, onSound2: true  })
+  setDjangoRS = () => this.setState({ opponentImage: drf, opponentName: 'Django REST Framework', opponentDescription: 'Python Framework', onSound: false, onSound2: true  })
   
-  setPostgreSQL = () => this.setState({ opponentImage: flask, opponentName: 'PostgreSQL', opponentDescription: 'Relational Database'  })
+  setPostgreSQL = () => this.setState({ opponentImage: psql, opponentName: 'PostgreSQL', opponentDescription: 'Relational Database'  })
   
-  setBootstrap = () => this.setState({ opponentImage: flask, opponentName: 'Bootstrap', opponentDescription: 'Front-End Framework'  })
+  setBootstrap = () => this.setState({ opponentImage: bootstrap, opponentName: 'Bootstrap', opponentDescription: 'Front-End Framework'  })
   
-  setSemanticUI = () => this.setState({ opponentImage: flask, opponentName: 'Semantic UI React', opponentDescription: 'Front-End Framework'  })
+  setSemanticUI = () => this.setState({ opponentImage: suir, opponentName: 'Semantic UI React', opponentDescription: 'Front-End Framework'  })
   
-  setGit = () => this.setState({ opponentImage: flask, opponentName: 'Git', opponentDescription: 'Version Control'  })
+  setGit = () => this.setState({ opponentImage: git, opponentName: 'Git', opponentDescription: 'Version Control'  })
   
-  setGitHub = () => this.setState({ opponentImage: flask, opponentName: 'GitHub', opponentDescription: 'Version Control Hosting'  })
+  setGitHub = () => this.setState({ opponentImage: github, opponentName: 'GitHub', opponentDescription: 'Version Control Hosting'  })
   
-  setHeroku = () => this.setState({ opponentImage: flask, opponentName: 'Heroku', opponentDescription: 'Web Hosting Service'  })
+  setHeroku = () => this.setState({ opponentImage: heroku, opponentName: 'Heroku', opponentDescription: 'Web Hosting Service'  })
   
-  setNode = () => this.setState({ opponentImage: flask, opponentName: 'Node.js', opponentDescription: 'Back-End JavaScript'  })
+  setNode = () => this.setState({ opponentImage: node, opponentName: 'Node.js', opponentDescription: 'Back-End JavaScript'  })
   
   setEX = () => this.setState({ opponentImage: express, opponentName: 'Express.js',opponentDescription: 'Node.js Framework' })
   
   setFlask = () => this.setState({ opponentImage: flask, opponentName: 'Flask', opponentDescription: 'Python Micro Framework'  })
   
-  setMongoDB = () => this.setState({ opponentImage: flask, opponentName: 'MongoDB', opponentDescription: 'Document Database'  })
+  setMongoDB = () => this.setState({ opponentImage: mdb, opponentName: 'MongoDB', opponentDescription: 'Document Database'  })
   
-  setCoffee = () => this.setState({ opponentImage: flask, opponentName: 'Coffee', opponentDescription: 'The Beverage'  })
+  setCoffee = () => this.setState({ opponentImage: coffee, opponentName: 'Coffee', opponentDescription: 'The Beverage'  })
 
   render() {
     return (
@@ -118,18 +128,18 @@ class Arcade extends Component {
               <Card link raised image={react} onClick={this.setReact} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
               <Card link raised image={python} onClick={this.setPython} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
               <Card link raised image={django} onClick={this.setDjango} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setDjangoRS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setPostgreSQL} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setBootstrap} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setSemanticUI} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setGit} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setGitHub} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setHeroku} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setNode} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={drf} onClick={this.setDjangoRS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={psql} onClick={this.setPostgreSQL} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={bootstrap} onClick={this.setBootstrap} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={suir} onClick={this.setSemanticUI} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={git} onClick={this.setGit} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={github} onClick={this.setGitHub} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={heroku} onClick={this.setHeroku} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={node} onClick={this.setNode} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
               <Card link raised image={express} onClick={this.setEX} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
               <Card link raised image={flask} onClick={this.setFlask} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setMongoDB} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
-              <Card link raised image={js} onClick={this.setCoffee} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={mdb} onClick={this.setMongoDB} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={coffee} onClick={this.setCoffee} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
             </Card.Group>
           </Grid.Column>
           </Grid.Row>
