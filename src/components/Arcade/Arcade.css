@@ -28,14 +28,11 @@
     }
   }
 
-.background {
-  background-color: cornflowerblue;
-  border-style: solid;
-  border-color: black;
-  border-width: 20px;
-}
+/* .card {
+  height: 100px;
+} */
 
-/* errormenu: */
+/* Arcade: */
 
 .background {
   background: linear-gradient(270deg, rgb(96, 181, 234), #1c58b8);
