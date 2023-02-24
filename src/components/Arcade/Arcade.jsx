@@ -28,9 +28,9 @@ import Choose from '../../sounds/select.mp3'
 
 class Arcade extends Component {
   state = {
-    opponentImage: '',
-    opponentName: '',
-    opponentDescription: '',
+    opponentImage: coffee,
+    opponentName: 'coffee',
+    opponentDescription: 'The Beverage',
     onSound: false,
     onSound2: false,
   }
@@ -96,7 +96,7 @@ class Arcade extends Component {
                 <Card.Header><p className='test'>Alex I. Kasem</p></Card.Header>
                 <Divider></Divider>
                 <Card.Description>
-                  Software Engineer
+                <p className='test'>Software Engineer</p>
                 </Card.Description>
               </Card.Content>
             </Card>          
@@ -109,10 +109,10 @@ class Arcade extends Component {
             <Card>
               <Image src={this.state.opponentImage} wrapped ui={false} />
               <Card.Content>
-                <Card.Header>{this.state.opponentName}</Card.Header>
+                <Card.Header><p className='test'>{this.state.opponentName}</p></Card.Header>
                 <Divider></Divider>
                 <Card.Description>
-                  {this.state.opponentDescription}
+                  <p className='test'>{this.state.opponentDescription}</p>
                 </Card.Description>
               </Card.Content>
             </Card>          
