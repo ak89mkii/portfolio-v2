@@ -113,23 +113,23 @@ class Arcade extends Component {
           <Grid.Column  width={8}>
             <Card.Group itemsPerRow={6}>
               <Card link raised image={html} onClick={this.setHTML} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false , onSound2: false })} />
-              <Card link raised image={css} onClick={this.setCSS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setJS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={react} onClick={this.setReact} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={python} onClick={this.setPython} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={django} onClick={this.setDjango} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setDjangoRS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setPostgreSQL} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setBootstrap} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setSemanticUI} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setGit} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setGitHub} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setHeroku} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setNode} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={express} onClick={this.setEX} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={flask} onClick={this.setFlask} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setMongoDB} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
-              <Card link raised image={js} onClick={this.setCoffee} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false })} />
+              <Card link raised image={css} onClick={this.setCSS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setJS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={react} onClick={this.setReact} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={python} onClick={this.setPython} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={django} onClick={this.setDjango} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setDjangoRS} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setPostgreSQL} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setBootstrap} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setSemanticUI} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setGit} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setGitHub} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setHeroku} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setNode} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={express} onClick={this.setEX} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={flask} onClick={this.setFlask} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setMongoDB} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
+              <Card link raised image={js} onClick={this.setCoffee} onMouseOver={() => this.setState({ onSound: true })} onMouseOut={() => this.setState({ onSound: false, onSound2: false })} />
             </Card.Group>
           </Grid.Column>
           </Grid.Row>
