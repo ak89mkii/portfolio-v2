@@ -5,6 +5,7 @@ import js from './Img/js.png'
 import html from './Img/html.png'
 import ex from './Img/ex.png'
 import flask from './Img/flask.png'
+import jira from './Img/jira.png'
 
 const items = [
   {
@@ -65,7 +66,7 @@ const items = [
         
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/2/20/Photoshop_CC_icon.png'/>
 
-        <img className='iconPad' height='70px' src='https://assets.stickpng.com/thumbs/62a9ad808ff6441a2952daba.png'/>
+        <img className='iconPad' height='70px' src={jira}/>
 
         <img className='iconPad' height='70px' src='https://logos.prod-v1.vertice.one/cf2806f5-280c-55c0-8306-4ca61ef546f6.svg'/>
 

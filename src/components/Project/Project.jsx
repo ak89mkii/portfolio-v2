@@ -36,12 +36,23 @@ const items1 = [
         href: 'https://code-seonbi-v2.herokuapp.com/',
     },
     {
+        image: dicedex,
+        header: 'ComCard: Commander League Point Tracker',
+        meta: 'React.js | Django REST Framework | PostgeSQL | CSS3 | Bootstrap', 
+        description: <a href='https://github.com/ak89mkii/commander_league_point_tracker' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://commander-league-point-tracker.herokuapp.com/',
+    },
+    {
         image: io,
         header: 'DiceDex.io: Board Game Tracker (Test Login: Tester_01, crentist)',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/dicedex.io' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://www.dicedex.io/',
     },
+]
+
+{/* Full-Stack 02 Projects. */}
+const items2 = [
     {
         image: dicedex,
         header: 'DiceDex (Old): Tabletop Game Group Database and Tracker',
@@ -49,10 +60,6 @@ const items1 = [
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
-]
-
-{/* Full-Stack 02 Projects. */}
-const items2 = [
     {
         image: paj,
         header: 'PAJ: Project Management App (Team Developed)',
@@ -67,6 +74,10 @@ const items2 = [
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://repbucket-04.herokuapp.com/',
     },
+]
+
+{/* Full-Stack 09 Projects. */}
+const items9 = [
     {
         image: phone,
         header: 'Dual-Lists 2: A Simple Shopping List App',
@@ -271,6 +282,19 @@ const Project = (props) => {
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <Card.Group centered items={items2} />
+                </Grid.Row>
+            </Grid>
+
+             {/* Full-Stack 09 Projects. */}
+             <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items9} />
                 </Grid.Row>
             </Grid>
 
