@@ -24,6 +24,7 @@ import io from '../../Img/io.png'
 import pm from '../../Img/pm.png'
 import bt from '../../Img/bt.png'
 import pes from '../../Img/pes.png'
+import comcard from '../../Img/comcard.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -36,7 +37,7 @@ const items1 = [
         href: 'https://code-seonbi-v2.herokuapp.com/',
     },
     {
-        image: dicedex,
+        image: comcard,
         header: 'ComCard: Commander League Point Tracker',
         meta: 'React.js | Django REST Framework | PostgeSQL | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/commander_league_point_tracker' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
