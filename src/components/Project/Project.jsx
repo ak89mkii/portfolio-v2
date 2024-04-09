@@ -84,7 +84,7 @@ const items9 = [
         header: 'Dual-Lists 2: A Simple Shopping List App',
         meta: 'React Native | Expo (Deployed on Expo and Google Play)',
         description: <a href='https://github.com/ak89mkii/shop-list-app' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://play.google.com/store/apps/details?id=com.ak89mkii.AwesomeProject',
+        // href: 'https://play.google.com/store/apps/details?id=com.ak89mkii.AwesomeProject',
     },
 ]
 
@@ -233,7 +233,7 @@ const items8 = [
         header: 'Ponder Enterprises Store (Shopify)',
         meta: 'The Ponder Enterprises online store developed with Shopify.',
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://ponderenterprises.com/',
+        // href: 'https://ponderenterprises.com/',
     },
 ]
 
