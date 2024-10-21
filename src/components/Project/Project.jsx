@@ -34,7 +34,7 @@ const items1 = [
         header: 'Code Seonbi: Coding References and Bug Tracker',
         meta: 'React.js | Django REST Framework | PostgeSQL | CSS3 | Bootstrap',
         description: <a href='https://github.com/ak89mkii/code-seonbi' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://code-seonbi-v2.herokuapp.com/',
+        href: 'https://www.codeseonbi.com/',
     },
     {
         image: comcard,
