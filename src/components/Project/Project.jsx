@@ -401,7 +401,7 @@ const Project = (props) => {
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <Card.Group centered items={items6} />
-                    <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='60%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>
+                    <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='52.5%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>
                 </Grid.Row>
             </Grid>
             
