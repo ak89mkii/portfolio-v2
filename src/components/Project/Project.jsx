@@ -198,10 +198,16 @@ const items6 = [
         description: <a href='https://github.com/ak89mkii/bug-buster' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://a-i-chasm-games.itch.io/bug-buster',
     },
-    {
-        header: <iframe frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='260px' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>,
-        description: 'Controls: Fireball (Left Mouse Click) | Movement (A, S, D) | Jump (Spacebar)',
-    },
+    // {
+    //     header: <iframe frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='520px' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>,
+    //     description: 'Controls: Fireball (Left Mouse Click) | Movement (A, S, D) | Jump (Spacebar)',
+    // },
+]
+
+{/* Miscellaneous 08 Projects. */}
+const items8 = [
+    
+    
     {
         image: codecstory,
         header: 'Codec Story: A Text Adventure Game',
@@ -209,11 +215,6 @@ const items6 = [
         description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         href: 'https://codecu.herokuapp.com/',
     },
-]
-
-{/* Miscellaneous 08 Projects. */}
-const items8 = [
-    
     {
         image: war,
         header: 'War Card Game: Old Arcade Game Theme',
@@ -228,12 +229,17 @@ const items8 = [
         description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
         href: 'https://battlethesis.com/',
     },
+]
+
+
+{/* Miscellaneous 10 Projects. */}
+const items10 = [
     {
-        image: pes,
-        header: 'Ponder Enterprises Store (Shopify)',
-        meta: 'The Ponder Enterprises online store developed with Shopify.',
-        description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
-        // href: 'https://ponderenterprises.com/',
+    image: pes,
+    header: 'Ponder Enterprises Store (Shopify)',
+    meta: 'The Ponder Enterprises online store developed with Shopify.',
+    description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
+    // href: 'https://ponderenterprises.com/',
     },
 ]
 
@@ -395,6 +401,7 @@ const Project = (props) => {
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <Card.Group centered items={items6} />
+                    <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='60%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>
                 </Grid.Row>
             </Grid>
             
@@ -414,6 +421,25 @@ const Project = (props) => {
             <Grid stackable centered itemsPerRow={1}>
                 <Grid.Row>
                     <Card.Group centered items={items8} />
+                </Grid.Row>
+            </Grid>
+
+            {/* Miscellaneous 10 Projects. */}
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p className='break'>-</p>
+                </Grid.Row>
+            </Grid>
+            
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <p hidden>-</p>
+                </Grid.Row>
+            </Grid>
+
+            <Grid stackable centered itemsPerRow={1}>
+                <Grid.Row>
+                    <Card.Group centered items={items10} />
                 </Grid.Row>
             </Grid>
 
