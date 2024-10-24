@@ -27,6 +27,7 @@ import pes from '../../Img/pes.png'
 import comcard from '../../Img/comcard.png'
 import tech from '../../Img/tech.png'
 import cd from '../../Img/cd.png'
+import water from '../../Img/water.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -60,8 +61,8 @@ const items2 = [
         image: tech,
         header: 'Techno Brew: IT Support Resources Hub',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
-        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        // href: 'https://repbucket-04.herokuapp.com/',
+        description: <a href='https://github.com/ak89mkii/techno-brew' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://www.technobrew.tech/',
     },
     {
         image: dicedex,
@@ -259,6 +260,17 @@ const items10 = [
     },
 ]
 
+{/* Miscellaneous 11 Projects. */}
+const items11 = [
+    {
+        image: water,
+        header: 'Bathophobia (C# | The Unity Engine)',
+        meta: 'War Playing Card Game with Retro Game Theme',
+        description: <a href='https://github.com/ak89mkii/bathophobia' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        href: 'https://a-i-chasm-games.itch.io/bug-buster',
+    },
+]
+
 const Project = (props) => {
     return (
         <div>
@@ -418,6 +430,8 @@ const Project = (props) => {
                 <Grid.Row>
                     <Card.Group centered items={items6} />
                     <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='52.5%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>
+                    <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/11295018?color=333333" allowfullscreen="" width='52.5%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bathophobia-v2">Bathophobia_V2 by a_i_chasm_games</a></iframe>
+                    <Card.Group centered items={items11} />
                 </Grid.Row>
             </Grid>
             
