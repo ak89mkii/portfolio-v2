@@ -25,6 +25,7 @@ import pm from '../../Img/pm.png'
 import bt from '../../Img/bt2.png'
 import pes from '../../Img/pes.png'
 import comcard from '../../Img/comcard.png'
+import tech from '../../Img/tech.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -55,8 +56,8 @@ const items1 = [
 {/* Full-Stack 02 Projects. */}
 const items2 = [
     {
-        image: repbucket,
-        header: 'Techno Brew: Goals and Skills Tracker',
+        image: tech,
+        header: 'Techno Brew: IT Support Resources Hub',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://repbucket-04.herokuapp.com/',
