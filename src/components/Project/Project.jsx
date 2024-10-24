@@ -251,10 +251,10 @@ const items10 = [
     },
     {
     image: pes,
-    header: 'Ponder Enterprises Store (Shopify) [ DECOMMISSIONED ]',
+    header: 'Code_Deck: The Card Game (Instructions | Shop)',
     meta: 'The Ponder Enterprises online store developed with Shopify.',
-    description: <a href='https://www.codedeckcg.com/' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='chess' />The Game Crafter</Button></a>,
-    // href: 'https://ponderenterprises.com/',
+    description: <a href='https://www.thegamecrafter.com/games/code_deck:-the-card-game-alpha_v_0.40-' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='chess' />The Game Crafter</Button></a>,
+    href: 'https://www.codedeckcg.com/',
     },
 ]
 
