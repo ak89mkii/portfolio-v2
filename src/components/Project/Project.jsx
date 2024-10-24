@@ -26,6 +26,7 @@ import bt from '../../Img/bt2.png'
 import pes from '../../Img/pes.png'
 import comcard from '../../Img/comcard.png'
 import tech from '../../Img/tech.png'
+import cd from '../../Img/cd.png'
 
 {/* Full-Stack 01 Projects. */}
 const items1 = [
@@ -250,7 +251,7 @@ const items10 = [
     // href: 'https://ponderenterprises.com/',
     },
     {
-    image: pes,
+    image: cd,
     header: 'Code_Deck: The Card Game (Instructions | Shop)',
     meta: 'The Ponder Enterprises online store developed with Shopify.',
     description: <a href='https://www.thegamecrafter.com/games/code_deck:-the-card-game-alpha_v_0.40-' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='chess' />The Game Crafter</Button></a>,
