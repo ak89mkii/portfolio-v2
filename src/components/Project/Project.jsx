@@ -55,19 +55,30 @@ const items1 = [
 {/* Full-Stack 02 Projects. */}
 const items2 = [
     {
+        image: repbucket,
+        header: 'Techno Brew: Goals and Skills Tracker',
+        meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
+        description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
+        // href: 'https://repbucket-04.herokuapp.com/',
+    },
+    {
         image: dicedex,
-        header: 'DiceDex (Old): Tabletop Game Group Database and Tracker',
+        header: 'DiceDex (Old): Board Game Tracker [ DECOMMISSIONED ]',
         meta: 'Express.js | Node.js | MongoDB | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/tabletop-tracker-project-01' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://tabletop-tracker-project-117.herokuapp.com/users',
     },
     {
         image: paj,
-        header: 'PAJ: Project Management App (Team Developed)',
+        header: 'PAJ: Project Management App [ DECOMMISSIONED ]',
         meta: 'React.js | Express.js | Node.js | MongoDB | CSS3 | Semantic UI React',
         description: <a href='https://github.com/ak89mkii/PAJ' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://paj-03-project-hi-nu.herokuapp.com/',
     },
+]
+
+{/* Full-Stack 09 Projects. */}
+const items9 = [
     {
         image: repbucket,
         header: 'RepBucket: Goals and Skills Tracker',
@@ -75,10 +86,6 @@ const items2 = [
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://repbucket-04.herokuapp.com/',
     },
-]
-
-{/* Full-Stack 09 Projects. */}
-const items9 = [
     {
         image: phone,
         header: 'Dual-Lists 2: A Simple Shopping List App',
