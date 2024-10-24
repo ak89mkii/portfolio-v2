@@ -82,7 +82,7 @@ const items2 = [
 const items9 = [
     {
         image: repbucket,
-        header: 'RepBucket: Goals and Skills Tracker',
+        header: 'RepBucket: Goals and Skills Tracker [ DECOMMISSIONED ]',
         meta: 'HTML5 | Python 3 | Django | PostgeSQL | CSS3 |  Bootstrap',
         description: <a href='https://github.com/ak89mkii/Repbucket-project-04' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
         // href: 'https://repbucket-04.herokuapp.com/',
@@ -218,10 +218,10 @@ const items8 = [
     
     {
         image: codecstory,
-        header: 'Codec Story: A Text Adventure Game',
+        header: 'Codec Story: A Text Adventure Game [ DECOMMISSIONED ]',
         meta: 'HTML5 | Python 3 | Flask | Gunicorn | CSS3 | Bootstrap', 
         description: <a href='https://github.com/ak89mkii/codecu' target="_blank"><Button attached='bottom' icon='github' color='black'><Icon name='github' />GitHub</Button></a>,
-        href: 'https://codecu.herokuapp.com/',
+        // href: 'https://codecu.herokuapp.com/',
     },
     {
         image: war,
@@ -244,9 +244,16 @@ const items8 = [
 const items10 = [
     {
     image: pes,
-    header: 'Ponder Enterprises Store (Shopify)',
+    header: 'Ponder Enterprises Store (Shopify) [ DECOMMISSIONED ]',
     meta: 'The Ponder Enterprises online store developed with Shopify.',
     description: <a href='' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='grey'><Icon name='github' />GitHub</Button></a>,
+    // href: 'https://ponderenterprises.com/',
+    },
+    {
+    image: pes,
+    header: 'Ponder Enterprises Store (Shopify) [ DECOMMISSIONED ]',
+    meta: 'The Ponder Enterprises online store developed with Shopify.',
+    description: <a href='https://www.codedeckcg.com/' target="_blank" rel="noopener noreferrer"><Button attached='bottom' icon='github' color='black'><Icon name='chess' />The Game Crafter</Button></a>,
     // href: 'https://ponderenterprises.com/',
     },
 ]
