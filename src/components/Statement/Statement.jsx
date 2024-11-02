@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Grid, Image, Menu, Container, Divider } from 'semantic-ui-react'
+import { Header, Grid, Image, Icon, Container, Divider } from 'semantic-ui-react'
 import './Statment.css'
 
 
@@ -9,7 +9,8 @@ const Statment = (props) => {
             <Divider horizontal>
               <h1 className={props.mode}>
                 {/* <Icon name='left quote' /> */}
-                Mission Statement
+                {/* Mission Statement */}
+                <Icon name="info"></Icon>About
               </h1>
             </Divider>
             <br></br>
