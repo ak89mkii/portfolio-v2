@@ -41,7 +41,7 @@ const Interest = (props) => {
 
                                 <Image src='https://64.media.tumblr.com/f0931e0667883bc7ba7fb112fe3cd312/tumblr_inline_p7kn1wHOwT1sgzopb_500.gifv' height='100px' verticalAlign='middle' />{' '}
                                 <h3>Learning Korean and Japanese Language</h3>
-                                <span>I am currently casually learning both the Korean and Japanese languages.</span>
+                                <span>I am currently casually learning both the Korean and Japanese languages. They are both "subject-object-verb" languages, so hopefully that helps simplify the process of learning them at the same time somewhat.</span>
                                 <Divider />
 
                                 {/* <Image src='https://i.pinimg.com/originals/48/1f/64/481f64d751427db0e7f10c9bc2cd2701.gif' height='100px' verticalAlign='middle' />{' '}
