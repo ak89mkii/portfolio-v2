@@ -96,7 +96,7 @@ class Arcade extends Component {
                 <Card.Header><p className='test'>Alex I. Kasem</p></Card.Header>
                 <Divider></Divider>
                 <Card.Description>
-                <p className='test'>Software Engineer</p>
+                <p className='test'>Software Developer</p>
                 </Card.Description>
               </Card.Content>
             </Card>          

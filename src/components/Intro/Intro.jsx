@@ -12,7 +12,7 @@ const Intro = (props) => {
                     <Card
                         className='text'
                         image={Profile}
-                        header='Alex Kasem'
+                        header='Alex I. Kasem'
                         // description='Software Engineer'
                         description='Software Developer'
                     />
