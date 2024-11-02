@@ -68,7 +68,17 @@ class Contact extends Component {
                     </List.Item>
                     <List.Item>
                         <List.Content>
-                        <List.Header>Download Resume:</List.Header>
+                        <List.Header>Resume (Software Dev):</List.Header>
+                        <a href={Resume} download>
+                        <Button floated='right' color='grey' icon>
+                            <Icon name='file pdf outline' />
+                        </Button>
+                        </a>
+                        </List.Content>
+                    </List.Item>
+                    <List.Item>
+                        <List.Content>
+                        <List.Header>Resume (IT Support):</List.Header>
                         <a href={Resume} download>
                         <Button floated='right' color='grey' icon>
                             <Icon name='file pdf outline' />
