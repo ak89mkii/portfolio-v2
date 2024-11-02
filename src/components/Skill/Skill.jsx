@@ -62,8 +62,8 @@ const items = [
   {
       childKey: 2,
       image: 'https://www.kindpng.com/picc/m/35-350705_skill-icon-png-logo-for-resume-skill-transparent.png',
-      header: <h2 className='left'>Other Skills:</h2>,
-      description: <div><p>Developing adjacent skills and experience from the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Critical Thinker | Researcher | Teamwork | Continuous Learner | Adobe Photoshop | Jira | ClickUp | Shopify | WordPress</p>
+      header: <h2 className='left'>Information Technology | Other Skills:</h2>,
+      description: <div><p>Developing adjacent skills and experience from IT support, the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Microsoft 365 Admin |  Active Directory | NinjaOne Endpoint Management | IT Glue Documentation | Acronis Cloud Backup | Kaseya Autotask Ticketing | Jira | ClickUp | Shopify | WordPress | Networking | Critical Thinker | Researcher | Teamwork | Continuous Learner</p>
         
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/2/20/Photoshop_CC_icon.png'/>
 
