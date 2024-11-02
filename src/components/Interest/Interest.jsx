@@ -29,15 +29,25 @@ const Interest = (props) => {
                                 <span>I am a 3D printing hobbyist as well as a side hustle level entrepreneur (charitable for-profit).</span>
                                 <Divider />
 
-                                <Image src='https://media.giphy.com/media/vfZ7EwPyLnnRm/giphy.gif' height='100px' verticalAlign='middle' />{' '}
+                                {/* <Image src='https://media.giphy.com/media/vfZ7EwPyLnnRm/giphy.gif' height='100px' verticalAlign='middle' />{' '}
                                 <h3>Drone Flight</h3>
                                 <span>After working on a drone shot film shoot, I got into the hobby of flying drones. The drone I currently fly is the MJX BUGS 4W.</span>
+                                <Divider /> */}
+
+                                <Image src='https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0d6033edf45ad2d4185ed05d6cd9a01e2f803034/en/images/pi-plug-in.gif' height='100px' verticalAlign='middle' />{' '}
+                                <h3>Raspberry Pi and PC Modifications</h3>
+                                <span>I enjoy experimenting with and learn about how to utilize and customize Linux and Windows operated hardware.</span>
                                 <Divider />
 
-                                <Image src='https://i.pinimg.com/originals/48/1f/64/481f64d751427db0e7f10c9bc2cd2701.gif' height='100px' verticalAlign='middle' />{' '}
+                                <Image src='https://64.media.tumblr.com/f0931e0667883bc7ba7fb112fe3cd312/tumblr_inline_p7kn1wHOwT1sgzopb_500.gifv' height='100px' verticalAlign='middle' />{' '}
+                                <h3>Learning Korean and Japanese Language</h3>
+                                <span>I am currently casually learning both the Korean and Japanese languages.</span>
+                                <Divider />
+
+                                {/* <Image src='https://i.pinimg.com/originals/48/1f/64/481f64d751427db0e7f10c9bc2cd2701.gif' height='100px' verticalAlign='middle' />{' '}
                                 <h3>Boarding</h3>
                                 <span>I enjoy snowboarding and skateboading, though I am a bit better at the former than the latter. I intend on getting a One Wheel at some point.</span>
-                                <Divider />
+                                <Divider /> */}
                             </Container>
 
                         </Grid.Column>
