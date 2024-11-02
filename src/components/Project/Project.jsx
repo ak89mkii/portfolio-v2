@@ -430,8 +430,10 @@ const Project = (props) => {
                 <Grid.Row>
                     <Card.Group centered items={items6} />
                     <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/4416194?color=333333" allowfullscreen="" width='52.5%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bug-buster">Play Bug Buster on itch.io</a></iframe>
-                    <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/11295018?color=333333" allowfullscreen="" width='52.5%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bathophobia-v2">Bathophobia_V2 by a_i_chasm_games</a></iframe>
+                </Grid.Row>
+                <Grid.Row>
                     <Card.Group centered items={items11} />
+                    <iframe id='goku' frameborder="0" src="https://itch.io/embed-upload/11295018?color=333333" allowfullscreen="" width='52.5%' height='420px'  ><a href="https://a-i-chasm-games.itch.io/bathophobia-v2">Bathophobia_V2 by a_i_chasm_games</a></iframe>
                 </Grid.Row>
             </Grid>
             
