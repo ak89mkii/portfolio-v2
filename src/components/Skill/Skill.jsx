@@ -65,6 +65,16 @@ const items = [
       header: <h2 className='left'>Information Technology | Other Skills:</h2>,
       description: <div><p>Developing adjacent skills and experience from IT support, the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Microsoft 365 Admin |  Active Directory | NinjaOne Endpoint Management | IT Glue Documentation | Acronis Cloud Backup | Kaseya Autotask Ticketing | Jira | ClickUp | Shopify | WordPress | Networking | Critical Thinker | Researcher | Teamwork | Continuous Learner</p>
         
+        <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/1862px-Microsoft_365_%282022%29.svg.png'/>
+
+        <img className='iconPad' height='70px' src='https://play-lh.googleusercontent.com/TQTAk_y60GyAd1KP4poeNN6fgzV4ThpHkBW68AvgfojbANS-J7kgORY775K_BeHwPT0'/>
+
+        <img className='iconPad' height='70px' src='https://play-lh.googleusercontent.com/X-8kj8DfJYY0SnLfWfXPUnMo5Q1Q8BaHE6f5tw-ATMpSgUMVmj18vXz1lZWxmgpTrcE'/>
+
+        <img className='iconPad' height='70px' src='https://seeklogo.com/images/A/acronis-logo-BEE0B1DAA5-seeklogo.com.png'/>
+
+        <img className='iconPad' height='70px' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlVf-Cbxe97TUKyNitdW7GH924EcbawVryEg&s'/>
+
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/2/20/Photoshop_CC_icon.png'/>
 
         <img className='iconPad' height='70px' src={jira}/>
