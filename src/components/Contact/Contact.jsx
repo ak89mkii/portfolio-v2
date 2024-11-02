@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Header, Icon, Segment, List, Card, Divider, Button, TransitionablePortal } from 'semantic-ui-react'
-import Resume from '../../Img/Alex_Kasem_Resume_Software_Dev.pdf'
+import Resume from '../../Img/Alex_Kasem_Resume_Software_Dev_v10.pdf'
+import Resume_IT from '../../Img/Alex_Kasem_Resume_IT_Support.pdf'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 class Contact extends Component {
@@ -79,7 +80,7 @@ class Contact extends Component {
                     <List.Item>
                         <List.Content>
                         <List.Header>Resume (IT Support):</List.Header>
-                        <a href={Resume} download>
+                        <a href={Resume_IT} download>
                         <Button floated='right' color='grey' icon>
                             <Icon name='file pdf outline' />
                         </Button>
