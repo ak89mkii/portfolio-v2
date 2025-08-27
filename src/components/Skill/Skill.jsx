@@ -55,7 +55,7 @@ const items = [
         
         <img className='iconPad' height='70px' src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png'/>
         
-        <img className='iconPad' height='70px' src='https://icon-library.com/images/heroku-icon/heroku-icon-28.jpg'/>
+        <img className='iconPad' height='70px' src='https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F123%2F38b10714-65da-4f1d-88ae-e9b28c1d7a5e.png'/>
         
       </div>,
   },
@@ -67,9 +67,9 @@ const items = [
         
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/1862px-Microsoft_365_%282022%29.svg.png'/>
 
-        <img className='iconPad' height='70px' src='https://play-lh.googleusercontent.com/TQTAk_y60GyAd1KP4poeNN6fgzV4ThpHkBW68AvgfojbANS-J7kgORY775K_BeHwPT0'/>
+        <img className='iconPad' height='70px' src='https://miro.medium.com/v2/resize:fit:624/0*u8lSOsKnxFapY0qO.png'/>
 
-        <img className='iconPad' height='70px' src='https://play-lh.googleusercontent.com/X-8kj8DfJYY0SnLfWfXPUnMo5Q1Q8BaHE6f5tw-ATMpSgUMVmj18vXz1lZWxmgpTrcE'/>
+        <img className='iconPad' height='70px' src='https://www.ninjaone.com/wp-content/uploads/2024/10/primary-icon.svg'/>
 
         <img className='iconPad' height='70px' src='https://seeklogo.com/images/A/acronis-logo-BEE0B1DAA5-seeklogo.com.png'/>
 
