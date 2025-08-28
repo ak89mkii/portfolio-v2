@@ -35,7 +35,7 @@ const Interest = (props) => {
                                 <Divider /> */}
 
                                 <Image src='https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0d6033edf45ad2d4185ed05d6cd9a01e2f803034/en/images/pi-plug-in.gif' height='100px' verticalAlign='middle' />{' '}
-                                <h3>Raspberry Pi and PC Modifications</h3>
+                                <h3>Home Lab, Raspberry Pi, and PC Modifications</h3>
                                 <span>I enjoy experimenting with and learn about how to utilize and customize Linux and Windows operated hardware.</span>
                                 <Divider />
 
