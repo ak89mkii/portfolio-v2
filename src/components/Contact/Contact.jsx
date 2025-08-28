@@ -29,7 +29,7 @@ class Contact extends Component {
                     <List divided relaxed>
                     <List.Item>
                         <List.Content>
-                        <List.Header>Email Address:<p>code@pondermint.com</p></List.Header>
+                        <List.Header>Email Address:<p>contact@aikasem.com</p></List.Header>
                         <CopyToClipboard text={this.state.value}
                             onCopy={() => this.setState({copied: true})}>
                             <Button floated='right' icon color='yellow' onClick={this.handleClick}>
