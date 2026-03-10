@@ -6,11 +6,12 @@ import html from './Img/html.png'
 import ex from './Img/ex.png'
 import flask from './Img/flask.png'
 import jira from './Img/jira.png'
+import react from './Img/react.png'
 
 const items = [
   {
       childKey: 0,
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
+      image: 'https://cdn.iconscout.com/icon/free/png-256/free-react-icon-svg-download-png-282599.png?f=webp',
       header: <h2 className='left'>Core Competencies:</h2>,
       description: <div><p>The technologies and languages that I am best with.</p><p> React.js | JavaScript (ES2018) | HTML5 | CSS3 | Django | Bootstrap | Semantic UI React | Python 3 | Git | GitHub (Version Control) | VS Code</p>
       
