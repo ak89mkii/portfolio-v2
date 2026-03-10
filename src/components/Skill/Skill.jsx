@@ -69,10 +69,16 @@ const items = [
       childKey: 2,
       image: 'https://www.kindpng.com/picc/m/35-350705_skill-icon-png-logo-for-resume-skill-transparent.png',
       header: <h2 className='left'>Information Technology | Other Skills:</h2>,
-      description: <div><p>Developing adjacent skills and experience from IT support, the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Microsoft 365 Admin |  Active Directory | NinjaOne Endpoint Management | IT Glue Documentation | Acronis Cloud Backup | Kaseya Autotask Ticketing | Jira | ClickUp | Shopify | WordPress | Networking | Critical Thinker | Researcher | Teamwork | Continuous Learner</p>
+      description: <div><p>Developing adjacent skills and experience from IT support, the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Microsoft 365 Admin |  Hyper-V | Firewalls (Fortigate, SonicWall)  | Microsoft Exchange | Active Directory | NinjaOne Endpoint Management | IT Glue Documentation | Acronis Cloud Backup | Kaseya Autotask Ticketing | Jira | ClickUp | Shopify | WordPress | Networking | Critical Thinker | Researcher | Teamwork | Continuous Learner</p>
         
         <img className='iconPad' height='70px' src={ms365}/>
 
+        <img className='iconPad' height='70px' src={ms365}/>
+        
+        <img className='iconPad' height='70px' src={ms365}/>        
+        
+        <img className='iconPad' height='70px' src={ms365}/>
+        
         <img className='iconPad' height='70px' src='https://miro.medium.com/v2/resize:fit:624/0*u8lSOsKnxFapY0qO.png'/>
 
         <img className='iconPad' height='70px' src='https://www.ninjaone.com/wp-content/uploads/2024/10/primary-icon.svg'/>
