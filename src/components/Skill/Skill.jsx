@@ -6,7 +6,12 @@ import html from './Img/html.png'
 import ex from './Img/ex.png'
 import flask from './Img/flask.png'
 import jira from './Img/jira.png'
-import react from './Img/react.png'
+import python from './Img/python.png'
+import csharp from './Img/csharp.png'
+import vscode from './Img/vscode.png'
+import ms365 from './Img/ms365.jpeg'
+import itglue from './Img/itglue.jpg'
+import acronis from './Img/acronis.png'
 
 const items = [
   {
@@ -21,7 +26,7 @@ const items = [
         
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'/>
         
-        <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png'/>
+        <img className='iconPad' height='70px' src={python}/>
         
         <img className='iconPad' height='70px' src='https://miro.medium.com/max/1200/1*1OBwwxzJksMv0YDD-XmyBw.png'/>
 
@@ -32,9 +37,9 @@ const items = [
         <img className='iconPad' height='70px' src='https://i.pinimg.com/originals/43/4d/cf/434dcfe1acd79af48ddfc35292c31de5.png'/>
         
         {/* <img className='iconPad' height='70px' src='https://image.pngaaa.com/927/94927-middle.png'/> */}
-        <img className='iconPad' height='70px' src='        https://cdn.icon-icons.com/icons2/2699/PNG/512/github_logo_icon_169115.png'/>
+        <img className='iconPad' height='70px' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/github_logo_icon_169115.png'/>
         
-        <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png'/>
+        <img className='iconPad' height='70px' src={vscode}/>
         
       </div>,
   },
@@ -52,7 +57,7 @@ const items = [
         
         <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png'/>
                 
-        <img className='iconPad' height='70px' src='https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png'/>
+        <img className='iconPad' height='70px' src={csharp}/>
         
         <img className='iconPad' height='70px' src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png'/>
         
@@ -66,13 +71,15 @@ const items = [
       header: <h2 className='left'>Information Technology | Other Skills:</h2>,
       description: <div><p>Developing adjacent skills and experience from IT support, the military, college education, designing board games, inventing, and interest in sci-tech.</p><p>Microsoft 365 Admin |  Active Directory | NinjaOne Endpoint Management | IT Glue Documentation | Acronis Cloud Backup | Kaseya Autotask Ticketing | Jira | ClickUp | Shopify | WordPress | Networking | Critical Thinker | Researcher | Teamwork | Continuous Learner</p>
         
-        <img className='iconPad' height='70px' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Microsoft_365_%282022%29.svg/1862px-Microsoft_365_%282022%29.svg.png'/>
+        <img className='iconPad' height='70px' src={ms365}/>
 
         <img className='iconPad' height='70px' src='https://miro.medium.com/v2/resize:fit:624/0*u8lSOsKnxFapY0qO.png'/>
 
         <img className='iconPad' height='70px' src='https://www.ninjaone.com/wp-content/uploads/2024/10/primary-icon.svg'/>
 
-        <img className='iconPad' height='70px' src='https://seeklogo.com/images/A/acronis-logo-BEE0B1DAA5-seeklogo.com.png'/>
+        <img className='iconPad' height='70px' src={itglue}/>
+
+        <img className='iconPad' height='70px' src={acronis}/>
 
         <img className='iconPad' height='70px' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlVf-Cbxe97TUKyNitdW7GH924EcbawVryEg&s'/>
 
