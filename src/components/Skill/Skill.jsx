@@ -12,6 +12,9 @@ import vscode from './Img/vscode.png'
 import ms365 from './Img/ms365.jpeg'
 import itglue from './Img/itglue.jpg'
 import acronis from './Img/acronis.png'
+import hyperv from './Img/hyperv.png'
+import firewall from './Img/firewall.svg'
+import exchange from './Img/exchange.png'
 
 const items = [
   {
@@ -73,11 +76,11 @@ const items = [
         
         <img className='iconPad' height='70px' src={ms365}/>
 
-        <img className='iconPad' height='70px' src={ms365}/>
+        <img className='iconPad' height='70px' src={hyperv}/>
         
-        <img className='iconPad' height='70px' src={ms365}/>        
+        <img className='iconPad' height='70px' src={firewall}/>        
         
-        <img className='iconPad' height='70px' src={ms365}/>
+        <img className='iconPad' height='70px' src={exchange}/>
         
         <img className='iconPad' height='70px' src='https://miro.medium.com/v2/resize:fit:624/0*u8lSOsKnxFapY0qO.png'/>
 

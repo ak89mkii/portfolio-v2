@@ -14,7 +14,7 @@ const Intro = (props) => {
                         image={Profile}
                         header='Alex I. Kasem'
                         // description='Software Engineer'
-                        description='Software Developer | IT Support Engineer'
+                        description='Software Developer | IT Systems Engineer'
                     />
                     </div>
                 </Grid.Column>
